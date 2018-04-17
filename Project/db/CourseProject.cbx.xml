@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="CourseProject">
+		<CBX_INST_ENTRY INSTANCE_NAME="|ComparatorGetMax|lpm_compare0:inst7|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_mlg.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ComparatorGetMax|lpm_mux6:inst6|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_94e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ComparatorGetMax|lpm_compare0:inst4|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_mlg.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ComparatorGetMax|lpm_compare0:inst|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_mlg.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ComparatorGetMax|lpm_mux6:inst5|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_94e.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

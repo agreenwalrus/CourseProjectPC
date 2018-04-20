@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Stratix II"
 set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY ComparatorGetMax
+set_global_assignment -name TOP_LEVEL_ENTITY CacheControlUnit
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:47:43  APRIL 10, 2018"
 set_global_assignment -name LAST_QUARTUS_VERSION 9.1
@@ -62,9 +62,6 @@ set_global_assignment -name QIP_FILE lpm_ram_dq0.qip
 set_global_assignment -name QIP_FILE lpm_rom0.qip
 set_global_assignment -name BDF_FILE CacheControlBlock.bdf
 set_global_assignment -name QIP_FILE lpm_dff1.qip
-set_global_assignment -name QIP_FILE ../../kCach/lpm_counter3.qip
-set_global_assignment -name QIP_FILE ../../kCach/lpm_mux5.qip
-set_global_assignment -name QIP_FILE ../../kCach/lpm_counter4.qip
 set_global_assignment -name QIP_FILE lpm_counter0.qip
 set_global_assignment -name QIP_FILE lpm_mux0.qip
 set_global_assignment -name QIP_FILE lpm_mux1.qip
@@ -77,15 +74,20 @@ set_global_assignment -name BDF_FILE NotAndForBusLines.bdf
 set_global_assignment -name BDF_FILE AndNotForBusLines.bdf
 set_global_assignment -name BDF_FILE ComparatorGetMax.bdf
 set_global_assignment -name QIP_FILE lpm_compare0.qip
-set_global_assignment -name QIP_FILE ../../kCach/lpm_mux6.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE TestCacheControlBlock.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TestComparatorGetMax.vwf
+set_global_assignment -name QIP_FILE lpm_compare1.qip
+set_global_assignment -name BDF_FILE Encoder.bdf
+set_global_assignment -name QIP_FILE lpm_mux3.qip
+set_global_assignment -name QIP_FILE lpm_decode2.qip
+set_global_assignment -name QIP_FILE lpm_counter2.qip
+set_global_assignment -name QIP_FILE lpm_counter3.qip
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
-set_global_assignment -name VECTOR_WAVEFORM_FILE TestCacheControlBlock.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE TestComparatorGetMax.vwf
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE TestComparatorGetMax.vwf
+set_global_assignment -name QIP_FILE lpm_counter4.qip
+set_global_assignment -name QIP_FILE lpm_mux4.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE TestCacheControUnit.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE TestCacheControUnit.vwf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
-set_global_assignment -name QIP_FILE lpm_compare1.qip
-set_global_assignment -name BDF_FILE Encoder.bdf
-set_global_assignment -name QIP_FILE lpm_mux3.qip

@@ -1,15 +1,15 @@
-Analysis & Synthesis Status : Successful - Sat Apr 21 14:07:35 2018
+Analysis & Synthesis Status : Successful - Sat Apr 21 19:33:36 2018
 Quartus II Version : 9.1 Build 222 10/21/2009 SJ Web Edition
 Revision Name : CourseProject
-Top-level Entity Name : CacheControlUnit
+Top-level Entity Name : All
 Family : Stratix II
 Logic utilization : N/A
-    Combinational ALUTs : 552
-    Dedicated logic registers : 236
-Total registers : 236
-Total pins : 105
+    Combinational ALUTs : 992
+    Dedicated logic registers : 492
+Total registers : 492
+Total pins : 55
 Total virtual pins : 0
-Total block memory bits : 0
+Total block memory bits : 1,024
 DSP block 9-bit elements : 0
 Total PLLs : 0
 Total DLLs : 0

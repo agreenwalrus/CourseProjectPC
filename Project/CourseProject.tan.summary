@@ -5,9 +5,9 @@ Timing Analyzer Summary
 Type           : Worst-case tsu
 Slack          : N/A
 Required Time  : None
-Actual Time    : 2.801 ns
-From           : address_in[4]
-To             : CacheControlBlock:inst4|lpm_dff1:inst17|lpm_ff:lpm_ff_component|dffs[1]
+Actual Time    : 4.452 ns
+From           : address_in[1]
+To             : Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[3]
 From Clock     : --
 To Clock       : address_in[1]
 Failed Paths   : 0
@@ -15,19 +15,19 @@ Failed Paths   : 0
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 40.009 ns
-From           : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[1]
-To             : enable_data_out
-From Clock     : read
+Actual Time    : 58.891 ns
+From           : Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[0]
+To             : data_cache_to_cpu[1]
+From Clock     : address_in[2]
 To Clock       : --
 Failed Paths   : 0
 
 Type           : Worst-case tpd
 Slack          : N/A
 Required Time  : None
-Actual Time    : 17.468 ns
+Actual Time    : 18.408 ns
 From           : address_in[1]
-To             : enable_data_out
+To             : data_cache_to_cpu[1]
 From Clock     : --
 To Clock       : --
 Failed Paths   : 0
@@ -35,39 +35,19 @@ Failed Paths   : 0
 Type           : Worst-case th
 Slack          : N/A
 Required Time  : None
-Actual Time    : 19.601 ns
-From           : write
-To             : inst36
+Actual Time    : 41.542 ns
+From           : address_in[3]
+To             : Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[7]
 From Clock     : --
-To Clock       : read
-Failed Paths   : 0
-
-Type           : Clock Setup: 'read'
-Slack          : N/A
-Required Time  : None
-Actual Time    : 46.15 MHz ( period = 21.668 ns )
-From           : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[0]
-To             : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[6]
-From Clock     : read
-To Clock       : read
-Failed Paths   : 0
-
-Type           : Clock Setup: 'write'
-Slack          : N/A
-Required Time  : None
-Actual Time    : 46.15 MHz ( period = 21.668 ns )
-From           : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[0]
-To             : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[6]
-From Clock     : write
-To Clock       : write
+To Clock       : address_in[2]
 Failed Paths   : 0
 
 Type           : Clock Setup: 'address_in[2]'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 47.49 MHz ( period = 21.057 ns )
-From           : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[0]
-To             : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[6]
+Actual Time    : 22.33 MHz ( period = 44.778 ns )
+From           : Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[0]
+To             : Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[3]
 From Clock     : address_in[2]
 To Clock       : address_in[2]
 Failed Paths   : 0
@@ -75,9 +55,9 @@ Failed Paths   : 0
 Type           : Clock Setup: 'address_in[1]'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 47.49 MHz ( period = 21.057 ns )
-From           : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[0]
-To             : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[6]
+Actual Time    : 22.37 MHz ( period = 44.711 ns )
+From           : Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[0]
+To             : Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[3]
 From Clock     : address_in[1]
 To Clock       : address_in[1]
 Failed Paths   : 0
@@ -85,142 +65,162 @@ Failed Paths   : 0
 Type           : Clock Setup: 'clk'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 52.87 MHz ( period = 18.916 ns )
-From           : inst36
-To             : lpm_counter2:inst30|lpm_counter:lpm_counter_component|cntr_qoi:auto_generated|safe_q[3]
+Actual Time    : 23.95 MHz ( period = 41.749 ns )
+From           : Cache:inst|CacheControlUnit:inst1|inst36
+To             : Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst30|lpm_counter:lpm_counter_component|cntr_qoi:auto_generated|safe_q[0]
 From Clock     : clk
 To Clock       : clk
-Failed Paths   : 0
-
-Type           : Clock Setup: 'address_in[3]'
-Slack          : N/A
-Required Time  : None
-Actual Time    : 88.26 MHz ( period = 11.330 ns )
-From           : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[0]
-To             : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[6]
-From Clock     : address_in[3]
-To Clock       : address_in[3]
-Failed Paths   : 0
-
-Type           : Clock Setup: 'address_in[4]'
-Slack          : N/A
-Required Time  : None
-Actual Time    : 89.96 MHz ( period = 11.116 ns )
-From           : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[0]
-To             : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[6]
-From Clock     : address_in[4]
-To Clock       : address_in[4]
-Failed Paths   : 0
-
-Type           : Clock Setup: 'address_in[6]'
-Slack          : N/A
-Required Time  : None
-Actual Time    : 92.47 MHz ( period = 10.814 ns )
-From           : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[0]
-To             : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[6]
-From Clock     : address_in[6]
-To Clock       : address_in[6]
 Failed Paths   : 0
 
 Type           : Clock Setup: 'address_in[5]'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 93.01 MHz ( period = 10.751 ns )
-From           : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[0]
-To             : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[6]
+Actual Time    : 26.99 MHz ( period = 37.053 ns )
+From           : Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[0]
+To             : Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[3]
 From Clock     : address_in[5]
 To Clock       : address_in[5]
 Failed Paths   : 0
 
-Type           : Clock Hold: 'write'
-Slack          : Not operational: Clock Skew > Data Delay
+Type           : Clock Setup: 'address_in[6]'
+Slack          : N/A
 Required Time  : None
-Actual Time    : N/A
-From           : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[6]
-To             : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[7]
-From Clock     : write
-To Clock       : write
-Failed Paths   : 48
+Actual Time    : 26.99 MHz ( period = 37.045 ns )
+From           : Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[0]
+To             : Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[3]
+From Clock     : address_in[6]
+To Clock       : address_in[6]
+Failed Paths   : 0
 
-Type           : Clock Hold: 'read'
-Slack          : Not operational: Clock Skew > Data Delay
+Type           : Clock Setup: 'address_in[4]'
+Slack          : N/A
 Required Time  : None
-Actual Time    : N/A
-From           : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[6]
-To             : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[7]
-From Clock     : read
-To Clock       : read
-Failed Paths   : 48
+Actual Time    : 27.36 MHz ( period = 36.555 ns )
+From           : Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[0]
+To             : Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[3]
+From Clock     : address_in[4]
+To Clock       : address_in[4]
+Failed Paths   : 0
 
-Type           : Clock Hold: 'address_in[1]'
-Slack          : Not operational: Clock Skew > Data Delay
+Type           : Clock Setup: 'address_in[3]'
+Slack          : N/A
 Required Time  : None
-Actual Time    : N/A
-From           : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[6]
-To             : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[7]
-From Clock     : address_in[1]
-To Clock       : address_in[1]
-Failed Paths   : 60
+Actual Time    : 27.36 MHz ( period = 36.555 ns )
+From           : Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[0]
+To             : Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[3]
+From Clock     : address_in[3]
+To Clock       : address_in[3]
+Failed Paths   : 0
 
-Type           : Clock Hold: 'address_in[2]'
-Slack          : Not operational: Clock Skew > Data Delay
+Type           : Clock Setup: 'write_strob'
+Slack          : N/A
 Required Time  : None
-Actual Time    : N/A
-From           : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[6]
-To             : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[7]
-From Clock     : address_in[2]
-To Clock       : address_in[2]
-Failed Paths   : 60
+Actual Time    : 29.87 MHz ( period = 33.478 ns )
+From           : Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[0]
+To             : Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[3]
+From Clock     : write_strob
+To Clock       : write_strob
+Failed Paths   : 0
+
+Type           : Clock Setup: 'read_strob'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 29.87 MHz ( period = 33.478 ns )
+From           : Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[0]
+To             : Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[3]
+From Clock     : read_strob
+To Clock       : read_strob
+Failed Paths   : 0
 
 Type           : Clock Hold: 'clk'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : inst36
-To             : inst36
+From           : Cache:inst|CacheControlUnit:inst1|lpm_counter4:inst92|lpm_counter:lpm_counter_component|cntr_3ai:auto_generated|safe_q[0]
+To             : Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_dff0:inst32|lpm_ff:lpm_ff_component|dffs[1]
 From Clock     : clk
 To Clock       : clk
-Failed Paths   : 50
+Failed Paths   : 10000
 
-Type           : Clock Hold: 'address_in[3]'
+Type           : Clock Hold: 'address_in[1]'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[6]
-To             : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[7]
-From Clock     : address_in[3]
-To Clock       : address_in[3]
-Failed Paths   : 42
+From           : Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|inst41
+To             : Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst16|lpm_ff:lpm_ff_component|dffs[3]
+From Clock     : address_in[1]
+To Clock       : address_in[1]
+Failed Paths   : 10000
 
-Type           : Clock Hold: 'address_in[4]'
+Type           : Clock Hold: 'address_in[2]'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[6]
-To             : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[7]
-From Clock     : address_in[4]
-To Clock       : address_in[4]
-Failed Paths   : 42
-
-Type           : Clock Hold: 'address_in[6]'
-Slack          : Not operational: Clock Skew > Data Delay
-Required Time  : None
-Actual Time    : N/A
-From           : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[6]
-To             : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[7]
-From Clock     : address_in[6]
-To Clock       : address_in[6]
-Failed Paths   : 42
+From           : Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|inst41
+To             : Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst16|lpm_ff:lpm_ff_component|dffs[3]
+From Clock     : address_in[2]
+To Clock       : address_in[2]
+Failed Paths   : 10000
 
 Type           : Clock Hold: 'address_in[5]'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[6]
-To             : CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component|cntr_u9j:auto_generated|safe_q[7]
+From           : Cache:inst|CacheControlUnit:inst1|inst48
+To             : Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst16|lpm_ff:lpm_ff_component|dffs[6]
 From Clock     : address_in[5]
 To Clock       : address_in[5]
-Failed Paths   : 38
+Failed Paths   : 10000
+
+Type           : Clock Hold: 'address_in[6]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : Cache:inst|CacheControlUnit:inst1|inst48
+To             : Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst16|lpm_ff:lpm_ff_component|dffs[6]
+From Clock     : address_in[6]
+To Clock       : address_in[6]
+Failed Paths   : 10000
+
+Type           : Clock Hold: 'address_in[3]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : Cache:inst|CacheControlUnit:inst1|inst48
+To             : Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst16|lpm_ff:lpm_ff_component|dffs[6]
+From Clock     : address_in[3]
+To Clock       : address_in[3]
+Failed Paths   : 10000
+
+Type           : Clock Hold: 'address_in[4]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : Cache:inst|CacheControlUnit:inst1|inst48
+To             : Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst16|lpm_ff:lpm_ff_component|dffs[6]
+From Clock     : address_in[4]
+To Clock       : address_in[4]
+Failed Paths   : 10000
+
+Type           : Clock Hold: 'read_strob'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : Cache:inst|CacheControlUnit:inst1|inst36
+To             : Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst16|lpm_ff:lpm_ff_component|dffs[6]
+From Clock     : read_strob
+To Clock       : read_strob
+Failed Paths   : 10000
+
+Type           : Clock Hold: 'write_strob'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : Cache:inst|CacheControlUnit:inst1|inst36
+To             : Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst16|lpm_ff:lpm_ff_component|dffs[6]
+From Clock     : write_strob
+To Clock       : write_strob
+Failed Paths   : 10000
 
 Type           : Total number of failed paths
 Slack          : 
@@ -230,7 +230,7 @@ From           :
 To             : 
 From Clock     : 
 To Clock       : 
-Failed Paths   : 430
+Failed Paths   : 90000
 
 --------------------------------------------------------------------------------------
 

@@ -920,16 +920,971 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControlBloc
 VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.vwf")
 {
 	ZOOM{
-		ZBEGIN = 26500;
-		ZEND = 53000;
-		NUMERATOR = 933;
-		DENOMINATOR = 23325;
-		TOP_INDEX = 18;
+		ZBEGIN = 750000;
+		ZEND = 1000000;
+		NUMERATOR = 960;
+		DENOMINATOR = 250000;
+		TOP_INDEX = 0;
 	}
 	CLOCK{
 		PERIOD = 16000;
 		OFFSET = 0;
 		DUTY_CYCLE = 95;
+	}
+	RANDOM_VALUE{
+		INTERVAL_TYPE = HALF_GRID;
+	}
+	LINE{
+		SIGNAL = "clk";
+		INDEX = 0;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address_in";
+		INDEX = 1;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address_in[6]";
+		INDEX = 2;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address_in[5]";
+		INDEX = 3;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address_in[4]";
+		INDEX = 4;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address_in[3]";
+		INDEX = 5;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address_in[2]";
+		INDEX = 6;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address_in[1]";
+		INDEX = 7;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address_in[0]";
+		INDEX = 8;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "read";
+		INDEX = 9;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "write";
+		INDEX = 10;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "HIT";
+		INDEX = 11;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "is_busy";
+		INDEX = 12;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "is_changed";
+		INDEX = 13;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "read_ram_state";
+		INDEX = 14;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "write_ram_state";
+		INDEX = 15;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "prev_tag";
+		INDEX = 16;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "prev_tag[3]";
+		INDEX = 17;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "prev_tag[2]";
+		INDEX = 18;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "prev_tag[1]";
+		INDEX = 19;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "prev_tag[0]";
+		INDEX = 20;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address_out";
+		INDEX = 21;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address_out[7]";
+		INDEX = 22;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address_out[6]";
+		INDEX = 23;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address_out[5]";
+		INDEX = 24;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address_out[4]";
+		INDEX = 25;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address_out[3]";
+		INDEX = 26;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address_out[2]";
+		INDEX = 27;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address_out[1]";
+		INDEX = 28;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address_out[0]";
+		INDEX = 29;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "offset_out";
+		INDEX = 30;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "bank_number";
+		INDEX = 31;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "bank_number[1]";
+		INDEX = 32;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "bank_number[0]";
+		INDEX = 33;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "bank_to_use_LRU";
+		INDEX = 34;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "bank_to_use_LRU[1]";
+		INDEX = 35;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "bank_to_use_LRU[0]";
+		INDEX = 36;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "bank_to_use_TAG";
+		INDEX = 37;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "bank_to_use_TAG[1]";
+		INDEX = 38;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "bank_to_use_TAG[0]";
+		INDEX = 39;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a1";
+		INDEX = 40;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a1[7]";
+		INDEX = 41;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a1[6]";
+		INDEX = 42;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a1[5]";
+		INDEX = 43;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a1[4]";
+		INDEX = 44;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a1[3]";
+		INDEX = 45;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a1[2]";
+		INDEX = 46;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a1[1]";
+		INDEX = 47;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a1[0]";
+		INDEX = 48;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a2";
+		INDEX = 49;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a2[7]";
+		INDEX = 50;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a2[6]";
+		INDEX = 51;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a2[5]";
+		INDEX = 52;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a2[4]";
+		INDEX = 53;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a2[3]";
+		INDEX = 54;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a2[2]";
+		INDEX = 55;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a2[1]";
+		INDEX = 56;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a2[0]";
+		INDEX = 57;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a3";
+		INDEX = 58;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a3[7]";
+		INDEX = 59;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a3[6]";
+		INDEX = 60;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a3[5]";
+		INDEX = 61;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a3[4]";
+		INDEX = 62;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a3[3]";
+		INDEX = 63;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a3[2]";
+		INDEX = 64;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a3[1]";
+		INDEX = 65;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a3[0]";
+		INDEX = 66;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a4";
+		INDEX = 67;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a4[7]";
+		INDEX = 68;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a4[6]";
+		INDEX = 69;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a4[5]";
+		INDEX = 70;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a4[4]";
+		INDEX = 71;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a4[3]";
+		INDEX = 72;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a4[2]";
+		INDEX = 73;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a4[1]";
+		INDEX = 74;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "a4[0]";
+		INDEX = 75;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_clk_in";
+		INDEX = 76;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "memory_clk_out";
+		INDEX = 77;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "cache_mem_write_impulse";
+		INDEX = 78;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "reset_busy_flag";
+		INDEX = 79;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "start_read_memory";
+		INDEX = 80;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "start_write_memory";
+		INDEX = 81;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "21";
+		INDEX = 82;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "22";
+		INDEX = 83;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "23";
+		INDEX = 84;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "24";
+		INDEX = 85;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "25";
+		INDEX = 86;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "26";
+		INDEX = 87;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "11";
+		INDEX = 88;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "12";
+		INDEX = 89;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "13";
+		INDEX = 90;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "14";
+		INDEX = 91;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "15";
+		INDEX = 92;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "16";
+		INDEX = 93;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "set_in";
+		INDEX = 94;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "set_in[1]";
+		INDEX = 95;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "set_in[0]";
+		INDEX = 96;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "tag_in";
+		INDEX = 97;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "tag_in[3]";
+		INDEX = 98;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "tag_in[2]";
+		INDEX = 99;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "tag_in[1]";
+		INDEX = 100;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "tag_in[0]";
+		INDEX = 101;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "equal_tags";
+		INDEX = 102;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "enable_cache_mem";
+		INDEX = 103;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "enable_data_out";
+		INDEX = 104;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "b1";
+		INDEX = 105;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "b2";
+		INDEX = 106;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "b3";
+		INDEX = 107;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "b4";
+		INDEX = 108;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "c1";
+		INDEX = 109;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "c2";
+		INDEX = 110;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "c3";
+		INDEX = 111;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "c4";
+		INDEX = 112;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "1";
+		INDEX = 113;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "2";
+		INDEX = 114;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "3";
+		INDEX = 115;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "4";
+		INDEX = 116;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+}
+
+VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheAndMemory.vwf")
+{
+	ZOOM{
+		ZBEGIN = 0;
+		ZEND = 24208;
+		NUMERATOR = 760;
+		DENOMINATOR = 24208;
+		TOP_INDEX = 0;
+	}
+	CLOCK{
+		PERIOD = 10000;
+		OFFSET = 0;
+		DUTY_CYCLE = 50;
 	}
 	RANDOM_VALUE{
 		INTERVAL_TYPE = HALF_GRID;
@@ -999,23 +1954,23 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "prev_tag";
+		SIGNAL = "clk";
 		INDEX = 8;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "prev_tag[3]";
-		INDEX = 9;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "prev_tag[2]";
+		SIGNAL = "data_in_cpu";
+		INDEX = 9;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_in_cpu[7]";
 		INDEX = 10;
 		FORMAT = E;
 		SCALE = 1;
@@ -1023,7 +1978,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "prev_tag[1]";
+		SIGNAL = "data_in_cpu[6]";
 		INDEX = 11;
 		FORMAT = E;
 		SCALE = 1;
@@ -1031,7 +1986,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "prev_tag[0]";
+		SIGNAL = "data_in_cpu[5]";
 		INDEX = 12;
 		FORMAT = E;
 		SCALE = 1;
@@ -1039,15 +1994,15 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "set_in";
+		SIGNAL = "data_in_cpu[4]";
 		INDEX = 13;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "set_in[1]";
+		SIGNAL = "data_in_cpu[3]";
 		INDEX = 14;
 		FORMAT = E;
 		SCALE = 1;
@@ -1055,7 +2010,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "set_in[0]";
+		SIGNAL = "data_in_cpu[2]";
 		INDEX = 15;
 		FORMAT = E;
 		SCALE = 1;
@@ -1063,15 +2018,15 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "tag_in";
+		SIGNAL = "data_in_cpu[1]";
 		INDEX = 16;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "tag_in[3]";
+		SIGNAL = "data_in_cpu[0]";
 		INDEX = 17;
 		FORMAT = E;
 		SCALE = 1;
@@ -1079,7 +2034,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "tag_in[2]";
+		SIGNAL = "read_strob";
 		INDEX = 18;
 		FORMAT = E;
 		SCALE = 1;
@@ -1087,7 +2042,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "tag_in[1]";
+		SIGNAL = "write_strob";
 		INDEX = 19;
 		FORMAT = E;
 		SCALE = 1;
@@ -1095,40 +2050,8 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "tag_in[0]";
-		INDEX = 20;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "equal_tags";
-		INDEX = 21;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "read";
-		INDEX = 22;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "write";
-		INDEX = 23;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
 		SIGNAL = "address_out";
-		INDEX = 24;
+		INDEX = 20;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -1136,7 +2059,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 	}
 	LINE{
 		SIGNAL = "address_out[7]";
-		INDEX = 25;
+		INDEX = 21;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -1144,7 +2067,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 	}
 	LINE{
 		SIGNAL = "address_out[6]";
-		INDEX = 26;
+		INDEX = 22;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -1152,7 +2075,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 	}
 	LINE{
 		SIGNAL = "address_out[5]";
-		INDEX = 27;
+		INDEX = 23;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -1160,7 +2083,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 	}
 	LINE{
 		SIGNAL = "address_out[4]";
-		INDEX = 28;
+		INDEX = 24;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -1168,7 +2091,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 	}
 	LINE{
 		SIGNAL = "address_out[3]";
-		INDEX = 29;
+		INDEX = 25;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -1176,7 +2099,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 	}
 	LINE{
 		SIGNAL = "address_out[2]";
-		INDEX = 30;
+		INDEX = 26;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -1184,7 +2107,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 	}
 	LINE{
 		SIGNAL = "address_out[1]";
-		INDEX = 31;
+		INDEX = 27;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -1192,6 +2115,38 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 	}
 	LINE{
 		SIGNAL = "address_out[0]";
+		INDEX = 28;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_cache_to_cpu";
+		INDEX = 29;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_cache_to_cpu[7]";
+		INDEX = 30;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_cache_to_cpu[6]";
+		INDEX = 31;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_cache_to_cpu[5]";
 		INDEX = 32;
 		FORMAT = E;
 		SCALE = 1;
@@ -1199,7 +2154,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "offset_out";
+		SIGNAL = "data_cache_to_cpu[4]";
 		INDEX = 33;
 		FORMAT = E;
 		SCALE = 1;
@@ -1207,7 +2162,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "enable_cache_mem";
+		SIGNAL = "data_cache_to_cpu[3]";
 		INDEX = 34;
 		FORMAT = E;
 		SCALE = 1;
@@ -1215,7 +2170,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "HIT";
+		SIGNAL = "data_cache_to_cpu[2]";
 		INDEX = 35;
 		FORMAT = E;
 		SCALE = 1;
@@ -1223,15 +2178,15 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "bank_number";
+		SIGNAL = "data_cache_to_cpu[1]";
 		INDEX = 36;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "bank_number[1]";
+		SIGNAL = "data_cache_to_cpu[0]";
 		INDEX = 37;
 		FORMAT = E;
 		SCALE = 1;
@@ -1239,23 +2194,23 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "bank_number[0]";
+		SIGNAL = "data_out";
 		INDEX = 38;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "bank_to_use_LRU";
-		INDEX = 39;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "bank_to_use_LRU[1]";
+		SIGNAL = "data_out[7]";
+		INDEX = 39;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_out[6]";
 		INDEX = 40;
 		FORMAT = E;
 		SCALE = 1;
@@ -1263,7 +2218,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "bank_to_use_LRU[0]";
+		SIGNAL = "data_out[5]";
 		INDEX = 41;
 		FORMAT = E;
 		SCALE = 1;
@@ -1271,15 +2226,15 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "bank_to_use_TAG";
+		SIGNAL = "data_out[4]";
 		INDEX = 42;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "bank_to_use_TAG[1]";
+		SIGNAL = "data_out[3]";
 		INDEX = 43;
 		FORMAT = E;
 		SCALE = 1;
@@ -1287,7 +2242,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "bank_to_use_TAG[0]";
+		SIGNAL = "data_out[2]";
 		INDEX = 44;
 		FORMAT = E;
 		SCALE = 1;
@@ -1295,7 +2250,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "is_busy";
+		SIGNAL = "data_out[1]";
 		INDEX = 45;
 		FORMAT = E;
 		SCALE = 1;
@@ -1303,7 +2258,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "is_changed";
+		SIGNAL = "data_out[0]";
 		INDEX = 46;
 		FORMAT = E;
 		SCALE = 1;
@@ -1311,7 +2266,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "reset_busy_flag";
+		SIGNAL = "HIT";
 		INDEX = 47;
 		FORMAT = E;
 		SCALE = 1;
@@ -1319,7 +2274,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "memory_clk_in";
+		SIGNAL = "mem_read_enable";
 		INDEX = 48;
 		FORMAT = E;
 		SCALE = 1;
@@ -1327,7 +2282,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "memory_clk_out";
+		SIGNAL = "mem_write_enable";
 		INDEX = 49;
 		FORMAT = E;
 		SCALE = 1;
@@ -1335,7 +2290,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "cache_mem_write_impulse";
+		SIGNAL = "memory_clk_in";
 		INDEX = 50;
 		FORMAT = E;
 		SCALE = 1;
@@ -1343,7 +2298,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "start_read_memory";
+		SIGNAL = "memory_clk_out";
 		INDEX = 51;
 		FORMAT = E;
 		SCALE = 1;
@@ -1351,15 +2306,15 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "start_write_memory";
+		SIGNAL = "data_out_memory";
 		INDEX = 52;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "read_ram_state";
+		SIGNAL = "data_out_memory[7]";
 		INDEX = 53;
 		FORMAT = E;
 		SCALE = 1;
@@ -1367,7 +2322,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "write_ram_state";
+		SIGNAL = "data_out_memory[6]";
 		INDEX = 54;
 		FORMAT = E;
 		SCALE = 1;
@@ -1375,7 +2330,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "21";
+		SIGNAL = "data_out_memory[5]";
 		INDEX = 55;
 		FORMAT = E;
 		SCALE = 1;
@@ -1383,7 +2338,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "22";
+		SIGNAL = "data_out_memory[4]";
 		INDEX = 56;
 		FORMAT = E;
 		SCALE = 1;
@@ -1391,7 +2346,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "23";
+		SIGNAL = "data_out_memory[3]";
 		INDEX = 57;
 		FORMAT = E;
 		SCALE = 1;
@@ -1399,7 +2354,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "11";
+		SIGNAL = "data_out_memory[2]";
 		INDEX = 58;
 		FORMAT = E;
 		SCALE = 1;
@@ -1407,7 +2362,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "12";
+		SIGNAL = "data_out_memory[1]";
 		INDEX = 59;
 		FORMAT = E;
 		SCALE = 1;
@@ -1415,7 +2370,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "13";
+		SIGNAL = "data_out_memory[0]";
 		INDEX = 60;
 		FORMAT = E;
 		SCALE = 1;
@@ -1423,7 +2378,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "14";
+		SIGNAL = "is_busy";
 		INDEX = 61;
 		FORMAT = E;
 		SCALE = 1;
@@ -1431,7 +2386,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "clk";
+		SIGNAL = "is_changed";
 		INDEX = 62;
 		FORMAT = E;
 		SCALE = 1;
@@ -1439,7 +2394,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "enable_data_out";
+		SIGNAL = "11";
 		INDEX = 63;
 		FORMAT = E;
 		SCALE = 1;
@@ -1447,7 +2402,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "b4";
+		SIGNAL = "12";
 		INDEX = 64;
 		FORMAT = E;
 		SCALE = 1;
@@ -1455,7 +2410,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "b3";
+		SIGNAL = "13";
 		INDEX = 65;
 		FORMAT = E;
 		SCALE = 1;
@@ -1463,7 +2418,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "b2";
+		SIGNAL = "14";
 		INDEX = 66;
 		FORMAT = E;
 		SCALE = 1;
@@ -1471,7 +2426,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "b1";
+		SIGNAL = "21";
 		INDEX = 67;
 		FORMAT = E;
 		SCALE = 1;
@@ -1479,7 +2434,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "c4";
+		SIGNAL = "22";
 		INDEX = 68;
 		FORMAT = E;
 		SCALE = 1;
@@ -1487,7 +2442,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "c3";
+		SIGNAL = "23";
 		INDEX = 69;
 		FORMAT = E;
 		SCALE = 1;
@@ -1495,7 +2450,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "c2";
+		SIGNAL = "enable_data_out_cpu";
 		INDEX = 70;
 		FORMAT = E;
 		SCALE = 1;
@@ -1503,7 +2458,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "c1";
+		SIGNAL = "enable_data_out_mem";
 		INDEX = 71;
 		FORMAT = E;
 		SCALE = 1;
@@ -1511,7 +2466,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "1";
+		SIGNAL = "enable_data_in_cpu";
 		INDEX = 72;
 		FORMAT = E;
 		SCALE = 1;
@@ -1519,352 +2474,8 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "2";
+		SIGNAL = "enable_data_in_mem";
 		INDEX = 73;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "3";
-		INDEX = 74;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "4";
-		INDEX = 75;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "15";
-		INDEX = 76;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "16";
-		INDEX = 77;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "24";
-		INDEX = 78;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "25";
-		INDEX = 79;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "26";
-		INDEX = 80;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a1";
-		INDEX = 81;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a1[7]";
-		INDEX = 82;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a1[6]";
-		INDEX = 83;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a1[5]";
-		INDEX = 84;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a1[4]";
-		INDEX = 85;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a1[3]";
-		INDEX = 86;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a1[2]";
-		INDEX = 87;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a1[1]";
-		INDEX = 88;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a1[0]";
-		INDEX = 89;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a2";
-		INDEX = 90;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a2[7]";
-		INDEX = 91;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a2[6]";
-		INDEX = 92;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a2[5]";
-		INDEX = 93;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a2[4]";
-		INDEX = 94;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a2[3]";
-		INDEX = 95;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a2[2]";
-		INDEX = 96;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a2[1]";
-		INDEX = 97;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a2[0]";
-		INDEX = 98;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a3";
-		INDEX = 99;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a3[7]";
-		INDEX = 100;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a3[6]";
-		INDEX = 101;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a3[5]";
-		INDEX = 102;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a3[4]";
-		INDEX = 103;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a3[3]";
-		INDEX = 104;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a3[2]";
-		INDEX = 105;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a3[1]";
-		INDEX = 106;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a3[0]";
-		INDEX = 107;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a4";
-		INDEX = 108;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a4[7]";
-		INDEX = 109;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a4[6]";
-		INDEX = 110;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a4[5]";
-		INDEX = 111;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a4[4]";
-		INDEX = 112;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a4[3]";
-		INDEX = 113;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a4[2]";
-		INDEX = 114;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a4[1]";
-		INDEX = 115;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "a4[0]";
-		INDEX = 116;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;

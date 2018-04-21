@@ -652,12 +652,12 @@ applicable agreement for further details.
 	(pt 1136 640)
 )
 (connector
-	(text "ouput[0]" (rect 1312 456 1352 468)(font "Arial" ))
+	(text "output[0]" (rect 1312 456 1355 468)(font "Arial" ))
 	(pt 1360 472)
 	(pt 1304 472)
 )
 (connector
-	(text "ouput[1]" (rect 1312 576 1352 588)(font "Arial" ))
+	(text "output[1]" (rect 1312 576 1355 588)(font "Arial" ))
 	(pt 1360 592)
 	(pt 1304 592)
 )

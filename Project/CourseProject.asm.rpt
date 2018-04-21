@@ -1,5 +1,5 @@
 Assembler report for CourseProject
-Sat Apr 21 00:49:38 2018
+Sat Apr 21 14:08:02 2018
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sat Apr 21 00:49:38 2018 ;
+; Assembler Status      ; Successful - Sat Apr 21 14:08:02 2018 ;
 ; Revision Name         ; CourseProject                         ;
 ; Top-level Entity Name ; CacheControlUnit                      ;
 ; Family                ; Stratix II                            ;
@@ -96,7 +96,7 @@ applicable agreement for further details.
 +----------------+--------------------------------------------------------------------------------+
 ; Device         ; EP2S15F484C3                                                                   ;
 ; JTAG usercode  ; 0xFFFFFFFF                                                                     ;
-; Checksum       ; 0x002EBD76                                                                     ;
+; Checksum       ; 0x003084CB                                                                     ;
 +----------------+--------------------------------------------------------------------------------+
 
 
@@ -107,7 +107,7 @@ applicable agreement for further details.
 +--------------------+----------------------------------------------------------------------------+
 ; Device             ; EPC16                                                                      ;
 ; JTAG usercode      ; 0xFFFFFFFF                                                                 ;
-; Checksum           ; 0x1EDFA085                                                                 ;
+; Checksum           ; 0x1ED1D6ED                                                                 ;
 ; Compression Ratio  ; 2                                                                          ;
 +--------------------+----------------------------------------------------------------------------+
 
@@ -118,14 +118,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Sat Apr 21 00:49:34 2018
+    Info: Processing started: Sat Apr 21 14:07:58 2018
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off CourseProject -c CourseProject
 Info: Writing out detailed assembly data for power analysis
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 217 megabytes
-    Info: Processing ended: Sat Apr 21 00:49:39 2018
-    Info: Elapsed time: 00:00:05
+    Info: Processing ended: Sat Apr 21 14:08:02 2018
+    Info: Elapsed time: 00:00:04
     Info: Total CPU time (on all processors): 00:00:04
 
 

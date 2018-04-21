@@ -134,6 +134,7 @@ ON
 # hierarchies {
 lpm_bustri1:inst1
 lpm_bustri1:inst73
+lpm_bustri1:inst89
 }
 # lmf
 |altera|91|quartus|lmf|maxplus2.lmf
@@ -177,6 +178,7 @@ data0
 # hierarchies {
 lpm_bustri1:inst1|lpm_bustri:lpm_bustri_component
 lpm_bustri1:inst73|lpm_bustri:lpm_bustri_component
+lpm_bustri1:inst89|lpm_bustri:lpm_bustri_component
 }
 # macro_sequence
 
@@ -392,33 +394,13 @@ ON
 }
 # hierarchies {
 CacheControlBlock:inst6|lpm_decode0:inst45
-CacheControlBlock:inst6|lpm_decode0:inst81
-CacheControlBlock:inst6|lpm_decode0:inst22
-CacheControlBlock:inst6|lpm_decode0:inst25
-CacheControlBlock:inst6|lpm_decode0:inst24
-CacheControlBlock:inst6|lpm_decode0:inst15
 lpm_decode0:inst17
 CacheControlBlock:inst5|lpm_decode0:inst45
-CacheControlBlock:inst5|lpm_decode0:inst81
-CacheControlBlock:inst5|lpm_decode0:inst22
-CacheControlBlock:inst5|lpm_decode0:inst25
-CacheControlBlock:inst5|lpm_decode0:inst24
-CacheControlBlock:inst5|lpm_decode0:inst15
 lpm_decode0:inst18
 CacheControlBlock:inst10|lpm_decode0:inst45
-CacheControlBlock:inst10|lpm_decode0:inst81
-CacheControlBlock:inst10|lpm_decode0:inst22
-CacheControlBlock:inst10|lpm_decode0:inst25
-CacheControlBlock:inst10|lpm_decode0:inst24
-CacheControlBlock:inst10|lpm_decode0:inst15
 lpm_decode0:inst22
-lpm_decode0:inst25
 CacheControlBlock:inst4|lpm_decode0:inst45
-CacheControlBlock:inst4|lpm_decode0:inst81
-CacheControlBlock:inst4|lpm_decode0:inst22
-CacheControlBlock:inst4|lpm_decode0:inst25
-CacheControlBlock:inst4|lpm_decode0:inst24
-CacheControlBlock:inst4|lpm_decode0:inst15
+lpm_decode0:inst25
 }
 # lmf
 |altera|91|quartus|lmf|maxplus2.lmf
@@ -503,33 +485,33 @@ data0
 }
 # hierarchies {
 CacheControlBlock:inst6|lpm_decode0:inst45|lpm_decode:lpm_decode_component
-CacheControlBlock:inst6|lpm_decode0:inst81|lpm_decode:lpm_decode_component
-CacheControlBlock:inst6|lpm_decode0:inst22|lpm_decode:lpm_decode_component
-CacheControlBlock:inst6|lpm_decode0:inst25|lpm_decode:lpm_decode_component
-CacheControlBlock:inst6|lpm_decode0:inst24|lpm_decode:lpm_decode_component
-CacheControlBlock:inst6|lpm_decode0:inst15|lpm_decode:lpm_decode_component
+CacheControlBlock:inst6|lpm_decode3:inst3|lpm_decode:lpm_decode_component
+CacheControlBlock:inst6|lpm_decode3:inst1|lpm_decode:lpm_decode_component
+CacheControlBlock:inst6|lpm_decode3:inst4|lpm_decode:lpm_decode_component
+CacheControlBlock:inst6|lpm_decode3:inst6|lpm_decode:lpm_decode_component
+CacheControlBlock:inst6|lpm_decode3:inst2|lpm_decode:lpm_decode_component
 lpm_decode0:inst17|lpm_decode:lpm_decode_component
 CacheControlBlock:inst5|lpm_decode0:inst45|lpm_decode:lpm_decode_component
-CacheControlBlock:inst5|lpm_decode0:inst81|lpm_decode:lpm_decode_component
-CacheControlBlock:inst5|lpm_decode0:inst22|lpm_decode:lpm_decode_component
-CacheControlBlock:inst5|lpm_decode0:inst25|lpm_decode:lpm_decode_component
-CacheControlBlock:inst5|lpm_decode0:inst24|lpm_decode:lpm_decode_component
-CacheControlBlock:inst5|lpm_decode0:inst15|lpm_decode:lpm_decode_component
+CacheControlBlock:inst5|lpm_decode3:inst3|lpm_decode:lpm_decode_component
+CacheControlBlock:inst5|lpm_decode3:inst1|lpm_decode:lpm_decode_component
+CacheControlBlock:inst5|lpm_decode3:inst4|lpm_decode:lpm_decode_component
+CacheControlBlock:inst5|lpm_decode3:inst6|lpm_decode:lpm_decode_component
+CacheControlBlock:inst5|lpm_decode3:inst2|lpm_decode:lpm_decode_component
 lpm_decode0:inst18|lpm_decode:lpm_decode_component
 CacheControlBlock:inst10|lpm_decode0:inst45|lpm_decode:lpm_decode_component
-CacheControlBlock:inst10|lpm_decode0:inst81|lpm_decode:lpm_decode_component
-CacheControlBlock:inst10|lpm_decode0:inst22|lpm_decode:lpm_decode_component
-CacheControlBlock:inst10|lpm_decode0:inst25|lpm_decode:lpm_decode_component
-CacheControlBlock:inst10|lpm_decode0:inst24|lpm_decode:lpm_decode_component
-CacheControlBlock:inst10|lpm_decode0:inst15|lpm_decode:lpm_decode_component
+CacheControlBlock:inst10|lpm_decode3:inst3|lpm_decode:lpm_decode_component
+CacheControlBlock:inst10|lpm_decode3:inst1|lpm_decode:lpm_decode_component
+CacheControlBlock:inst10|lpm_decode3:inst4|lpm_decode:lpm_decode_component
+CacheControlBlock:inst10|lpm_decode3:inst6|lpm_decode:lpm_decode_component
+CacheControlBlock:inst10|lpm_decode3:inst2|lpm_decode:lpm_decode_component
 lpm_decode0:inst22|lpm_decode:lpm_decode_component
-lpm_decode0:inst25|lpm_decode:lpm_decode_component
 CacheControlBlock:inst4|lpm_decode0:inst45|lpm_decode:lpm_decode_component
-CacheControlBlock:inst4|lpm_decode0:inst81|lpm_decode:lpm_decode_component
-CacheControlBlock:inst4|lpm_decode0:inst22|lpm_decode:lpm_decode_component
-CacheControlBlock:inst4|lpm_decode0:inst25|lpm_decode:lpm_decode_component
-CacheControlBlock:inst4|lpm_decode0:inst24|lpm_decode:lpm_decode_component
-CacheControlBlock:inst4|lpm_decode0:inst15|lpm_decode:lpm_decode_component
+CacheControlBlock:inst4|lpm_decode3:inst3|lpm_decode:lpm_decode_component
+CacheControlBlock:inst4|lpm_decode3:inst1|lpm_decode:lpm_decode_component
+CacheControlBlock:inst4|lpm_decode3:inst4|lpm_decode:lpm_decode_component
+CacheControlBlock:inst4|lpm_decode3:inst6|lpm_decode:lpm_decode_component
+CacheControlBlock:inst4|lpm_decode3:inst2|lpm_decode:lpm_decode_component
+lpm_decode0:inst25|lpm_decode:lpm_decode_component
 }
 # macro_sequence
 
@@ -569,33 +551,33 @@ data0
 }
 # hierarchies {
 CacheControlBlock:inst6|lpm_decode0:inst45|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CacheControlBlock:inst6|lpm_decode0:inst81|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CacheControlBlock:inst6|lpm_decode0:inst22|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CacheControlBlock:inst6|lpm_decode0:inst25|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CacheControlBlock:inst6|lpm_decode0:inst24|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CacheControlBlock:inst6|lpm_decode0:inst15|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CacheControlBlock:inst6|lpm_decode3:inst3|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CacheControlBlock:inst6|lpm_decode3:inst1|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CacheControlBlock:inst6|lpm_decode3:inst4|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CacheControlBlock:inst6|lpm_decode3:inst6|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CacheControlBlock:inst6|lpm_decode3:inst2|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 lpm_decode0:inst17|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 CacheControlBlock:inst5|lpm_decode0:inst45|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CacheControlBlock:inst5|lpm_decode0:inst81|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CacheControlBlock:inst5|lpm_decode0:inst22|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CacheControlBlock:inst5|lpm_decode0:inst25|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CacheControlBlock:inst5|lpm_decode0:inst24|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CacheControlBlock:inst5|lpm_decode0:inst15|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CacheControlBlock:inst5|lpm_decode3:inst3|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CacheControlBlock:inst5|lpm_decode3:inst1|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CacheControlBlock:inst5|lpm_decode3:inst4|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CacheControlBlock:inst5|lpm_decode3:inst6|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CacheControlBlock:inst5|lpm_decode3:inst2|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 lpm_decode0:inst18|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 CacheControlBlock:inst10|lpm_decode0:inst45|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CacheControlBlock:inst10|lpm_decode0:inst81|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CacheControlBlock:inst10|lpm_decode0:inst22|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CacheControlBlock:inst10|lpm_decode0:inst25|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CacheControlBlock:inst10|lpm_decode0:inst24|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CacheControlBlock:inst10|lpm_decode0:inst15|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CacheControlBlock:inst10|lpm_decode3:inst3|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CacheControlBlock:inst10|lpm_decode3:inst1|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CacheControlBlock:inst10|lpm_decode3:inst4|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CacheControlBlock:inst10|lpm_decode3:inst6|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CacheControlBlock:inst10|lpm_decode3:inst2|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 lpm_decode0:inst22|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-lpm_decode0:inst25|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 CacheControlBlock:inst4|lpm_decode0:inst45|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CacheControlBlock:inst4|lpm_decode0:inst81|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CacheControlBlock:inst4|lpm_decode0:inst22|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CacheControlBlock:inst4|lpm_decode0:inst25|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CacheControlBlock:inst4|lpm_decode0:inst24|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-CacheControlBlock:inst4|lpm_decode0:inst15|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CacheControlBlock:inst4|lpm_decode3:inst3|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CacheControlBlock:inst4|lpm_decode3:inst1|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CacheControlBlock:inst4|lpm_decode3:inst4|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CacheControlBlock:inst4|lpm_decode3:inst6|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+CacheControlBlock:inst4|lpm_decode3:inst2|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+lpm_decode0:inst25|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 }
 # macro_sequence
 
@@ -916,9 +898,9 @@ CacheControlBlock:inst5|lpm_mux2:inst46
 CacheControlBlock:inst5|lpm_mux2:inst82
 CacheControlBlock:inst10|lpm_mux2:inst46
 CacheControlBlock:inst10|lpm_mux2:inst82
+lpm_mux2:inst21
 CacheControlBlock:inst4|lpm_mux2:inst46
 CacheControlBlock:inst4|lpm_mux2:inst82
-lpm_mux2:inst21
 }
 # lmf
 |altera|91|quartus|lmf|maxplus2.lmf
@@ -1009,9 +991,9 @@ CacheControlBlock:inst5|lpm_mux2:inst46|lpm_mux:lpm_mux_component
 CacheControlBlock:inst5|lpm_mux2:inst82|lpm_mux:lpm_mux_component
 CacheControlBlock:inst10|lpm_mux2:inst46|lpm_mux:lpm_mux_component
 CacheControlBlock:inst10|lpm_mux2:inst82|lpm_mux:lpm_mux_component
+lpm_mux2:inst21|lpm_mux:lpm_mux_component
 CacheControlBlock:inst4|lpm_mux2:inst46|lpm_mux:lpm_mux_component
 CacheControlBlock:inst4|lpm_mux2:inst82|lpm_mux:lpm_mux_component
-lpm_mux2:inst21|lpm_mux:lpm_mux_component
 }
 # macro_sequence
 
@@ -1057,9 +1039,9 @@ CacheControlBlock:inst5|lpm_mux2:inst46|lpm_mux:lpm_mux_component|mux_54e:auto_g
 CacheControlBlock:inst5|lpm_mux2:inst82|lpm_mux:lpm_mux_component|mux_54e:auto_generated
 CacheControlBlock:inst10|lpm_mux2:inst46|lpm_mux:lpm_mux_component|mux_54e:auto_generated
 CacheControlBlock:inst10|lpm_mux2:inst82|lpm_mux:lpm_mux_component|mux_54e:auto_generated
+lpm_mux2:inst21|lpm_mux:lpm_mux_component|mux_54e:auto_generated
 CacheControlBlock:inst4|lpm_mux2:inst46|lpm_mux:lpm_mux_component|mux_54e:auto_generated
 CacheControlBlock:inst4|lpm_mux2:inst82|lpm_mux:lpm_mux_component|mux_54e:auto_generated
-lpm_mux2:inst21|lpm_mux:lpm_mux_component|mux_54e:auto_generated
 }
 # macro_sequence
 
@@ -3639,29 +3621,6 @@ lpm_compare1:inst15|lpm_compare:lpm_compare_component|cmpr_big:auto_generated
 
 # end
 # entity
-CacheControlBlock
-# storage
-db|CourseProject.(55).cnf
-db|CourseProject.(55).cnf
-# case_insensitive
-# source_file
-cachecontrolblock.bdf
-c67be7d5536881af742f628e62eb5a17
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-CacheControlBlock:inst6
-CacheControlBlock:inst5
-CacheControlBlock:inst10
-CacheControlBlock:inst4
-}
-# macro_sequence
-
-# end
-# entity
 lpm_mux3
 # storage
 db|CourseProject.(56).cnf
@@ -4243,26 +4202,6 @@ lpm_counter2:inst35|lpm_counter:lpm_counter_component|cntr_qoi:auto_generated
 
 # end
 # entity
-Encoder
-# storage
-db|CourseProject.(65).cnf
-db|CourseProject.(65).cnf
-# case_insensitive
-# source_file
-encoder.bdf
-3861a943906f6c5bb371bdc9e188
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-Encoder:inst16
-}
-# macro_sequence
-
-# end
-# entity
 lpm_counter4
 # storage
 db|CourseProject.(66).cnf
@@ -4479,6 +4418,78 @@ a36c8ec425c8a2589af98b2d4daabc3
 
 # end
 # entity
+lpm_decode3
+# storage
+db|CourseProject.(70).cnf
+db|CourseProject.(70).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_decode3.vhd
+c44b528f33636ac1fe94cc59c719b3
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+CacheControlBlock:inst6|lpm_decode3:inst3
+CacheControlBlock:inst6|lpm_decode3:inst1
+CacheControlBlock:inst6|lpm_decode3:inst4
+CacheControlBlock:inst6|lpm_decode3:inst6
+CacheControlBlock:inst6|lpm_decode3:inst2
+CacheControlBlock:inst5|lpm_decode3:inst3
+CacheControlBlock:inst5|lpm_decode3:inst1
+CacheControlBlock:inst5|lpm_decode3:inst4
+CacheControlBlock:inst5|lpm_decode3:inst6
+CacheControlBlock:inst5|lpm_decode3:inst2
+CacheControlBlock:inst10|lpm_decode3:inst3
+CacheControlBlock:inst10|lpm_decode3:inst1
+CacheControlBlock:inst10|lpm_decode3:inst4
+CacheControlBlock:inst10|lpm_decode3:inst6
+CacheControlBlock:inst10|lpm_decode3:inst2
+CacheControlBlock:inst4|lpm_decode3:inst3
+CacheControlBlock:inst4|lpm_decode3:inst1
+CacheControlBlock:inst4|lpm_decode3:inst4
+CacheControlBlock:inst4|lpm_decode3:inst6
+CacheControlBlock:inst4|lpm_decode3:inst2
+}
+# lmf
+|altera|91|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+Encoder
+# storage
+db|CourseProject.(65).cnf
+db|CourseProject.(65).cnf
+# case_insensitive
+# source_file
+encoder.bdf
+b78ef8629c0e4924ffef2f6365b581
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Encoder:inst16
+}
+# macro_sequence
+
+# end
+# entity
 CacheControlUnit
 # storage
 db|CourseProject.(0).cnf
@@ -4486,7 +4497,7 @@ db|CourseProject.(0).cnf
 # case_insensitive
 # source_file
 cachecontrolunit.bdf
-497e3768b8b0ccce9da4fb6f76d6b3d
+d49710781f4ed13c92fd81a32322dee
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
@@ -4494,6 +4505,29 @@ AUTO
 }
 # hierarchies {
 |
+}
+# macro_sequence
+
+# end
+# entity
+CacheControlBlock
+# storage
+db|CourseProject.(55).cnf
+db|CourseProject.(55).cnf
+# case_insensitive
+# source_file
+cachecontrolblock.bdf
+b941f69139d0c4dd142c6cdec07531b3
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+CacheControlBlock:inst6
+CacheControlBlock:inst5
+CacheControlBlock:inst10
+CacheControlBlock:inst4
 }
 # macro_sequence
 

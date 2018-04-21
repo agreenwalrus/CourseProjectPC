@@ -2,25 +2,28 @@
 <LOG_ROOT>
 	<PROJECT NAME="CourseProject">
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst10|lpm_mux1:inst34|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_c4e.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst4|lpm_decode0:inst25|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst5|lpm_decode0:inst15|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst4|lpm_decode3:inst4|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst5|lpm_decode3:inst3|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst6|lpm_decode3:inst2|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|lpm_compare1:inst14|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst4|lpm_mux0:inst33|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_tnc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst6|lpm_decode0:inst24|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst5|lpm_decode3:inst4|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst6|lpm_decode3:inst3|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|lpm_compare1:inst15|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst4|lpm_decode0:inst45|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst4|lpm_decode0:inst81|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst4|lpm_decode3:inst6|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst5|lpm_mux0:inst33|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_tnc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst6|lpm_decode0:inst25|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst6|lpm_decode3:inst4|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|ComparatorGetMax:inst11|lpm_compare0:inst4|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_mlg.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst4|lpm_counter0:inst51|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_u9j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst5|lpm_decode3:inst6|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst6|lpm_mux0:inst33|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_tnc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst10|lpm_mux2:inst46|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_54e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst10|lpm_mux2:inst82|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_54e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst5|lpm_counter0:inst51|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_u9j.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst5|lpm_mux1:inst34|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_c4e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst6|lpm_decode0:inst45|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst6|lpm_decode0:inst81|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst6|lpm_decode3:inst6|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|lpm_counter4:inst92|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_3ai.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst10|lpm_counter0:inst47|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_u9j.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst4|lpm_counter0:inst53|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_u9j.tdf"/>
@@ -46,39 +49,36 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst6|lpm_mux2:inst46|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_54e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst6|lpm_mux2:inst82|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_54e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|lpm_decode0:inst17|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst10|lpm_decode0:inst22|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst10|lpm_decode3:inst1|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst5|lpm_counter0:inst48|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_u9j.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst6|lpm_counter0:inst47|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_u9j.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|lpm_counter2:inst30|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_qoi.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|lpm_decode0:inst18|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst10|lpm_decode3:inst2|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst6|lpm_counter0:inst48|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_u9j.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|lpm_mux3:inst23|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_34e.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst10|lpm_decode0:inst15|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst10|lpm_decode0:inst24|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst10|lpm_decode3:inst3|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|ComparatorGetMax:inst11|lpm_mux4:inst1|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_94e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|lpm_decode2:inst27|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst10|lpm_decode0:inst25|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst4|lpm_decode0:inst22|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst10|lpm_decode3:inst4|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst4|lpm_decode3:inst1|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|ComparatorGetMax:inst11|lpm_mux4:inst2|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_94e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|lpm_decode2:inst28|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst10|lpm_mux0:inst33|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_tnc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst5|lpm_decode0:inst22|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst4|lpm_decode3:inst2|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst5|lpm_decode3:inst1|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|ComparatorGetMax:inst11|lpm_compare0:inst|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_mlg.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|lpm_compare1:inst12|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst10|lpm_decode0:inst45|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst10|lpm_decode0:inst81|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst4|lpm_decode0:inst15|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst4|lpm_decode0:inst24|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst6|lpm_decode0:inst22|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst10|lpm_decode3:inst6|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst4|lpm_decode3:inst3|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst5|lpm_decode3:inst2|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst6|lpm_decode3:inst1|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|lpm_compare1:inst13|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_big.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|lpm_counter2:inst35|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_qoi.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst10|lpm_counter0:inst51|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_u9j.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst5|lpm_decode0:inst24|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst5|lpm_decode0:inst25|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst6|lpm_decode0:inst15|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst10|lpm_counter0:inst53|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_u9j.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst4|lpm_mux1:inst34|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_c4e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst5|lpm_decode0:inst45|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|CacheControlUnit|CacheControlBlock:inst5|lpm_decode0:inst81|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
 	</PROJECT>
 </LOG_ROOT>

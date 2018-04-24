@@ -131,8 +131,8 @@ applicable agreement for further details.
 	(port
 		(pt 304 208)
 		(output)
-		(text "HIT" (rect 0 0 17 14)(font "Arial" (font_size 8)))
-		(text "HIT" (rect 266 203 283 217)(font "Arial" (font_size 8)))
+		(text "_HIT" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "_HIT" (rect 259 203 283 217)(font "Arial" (font_size 8)))
 		(line (pt 304 208)(pt 288 208)(line_width 1))
 	)
 	(port

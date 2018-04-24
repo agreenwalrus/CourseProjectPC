@@ -1,5 +1,5 @@
 Analysis & Synthesis report for CourseProject
-Sat Apr 21 19:33:37 2018
+Tue Apr 24 15:51:44 2018
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -14,9 +14,9 @@ Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. Analysis & Synthesis RAM Summary
-  9. Logic Cells Representing Combinational Loops
- 10. General Register Statistics
- 11. Multiplexer Restructuring Statistics (Restructuring Performed)
+  9. General Register Statistics
+ 10. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 11. Source assignments for Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst35|lpm_counter:lpm_counter_component
  12. Source assignments for Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_counter0:inst47|lpm_counter:lpm_counter_component
  13. Source assignments for Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_counter0:inst48|lpm_counter:lpm_counter_component
  14. Source assignments for Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_counter0:inst51|lpm_counter:lpm_counter_component
@@ -30,205 +30,204 @@ Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
  22. Source assignments for Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_counter0:inst51|lpm_counter:lpm_counter_component
  23. Source assignments for Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_counter0:inst53|lpm_counter:lpm_counter_component
  24. Source assignments for Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst30|lpm_counter:lpm_counter_component
- 25. Source assignments for Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst35|lpm_counter:lpm_counter_component
- 26. Source assignments for Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component
- 27. Source assignments for Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst48|lpm_counter:lpm_counter_component
- 28. Source assignments for Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst51|lpm_counter:lpm_counter_component
- 29. Source assignments for Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst53|lpm_counter:lpm_counter_component
- 30. Source assignments for Cache:inst|CacheControlUnit:inst1|lpm_counter4:inst92|lpm_counter:lpm_counter_component
- 31. Source assignments for Cache:inst|CacheControlUnit:inst1|lpm_counter4:inst93|lpm_counter:lpm_counter_component
- 32. Source assignments for MemoryBlock:inst1|lpm_ram_dq0:inst|altsyncram:altsyncram_component|altsyncram_poa1:auto_generated
- 33. Source assignments for MemoryBlock:inst1|lpm_rom0:inst5|altsyncram:altsyncram_component|altsyncram_4m51:auto_generated
- 34. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_compare1:inst12|lpm_compare:lpm_compare_component
- 35. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_mux2:inst46|LPM_MUX:lpm_mux_component
- 36. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_decode0:inst45|lpm_decode:lpm_decode_component
- 37. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_mux2:inst82|LPM_MUX:lpm_mux_component
- 38. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_decode3:inst3|lpm_decode:lpm_decode_component
- 39. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_decode3:inst1|lpm_decode:lpm_decode_component
- 40. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_mux1:inst34|LPM_MUX:lpm_mux_component
- 41. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_counter0:inst47|lpm_counter:lpm_counter_component
- 42. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_decode3:inst4|lpm_decode:lpm_decode_component
- 43. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_decode3:inst6|lpm_decode:lpm_decode_component
- 44. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_counter0:inst48|lpm_counter:lpm_counter_component
- 45. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_counter0:inst51|lpm_counter:lpm_counter_component
- 46. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_counter0:inst53|lpm_counter:lpm_counter_component
- 47. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_mux0:inst33|LPM_MUX:lpm_mux_component
- 48. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_dff1:inst|lpm_ff:lpm_ff_component
- 49. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_decode3:inst2|lpm_decode:lpm_decode_component
- 50. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_dff1:inst16|lpm_ff:lpm_ff_component
- 51. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_dff1:inst17|lpm_ff:lpm_ff_component
- 52. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_dff1:inst18|lpm_ff:lpm_ff_component
- 53. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_decode0:inst17|lpm_decode:lpm_decode_component
- 54. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_mux2:inst20|LPM_MUX:lpm_mux_component
- 55. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_mux2:inst46|LPM_MUX:lpm_mux_component
- 56. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_decode0:inst45|lpm_decode:lpm_decode_component
- 57. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_mux2:inst82|LPM_MUX:lpm_mux_component
- 58. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_decode3:inst3|lpm_decode:lpm_decode_component
- 59. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_decode3:inst1|lpm_decode:lpm_decode_component
- 60. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_mux1:inst34|LPM_MUX:lpm_mux_component
- 61. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_counter0:inst47|lpm_counter:lpm_counter_component
- 62. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_decode3:inst4|lpm_decode:lpm_decode_component
- 63. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_decode3:inst6|lpm_decode:lpm_decode_component
- 64. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_counter0:inst48|lpm_counter:lpm_counter_component
- 65. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_counter0:inst51|lpm_counter:lpm_counter_component
- 66. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_counter0:inst53|lpm_counter:lpm_counter_component
- 67. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_mux0:inst33|LPM_MUX:lpm_mux_component
- 68. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_dff1:inst|lpm_ff:lpm_ff_component
- 69. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_decode3:inst2|lpm_decode:lpm_decode_component
- 70. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_dff1:inst16|lpm_ff:lpm_ff_component
- 71. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_dff1:inst17|lpm_ff:lpm_ff_component
- 72. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_dff1:inst18|lpm_ff:lpm_ff_component
- 73. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_decode0:inst18|lpm_decode:lpm_decode_component
- 74. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_mux3:inst23|LPM_MUX:lpm_mux_component
- 75. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|ComparatorGetMax:inst11|lpm_compare0:inst7|lpm_compare:lpm_compare_component
- 76. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|ComparatorGetMax:inst11|lpm_mux4:inst1|LPM_MUX:lpm_mux_component
- 77. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|ComparatorGetMax:inst11|lpm_compare0:inst|lpm_compare:lpm_compare_component
- 78. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|ComparatorGetMax:inst11|lpm_mux4:inst2|LPM_MUX:lpm_mux_component
- 79. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|ComparatorGetMax:inst11|lpm_compare0:inst4|lpm_compare:lpm_compare_component
- 80. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_mux2:inst46|LPM_MUX:lpm_mux_component
- 81. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_decode0:inst45|lpm_decode:lpm_decode_component
- 82. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_mux2:inst82|LPM_MUX:lpm_mux_component
- 83. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_decode3:inst3|lpm_decode:lpm_decode_component
- 84. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_decode3:inst1|lpm_decode:lpm_decode_component
- 85. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_mux1:inst34|LPM_MUX:lpm_mux_component
- 86. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_counter0:inst47|lpm_counter:lpm_counter_component
- 87. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_decode3:inst4|lpm_decode:lpm_decode_component
- 88. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_decode3:inst6|lpm_decode:lpm_decode_component
- 89. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_counter0:inst48|lpm_counter:lpm_counter_component
- 90. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_counter0:inst51|lpm_counter:lpm_counter_component
- 91. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_counter0:inst53|lpm_counter:lpm_counter_component
- 92. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_mux0:inst33|LPM_MUX:lpm_mux_component
- 93. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_dff1:inst|lpm_ff:lpm_ff_component
- 94. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_decode3:inst2|lpm_decode:lpm_decode_component
- 95. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_dff1:inst16|lpm_ff:lpm_ff_component
- 96. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_dff1:inst17|lpm_ff:lpm_ff_component
- 97. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_dff1:inst18|lpm_ff:lpm_ff_component
- 98. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_decode0:inst22|lpm_decode:lpm_decode_component
- 99. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst27|lpm_decode:lpm_decode_component
-100. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst30|lpm_counter:lpm_counter_component
-101. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst28|lpm_decode:lpm_decode_component
-102. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst35|lpm_counter:lpm_counter_component
-103. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_mux2:inst21|LPM_MUX:lpm_mux_component
-104. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_mux2:inst46|LPM_MUX:lpm_mux_component
-105. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode0:inst45|lpm_decode:lpm_decode_component
-106. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_mux2:inst82|LPM_MUX:lpm_mux_component
-107. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode3:inst3|lpm_decode:lpm_decode_component
-108. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode3:inst1|lpm_decode:lpm_decode_component
-109. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_mux1:inst34|LPM_MUX:lpm_mux_component
-110. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component
-111. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode3:inst4|lpm_decode:lpm_decode_component
-112. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode3:inst6|lpm_decode:lpm_decode_component
-113. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst48|lpm_counter:lpm_counter_component
-114. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst51|lpm_counter:lpm_counter_component
-115. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst53|lpm_counter:lpm_counter_component
-116. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_mux0:inst33|LPM_MUX:lpm_mux_component
-117. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_dff1:inst|lpm_ff:lpm_ff_component
-118. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode3:inst2|lpm_decode:lpm_decode_component
-119. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_dff1:inst16|lpm_ff:lpm_ff_component
-120. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_dff1:inst17|lpm_ff:lpm_ff_component
-121. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_dff1:inst18|lpm_ff:lpm_ff_component
-122. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_decode0:inst25|lpm_decode:lpm_decode_component
-123. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_bustri0:inst|lpm_bustri:lpm_bustri_component
-124. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_bustri1:inst1|lpm_bustri:lpm_bustri_component
-125. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_compare1:inst13|lpm_compare:lpm_compare_component
-126. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_compare1:inst14|lpm_compare:lpm_compare_component
-127. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_compare1:inst15|lpm_compare:lpm_compare_component
-128. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_bustri2:inst59|lpm_bustri:lpm_bustri_component
-129. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_counter4:inst92|lpm_counter:lpm_counter_component
-130. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_bustri2:inst60|lpm_bustri:lpm_bustri_component
-131. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_bustri0:inst71|lpm_bustri:lpm_bustri_component
-132. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_mux0:inst3|LPM_MUX:lpm_mux_component
-133. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_bustri0:inst72|lpm_bustri:lpm_bustri_component
-134. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_counter4:inst93|lpm_counter:lpm_counter_component
-135. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_bustri1:inst73|lpm_bustri:lpm_bustri_component
-136. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_bustri1:inst89|lpm_bustri:lpm_bustri_component
-137. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_bustri2:inst2|lpm_bustri:lpm_bustri_component
-138. Parameter Settings for User Entity Instance: Cache:inst|lpm_bustri3:inst2|lpm_bustri:lpm_bustri_component
-139. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_bustri3:inst6|lpm_bustri:lpm_bustri_component
-140. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_decode0:inst|lpm_decode:lpm_decode_component
-141. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_decode1:inst3|lpm_decode:lpm_decode_component
-142. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst4|lpm_ff:lpm_ff_component
-143. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_bustri3:inst10|lpm_bustri:lpm_bustri_component
-144. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst8|lpm_ff:lpm_ff_component
-145. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_bustri3:inst14|lpm_bustri:lpm_bustri_component
-146. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst12|lpm_ff:lpm_ff_component
-147. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_bustri3:inst18|lpm_bustri:lpm_bustri_component
-148. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst16|lpm_ff:lpm_ff_component
-149. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_bustri3:inst22|lpm_bustri:lpm_bustri_component
-150. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst20|lpm_ff:lpm_ff_component
-151. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_bustri3:inst26|lpm_bustri:lpm_bustri_component
-152. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst24|lpm_ff:lpm_ff_component
-153. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_bustri3:inst30|lpm_bustri:lpm_bustri_component
-154. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst28|lpm_ff:lpm_ff_component
-155. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_bustri3:inst34|lpm_bustri:lpm_bustri_component
-156. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst32|lpm_ff:lpm_ff_component
-157. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|lpm_bustri2:inst2|lpm_bustri:lpm_bustri_component
-158. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|lpm_decode0:inst3|lpm_decode:lpm_decode_component
-159. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|lpm_bustri1:inst1|lpm_bustri:lpm_bustri_component
-160. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_bustri3:inst6|lpm_bustri:lpm_bustri_component
-161. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_decode0:inst|lpm_decode:lpm_decode_component
-162. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_decode1:inst3|lpm_decode:lpm_decode_component
-163. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_dff0:inst4|lpm_ff:lpm_ff_component
-164. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_bustri3:inst10|lpm_bustri:lpm_bustri_component
-165. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_dff0:inst8|lpm_ff:lpm_ff_component
-166. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_bustri3:inst14|lpm_bustri:lpm_bustri_component
-167. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_dff0:inst12|lpm_ff:lpm_ff_component
-168. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_bustri3:inst18|lpm_bustri:lpm_bustri_component
-169. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_dff0:inst16|lpm_ff:lpm_ff_component
-170. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_bustri3:inst22|lpm_bustri:lpm_bustri_component
-171. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_dff0:inst20|lpm_ff:lpm_ff_component
-172. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_bustri3:inst26|lpm_bustri:lpm_bustri_component
-173. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_dff0:inst24|lpm_ff:lpm_ff_component
-174. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_bustri3:inst30|lpm_bustri:lpm_bustri_component
-175. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_dff0:inst28|lpm_ff:lpm_ff_component
-176. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_bustri3:inst34|lpm_bustri:lpm_bustri_component
-177. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_dff0:inst32|lpm_ff:lpm_ff_component
-178. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_bustri3:inst6|lpm_bustri:lpm_bustri_component
-179. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_decode0:inst|lpm_decode:lpm_decode_component
-180. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_decode1:inst3|lpm_decode:lpm_decode_component
-181. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_dff0:inst4|lpm_ff:lpm_ff_component
-182. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_bustri3:inst10|lpm_bustri:lpm_bustri_component
-183. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_dff0:inst8|lpm_ff:lpm_ff_component
-184. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_bustri3:inst14|lpm_bustri:lpm_bustri_component
-185. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_dff0:inst12|lpm_ff:lpm_ff_component
-186. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_bustri3:inst18|lpm_bustri:lpm_bustri_component
-187. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_dff0:inst16|lpm_ff:lpm_ff_component
-188. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_bustri3:inst22|lpm_bustri:lpm_bustri_component
-189. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_dff0:inst20|lpm_ff:lpm_ff_component
-190. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_bustri3:inst26|lpm_bustri:lpm_bustri_component
-191. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_dff0:inst24|lpm_ff:lpm_ff_component
-192. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_bustri3:inst30|lpm_bustri:lpm_bustri_component
-193. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_dff0:inst28|lpm_ff:lpm_ff_component
-194. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_bustri3:inst34|lpm_bustri:lpm_bustri_component
-195. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_dff0:inst32|lpm_ff:lpm_ff_component
-196. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_bustri3:inst6|lpm_bustri:lpm_bustri_component
-197. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_decode0:inst|lpm_decode:lpm_decode_component
-198. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_decode1:inst3|lpm_decode:lpm_decode_component
-199. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst4|lpm_ff:lpm_ff_component
-200. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_bustri3:inst10|lpm_bustri:lpm_bustri_component
-201. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst8|lpm_ff:lpm_ff_component
-202. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_bustri3:inst14|lpm_bustri:lpm_bustri_component
-203. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst12|lpm_ff:lpm_ff_component
-204. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_bustri3:inst18|lpm_bustri:lpm_bustri_component
-205. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst16|lpm_ff:lpm_ff_component
-206. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_bustri3:inst22|lpm_bustri:lpm_bustri_component
-207. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst20|lpm_ff:lpm_ff_component
-208. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_bustri3:inst26|lpm_bustri:lpm_bustri_component
-209. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst24|lpm_ff:lpm_ff_component
-210. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_bustri3:inst30|lpm_bustri:lpm_bustri_component
-211. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst28|lpm_ff:lpm_ff_component
-212. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_bustri3:inst34|lpm_bustri:lpm_bustri_component
-213. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst32|lpm_ff:lpm_ff_component
-214. Parameter Settings for User Entity Instance: Cache:inst|lpm_bustri3:inst4|lpm_bustri:lpm_bustri_component
-215. Parameter Settings for User Entity Instance: Cache:inst|lpm_bustri3:inst5|lpm_bustri:lpm_bustri_component
-216. Parameter Settings for User Entity Instance: Cache:inst|lpm_bustri3:inst3|lpm_bustri:lpm_bustri_component
-217. Parameter Settings for User Entity Instance: MemoryBlock:inst1|lpm_bustri3:inst6|lpm_bustri:lpm_bustri_component
-218. Parameter Settings for User Entity Instance: MemoryBlock:inst1|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
-219. Parameter Settings for User Entity Instance: MemoryBlock:inst1|lpm_ram_dq0:inst|altsyncram:altsyncram_component
-220. Parameter Settings for User Entity Instance: MemoryBlock:inst1|lpm_bustri3:inst7|lpm_bustri:lpm_bustri_component
-221. Parameter Settings for User Entity Instance: MemoryBlock:inst1|lpm_rom0:inst5|altsyncram:altsyncram_component
-222. altsyncram Parameter Settings by Entity Instance
-223. Analysis & Synthesis Messages
+ 25. Source assignments for Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component
+ 26. Source assignments for Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst48|lpm_counter:lpm_counter_component
+ 27. Source assignments for Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst51|lpm_counter:lpm_counter_component
+ 28. Source assignments for Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst53|lpm_counter:lpm_counter_component
+ 29. Source assignments for Cache:inst|CacheControlUnit:inst1|lpm_counter4:inst92|lpm_counter:lpm_counter_component
+ 30. Source assignments for Cache:inst|CacheControlUnit:inst1|lpm_counter4:inst93|lpm_counter:lpm_counter_component
+ 31. Source assignments for MemoryBlock:inst1|lpm_ram_dq0:inst|altsyncram:altsyncram_component|altsyncram_poa1:auto_generated
+ 32. Source assignments for MemoryBlock:inst1|lpm_rom0:inst5|altsyncram:altsyncram_component|altsyncram_4m51:auto_generated
+ 33. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst28|lpm_decode:lpm_decode_component
+ 34. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst35|lpm_counter:lpm_counter_component
+ 35. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_compare1:inst12|lpm_compare:lpm_compare_component
+ 36. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_mux2:inst46|LPM_MUX:lpm_mux_component
+ 37. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_decode0:inst45|lpm_decode:lpm_decode_component
+ 38. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_mux2:inst82|LPM_MUX:lpm_mux_component
+ 39. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_decode3:inst3|lpm_decode:lpm_decode_component
+ 40. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_decode3:inst1|lpm_decode:lpm_decode_component
+ 41. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_mux1:inst34|LPM_MUX:lpm_mux_component
+ 42. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_counter0:inst47|lpm_counter:lpm_counter_component
+ 43. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_decode3:inst4|lpm_decode:lpm_decode_component
+ 44. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_decode3:inst6|lpm_decode:lpm_decode_component
+ 45. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_counter0:inst48|lpm_counter:lpm_counter_component
+ 46. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_counter0:inst51|lpm_counter:lpm_counter_component
+ 47. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_counter0:inst53|lpm_counter:lpm_counter_component
+ 48. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_mux0:inst33|LPM_MUX:lpm_mux_component
+ 49. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_dff1:inst|lpm_ff:lpm_ff_component
+ 50. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_decode3:inst2|lpm_decode:lpm_decode_component
+ 51. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_dff1:inst16|lpm_ff:lpm_ff_component
+ 52. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_dff1:inst17|lpm_ff:lpm_ff_component
+ 53. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6|lpm_dff1:inst18|lpm_ff:lpm_ff_component
+ 54. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_decode0:inst17|lpm_decode:lpm_decode_component
+ 55. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_mux2:inst20|LPM_MUX:lpm_mux_component
+ 56. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_mux2:inst46|LPM_MUX:lpm_mux_component
+ 57. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_decode0:inst45|lpm_decode:lpm_decode_component
+ 58. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_mux2:inst82|LPM_MUX:lpm_mux_component
+ 59. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_decode3:inst3|lpm_decode:lpm_decode_component
+ 60. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_decode3:inst1|lpm_decode:lpm_decode_component
+ 61. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_mux1:inst34|LPM_MUX:lpm_mux_component
+ 62. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_counter0:inst47|lpm_counter:lpm_counter_component
+ 63. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_decode3:inst4|lpm_decode:lpm_decode_component
+ 64. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_decode3:inst6|lpm_decode:lpm_decode_component
+ 65. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_counter0:inst48|lpm_counter:lpm_counter_component
+ 66. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_counter0:inst51|lpm_counter:lpm_counter_component
+ 67. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_counter0:inst53|lpm_counter:lpm_counter_component
+ 68. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_mux0:inst33|LPM_MUX:lpm_mux_component
+ 69. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_dff1:inst|lpm_ff:lpm_ff_component
+ 70. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_decode3:inst2|lpm_decode:lpm_decode_component
+ 71. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_dff1:inst16|lpm_ff:lpm_ff_component
+ 72. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_dff1:inst17|lpm_ff:lpm_ff_component
+ 73. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_dff1:inst18|lpm_ff:lpm_ff_component
+ 74. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_decode0:inst18|lpm_decode:lpm_decode_component
+ 75. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_mux3:inst23|LPM_MUX:lpm_mux_component
+ 76. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|ComparatorGetMax:inst11|lpm_compare0:inst7|lpm_compare:lpm_compare_component
+ 77. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|ComparatorGetMax:inst11|lpm_mux4:inst1|LPM_MUX:lpm_mux_component
+ 78. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|ComparatorGetMax:inst11|lpm_compare0:inst|lpm_compare:lpm_compare_component
+ 79. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|ComparatorGetMax:inst11|lpm_mux4:inst2|LPM_MUX:lpm_mux_component
+ 80. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|ComparatorGetMax:inst11|lpm_compare0:inst4|lpm_compare:lpm_compare_component
+ 81. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_mux2:inst46|LPM_MUX:lpm_mux_component
+ 82. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_decode0:inst45|lpm_decode:lpm_decode_component
+ 83. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_mux2:inst82|LPM_MUX:lpm_mux_component
+ 84. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_decode3:inst3|lpm_decode:lpm_decode_component
+ 85. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_decode3:inst1|lpm_decode:lpm_decode_component
+ 86. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_mux1:inst34|LPM_MUX:lpm_mux_component
+ 87. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_counter0:inst47|lpm_counter:lpm_counter_component
+ 88. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_decode3:inst4|lpm_decode:lpm_decode_component
+ 89. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_decode3:inst6|lpm_decode:lpm_decode_component
+ 90. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_counter0:inst48|lpm_counter:lpm_counter_component
+ 91. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_counter0:inst51|lpm_counter:lpm_counter_component
+ 92. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_counter0:inst53|lpm_counter:lpm_counter_component
+ 93. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_mux0:inst33|LPM_MUX:lpm_mux_component
+ 94. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_dff1:inst|lpm_ff:lpm_ff_component
+ 95. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_decode3:inst2|lpm_decode:lpm_decode_component
+ 96. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_dff1:inst16|lpm_ff:lpm_ff_component
+ 97. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_dff1:inst17|lpm_ff:lpm_ff_component
+ 98. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_dff1:inst18|lpm_ff:lpm_ff_component
+ 99. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_decode0:inst22|lpm_decode:lpm_decode_component
+100. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst27|lpm_decode:lpm_decode_component
+101. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst30|lpm_counter:lpm_counter_component
+102. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_decode0:inst25|lpm_decode:lpm_decode_component
+103. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_bustri0:inst|lpm_bustri:lpm_bustri_component
+104. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_bustri1:inst1|lpm_bustri:lpm_bustri_component
+105. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_mux2:inst46|LPM_MUX:lpm_mux_component
+106. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode0:inst45|lpm_decode:lpm_decode_component
+107. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_mux2:inst82|LPM_MUX:lpm_mux_component
+108. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode3:inst3|lpm_decode:lpm_decode_component
+109. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode3:inst1|lpm_decode:lpm_decode_component
+110. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_mux1:inst34|LPM_MUX:lpm_mux_component
+111. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component
+112. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode3:inst4|lpm_decode:lpm_decode_component
+113. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode3:inst6|lpm_decode:lpm_decode_component
+114. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst48|lpm_counter:lpm_counter_component
+115. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst51|lpm_counter:lpm_counter_component
+116. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst53|lpm_counter:lpm_counter_component
+117. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_mux0:inst33|LPM_MUX:lpm_mux_component
+118. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_dff1:inst|lpm_ff:lpm_ff_component
+119. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode3:inst2|lpm_decode:lpm_decode_component
+120. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_dff1:inst16|lpm_ff:lpm_ff_component
+121. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_dff1:inst17|lpm_ff:lpm_ff_component
+122. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_dff1:inst18|lpm_ff:lpm_ff_component
+123. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_compare1:inst13|lpm_compare:lpm_compare_component
+124. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_compare1:inst14|lpm_compare:lpm_compare_component
+125. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_compare1:inst15|lpm_compare:lpm_compare_component
+126. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_mux2:inst21|LPM_MUX:lpm_mux_component
+127. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_bustri2:inst59|lpm_bustri:lpm_bustri_component
+128. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_counter4:inst92|lpm_counter:lpm_counter_component
+129. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_bustri2:inst60|lpm_bustri:lpm_bustri_component
+130. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_bustri0:inst71|lpm_bustri:lpm_bustri_component
+131. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_mux0:inst3|LPM_MUX:lpm_mux_component
+132. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_bustri0:inst72|lpm_bustri:lpm_bustri_component
+133. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_counter4:inst93|lpm_counter:lpm_counter_component
+134. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_bustri1:inst73|lpm_bustri:lpm_bustri_component
+135. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_bustri1:inst89|lpm_bustri:lpm_bustri_component
+136. Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_bustri2:inst2|lpm_bustri:lpm_bustri_component
+137. Parameter Settings for User Entity Instance: Cache:inst|lpm_bustri3:inst2|lpm_bustri:lpm_bustri_component
+138. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_bustri3:inst6|lpm_bustri:lpm_bustri_component
+139. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_decode0:inst|lpm_decode:lpm_decode_component
+140. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_decode1:inst3|lpm_decode:lpm_decode_component
+141. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst4|lpm_ff:lpm_ff_component
+142. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_bustri3:inst10|lpm_bustri:lpm_bustri_component
+143. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst8|lpm_ff:lpm_ff_component
+144. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_bustri3:inst14|lpm_bustri:lpm_bustri_component
+145. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst12|lpm_ff:lpm_ff_component
+146. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_bustri3:inst18|lpm_bustri:lpm_bustri_component
+147. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst16|lpm_ff:lpm_ff_component
+148. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_bustri3:inst22|lpm_bustri:lpm_bustri_component
+149. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst20|lpm_ff:lpm_ff_component
+150. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_bustri3:inst26|lpm_bustri:lpm_bustri_component
+151. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst24|lpm_ff:lpm_ff_component
+152. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_bustri3:inst30|lpm_bustri:lpm_bustri_component
+153. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst28|lpm_ff:lpm_ff_component
+154. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_bustri3:inst34|lpm_bustri:lpm_bustri_component
+155. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst32|lpm_ff:lpm_ff_component
+156. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|lpm_bustri2:inst2|lpm_bustri:lpm_bustri_component
+157. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|lpm_decode0:inst3|lpm_decode:lpm_decode_component
+158. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|lpm_bustri1:inst1|lpm_bustri:lpm_bustri_component
+159. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_bustri3:inst6|lpm_bustri:lpm_bustri_component
+160. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_decode0:inst|lpm_decode:lpm_decode_component
+161. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_decode1:inst3|lpm_decode:lpm_decode_component
+162. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_dff0:inst4|lpm_ff:lpm_ff_component
+163. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_bustri3:inst10|lpm_bustri:lpm_bustri_component
+164. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_dff0:inst8|lpm_ff:lpm_ff_component
+165. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_bustri3:inst14|lpm_bustri:lpm_bustri_component
+166. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_dff0:inst12|lpm_ff:lpm_ff_component
+167. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_bustri3:inst18|lpm_bustri:lpm_bustri_component
+168. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_dff0:inst16|lpm_ff:lpm_ff_component
+169. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_bustri3:inst22|lpm_bustri:lpm_bustri_component
+170. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_dff0:inst20|lpm_ff:lpm_ff_component
+171. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_bustri3:inst26|lpm_bustri:lpm_bustri_component
+172. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_dff0:inst24|lpm_ff:lpm_ff_component
+173. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_bustri3:inst30|lpm_bustri:lpm_bustri_component
+174. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_dff0:inst28|lpm_ff:lpm_ff_component
+175. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_bustri3:inst34|lpm_bustri:lpm_bustri_component
+176. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_dff0:inst32|lpm_ff:lpm_ff_component
+177. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_bustri3:inst6|lpm_bustri:lpm_bustri_component
+178. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_decode0:inst|lpm_decode:lpm_decode_component
+179. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_decode1:inst3|lpm_decode:lpm_decode_component
+180. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_dff0:inst4|lpm_ff:lpm_ff_component
+181. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_bustri3:inst10|lpm_bustri:lpm_bustri_component
+182. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_dff0:inst8|lpm_ff:lpm_ff_component
+183. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_bustri3:inst14|lpm_bustri:lpm_bustri_component
+184. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_dff0:inst12|lpm_ff:lpm_ff_component
+185. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_bustri3:inst18|lpm_bustri:lpm_bustri_component
+186. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_dff0:inst16|lpm_ff:lpm_ff_component
+187. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_bustri3:inst22|lpm_bustri:lpm_bustri_component
+188. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_dff0:inst20|lpm_ff:lpm_ff_component
+189. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_bustri3:inst26|lpm_bustri:lpm_bustri_component
+190. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_dff0:inst24|lpm_ff:lpm_ff_component
+191. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_bustri3:inst30|lpm_bustri:lpm_bustri_component
+192. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_dff0:inst28|lpm_ff:lpm_ff_component
+193. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_bustri3:inst34|lpm_bustri:lpm_bustri_component
+194. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst5|lpm_dff0:inst32|lpm_ff:lpm_ff_component
+195. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_bustri3:inst6|lpm_bustri:lpm_bustri_component
+196. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_decode0:inst|lpm_decode:lpm_decode_component
+197. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_decode1:inst3|lpm_decode:lpm_decode_component
+198. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst4|lpm_ff:lpm_ff_component
+199. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_bustri3:inst10|lpm_bustri:lpm_bustri_component
+200. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst8|lpm_ff:lpm_ff_component
+201. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_bustri3:inst14|lpm_bustri:lpm_bustri_component
+202. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst12|lpm_ff:lpm_ff_component
+203. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_bustri3:inst18|lpm_bustri:lpm_bustri_component
+204. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst16|lpm_ff:lpm_ff_component
+205. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_bustri3:inst22|lpm_bustri:lpm_bustri_component
+206. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst20|lpm_ff:lpm_ff_component
+207. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_bustri3:inst26|lpm_bustri:lpm_bustri_component
+208. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst24|lpm_ff:lpm_ff_component
+209. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_bustri3:inst30|lpm_bustri:lpm_bustri_component
+210. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst28|lpm_ff:lpm_ff_component
+211. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_bustri3:inst34|lpm_bustri:lpm_bustri_component
+212. Parameter Settings for User Entity Instance: Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst32|lpm_ff:lpm_ff_component
+213. Parameter Settings for User Entity Instance: Cache:inst|lpm_bustri3:inst4|lpm_bustri:lpm_bustri_component
+214. Parameter Settings for User Entity Instance: Cache:inst|lpm_bustri3:inst5|lpm_bustri:lpm_bustri_component
+215. Parameter Settings for User Entity Instance: Cache:inst|lpm_bustri3:inst3|lpm_bustri:lpm_bustri_component
+216. Parameter Settings for User Entity Instance: MemoryBlock:inst1|lpm_bustri3:inst6|lpm_bustri:lpm_bustri_component
+217. Parameter Settings for User Entity Instance: MemoryBlock:inst1|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+218. Parameter Settings for User Entity Instance: MemoryBlock:inst1|lpm_ram_dq0:inst|altsyncram:altsyncram_component
+219. Parameter Settings for User Entity Instance: MemoryBlock:inst1|lpm_bustri3:inst7|lpm_bustri:lpm_bustri_component
+220. Parameter Settings for User Entity Instance: MemoryBlock:inst1|lpm_rom0:inst5|altsyncram:altsyncram_component
+221. altsyncram Parameter Settings by Entity Instance
+222. Analysis & Synthesis Messages
 
 
 
@@ -254,16 +253,16 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                            ;
 +-------------------------------+-----------------------------------------+
-; Analysis & Synthesis Status   ; Successful - Sat Apr 21 19:33:36 2018   ;
+; Analysis & Synthesis Status   ; Successful - Tue Apr 24 15:51:43 2018   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; CourseProject                           ;
 ; Top-level Entity Name         ; All                                     ;
 ; Family                        ; Stratix II                              ;
 ; Logic utilization             ; N/A                                     ;
-;     Combinational ALUTs       ; 992                                     ;
-;     Dedicated logic registers ; 492                                     ;
-; Total registers               ; 492                                     ;
-; Total pins                    ; 55                                      ;
+;     Combinational ALUTs       ; 1,001                                   ;
+;     Dedicated logic registers ; 493                                     ;
+; Total registers               ; 493                                     ;
+; Total pins                    ; 68                                      ;
 ; Total virtual pins            ; 0                                       ;
 ; Total block memory bits       ; 1,024                                   ;
 ; DSP block 9-bit elements      ; 0                                       ;
@@ -400,15 +399,17 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; lpm_mux4.vhd                     ; yes             ; User Wizard-Generated File            ; C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/lpm_mux4.vhd           ;
 ; lpm_decode3.vhd                  ; yes             ; User Wizard-Generated File            ; C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/lpm_decode3.vhd        ;
 ; All.bdf                          ; yes             ; User Block Diagram/Schematic File     ; C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/All.bdf                ;
+; lpm_decode.tdf                   ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_decode.tdf                ;
+; db/decode_ltf.tdf                ; yes             ; Auto-Generated Megafunction           ; C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/db/decode_ltf.tdf      ;
+; lpm_counter.tdf                  ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_counter.tdf               ;
+; lpm_counter.inc                  ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_counter.inc               ;
+; db/cntr_qoi.tdf                  ; yes             ; Auto-Generated Megafunction           ; C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/db/cntr_qoi.tdf        ;
 ; lpm_compare.tdf                  ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_compare.tdf               ;
 ; db/cmpr_big.tdf                  ; yes             ; Auto-Generated Megafunction           ; C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/db/cmpr_big.tdf        ;
 ; lpm_mux.tdf                      ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_mux.tdf                   ;
 ; db/mux_54e.tdf                   ; yes             ; Auto-Generated Megafunction           ; C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/db/mux_54e.tdf         ;
-; lpm_decode.tdf                   ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_decode.tdf                ;
 ; db/decode_0sf.tdf                ; yes             ; Auto-Generated Megafunction           ; C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/db/decode_0sf.tdf      ;
 ; db/mux_c4e.tdf                   ; yes             ; Auto-Generated Megafunction           ; C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/db/mux_c4e.tdf         ;
-; lpm_counter.tdf                  ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_counter.tdf               ;
-; lpm_counter.inc                  ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_counter.inc               ;
 ; db/cntr_u9j.tdf                  ; yes             ; Auto-Generated Megafunction           ; C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/db/cntr_u9j.tdf        ;
 ; lpm_mux0.tdf                     ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/lpm_mux0.tdf           ;
 ; lpm_mux.inc                      ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_mux.inc                   ;
@@ -417,8 +418,6 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; db/mux_34e.tdf                   ; yes             ; Auto-Generated Megafunction           ; C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/db/mux_34e.tdf         ;
 ; db/cmpr_mlg.tdf                  ; yes             ; Auto-Generated Megafunction           ; C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/db/cmpr_mlg.tdf        ;
 ; db/mux_94e.tdf                   ; yes             ; Auto-Generated Megafunction           ; C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/db/mux_94e.tdf         ;
-; db/decode_ltf.tdf                ; yes             ; Auto-Generated Megafunction           ; C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/db/decode_ltf.tdf      ;
-; db/cntr_qoi.tdf                  ; yes             ; Auto-Generated Megafunction           ; C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/db/cntr_qoi.tdf        ;
 ; lpm_bustri.tdf                   ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_bustri.tdf                ;
 ; lpm_counter4.tdf                 ; yes             ; Auto-Found Wizard-Generated File      ; C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/lpm_counter4.tdf       ;
 ; db/cntr_3ai.tdf                  ; yes             ; Auto-Generated Megafunction           ; C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/db/cntr_3ai.tdf        ;
@@ -434,39 +433,39 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-----------------------------------------------+------------------------------------------+
 ; Resource                                      ; Usage                                    ;
 +-----------------------------------------------+------------------------------------------+
-; Estimated ALUTs Used                          ; 992                                      ;
-; Dedicated logic registers                     ; 492                                      ;
+; Estimated ALUTs Used                          ; 1001                                     ;
+; Dedicated logic registers                     ; 493                                      ;
 ;                                               ;                                          ;
 ; Estimated ALUTs Unavailable                   ; 0                                        ;
 ;                                               ;                                          ;
-; Total combinational functions                 ; 992                                      ;
+; Total combinational functions                 ; 1001                                     ;
 ; Combinational ALUT usage by number of inputs  ;                                          ;
 ;     -- 7 input functions                      ; 0                                        ;
-;     -- 6 input functions                      ; 192                                      ;
-;     -- 5 input functions                      ; 99                                       ;
-;     -- 4 input functions                      ; 164                                      ;
-;     -- <=3 input functions                    ; 537                                      ;
+;     -- 6 input functions                      ; 198                                      ;
+;     -- 5 input functions                      ; 93                                       ;
+;     -- 4 input functions                      ; 171                                      ;
+;     -- <=3 input functions                    ; 539                                      ;
 ;                                               ;                                          ;
 ; Combinational ALUTs by mode                   ;                                          ;
-;     -- normal mode                            ; 856                                      ;
+;     -- normal mode                            ; 865                                      ;
 ;     -- extended LUT mode                      ; 0                                        ;
 ;     -- arithmetic mode                        ; 136                                      ;
 ;     -- shared arithmetic mode                 ; 0                                        ;
 ;                                               ;                                          ;
-; Estimated ALUT/register pairs used            ; 1224                                     ;
+; Estimated ALUT/register pairs used            ; 1237                                     ;
 ;                                               ;                                          ;
-; Total registers                               ; 492                                      ;
-;     -- Dedicated logic registers              ; 492                                      ;
+; Total registers                               ; 493                                      ;
+;     -- Dedicated logic registers              ; 493                                      ;
 ;     -- I/O registers                          ; 0                                        ;
 ;                                               ;                                          ;
-; Estimated ALMs:  partially or completely used ; 612                                      ;
+; Estimated ALMs:  partially or completely used ; 619                                      ;
 ;                                               ;                                          ;
-; I/O pins                                      ; 55                                       ;
+; I/O pins                                      ; 68                                       ;
 ; Total block memory bits                       ; 1024                                     ;
 ; Maximum fan-out node                          ; Cache:inst|CacheControlUnit:inst1|inst79 ;
 ; Maximum fan-out                               ; 256                                      ;
-; Total fan-out                                 ; 5380                                     ;
-; Average fan-out                               ; 3.46                                     ;
+; Total fan-out                                 ; 5435                                     ;
+; Average fan-out                               ; 3.44                                     ;
 +-----------------------------------------------+------------------------------------------+
 
 
@@ -475,9 +474,9 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                         ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                           ; Library Name ;
 +----------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |All                                               ; 992 (1)           ; 492 (0)      ; 1024              ; 0            ; 0       ; 0         ; 0         ; 55   ; 0            ; |All                                                                                                                                          ; work         ;
-;    |Cache:inst|                                    ; 983 (0)           ; 492 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst                                                                                                                               ;              ;
-;       |CacheControlUnit:inst1|                     ; 544 (33)          ; 236 (2)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1                                                                                                        ; work         ;
+; |All                                               ; 1001 (1)          ; 493 (0)      ; 1024              ; 0            ; 0       ; 0         ; 0         ; 68   ; 0            ; |All                                                                                                                                          ; work         ;
+;    |Cache:inst|                                    ; 991 (0)           ; 493 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst                                                                                                                               ;              ;
+;       |CacheControlUnit:inst1|                     ; 553 (35)          ; 237 (3)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1                                                                                                        ; work         ;
 ;          |CacheControlBlock:inst10|                ; 110 (12)          ; 56 (8)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10                                                                               ; work         ;
 ;             |AndNotForBusLines:inst49|             ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|AndNotForBusLines:inst49                                                      ; work         ;
 ;             |AndNotForBusLines:inst50|             ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|AndNotForBusLines:inst50                                                      ; work         ;
@@ -693,6 +692,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |Encoder:inst16|                          ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|Encoder:inst16                                                                                         ; work         ;
 ;          |lpm_bustri0:inst71|                      ; 5 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_bustri0:inst71                                                                                     ; work         ;
 ;             |lpm_bustri:lpm_bustri_component|      ; 5 (5)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_bustri0:inst71|lpm_bustri:lpm_bustri_component                                                     ; work         ;
+;          |lpm_bustri2:inst59|                      ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_bustri2:inst59                                                                                     ; work         ;
+;             |lpm_bustri:lpm_bustri_component|      ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_bustri2:inst59|lpm_bustri:lpm_bustri_component                                                     ; work         ;
 ;          |lpm_counter2:inst30|                     ; 4 (0)             ; 4 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst30                                                                                    ; work         ;
 ;             |lpm_counter:lpm_counter_component|    ; 4 (0)             ; 4 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst30|lpm_counter:lpm_counter_component                                                  ; work         ;
 ;                |cntr_qoi:auto_generated|           ; 4 (4)             ; 4 (4)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst30|lpm_counter:lpm_counter_component|cntr_qoi:auto_generated                          ; work         ;
@@ -705,12 +706,12 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |lpm_counter4:inst93|                     ; 1 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_counter4:inst93                                                                                    ; work         ;
 ;             |lpm_counter:lpm_counter_component|    ; 1 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_counter4:inst93|lpm_counter:lpm_counter_component                                                  ; work         ;
 ;                |cntr_3ai:auto_generated|           ; 1 (1)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_counter4:inst93|lpm_counter:lpm_counter_component|cntr_3ai:auto_generated                          ; work         ;
-;          |lpm_decode2:inst27|                      ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst27                                                                                     ; work         ;
-;             |lpm_decode:lpm_decode_component|      ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst27|lpm_decode:lpm_decode_component                                                     ; work         ;
-;                |decode_ltf:auto_generated|         ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst27|lpm_decode:lpm_decode_component|decode_ltf:auto_generated                           ; work         ;
-;          |lpm_decode2:inst28|                      ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst28                                                                                     ; work         ;
-;             |lpm_decode:lpm_decode_component|      ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst28|lpm_decode:lpm_decode_component                                                     ; work         ;
-;                |decode_ltf:auto_generated|         ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst28|lpm_decode:lpm_decode_component|decode_ltf:auto_generated                           ; work         ;
+;          |lpm_decode2:inst27|                      ; 7 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst27                                                                                     ; work         ;
+;             |lpm_decode:lpm_decode_component|      ; 7 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst27|lpm_decode:lpm_decode_component                                                     ; work         ;
+;                |decode_ltf:auto_generated|         ; 7 (7)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst27|lpm_decode:lpm_decode_component|decode_ltf:auto_generated                           ; work         ;
+;          |lpm_decode2:inst28|                      ; 5 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst28                                                                                     ; work         ;
+;             |lpm_decode:lpm_decode_component|      ; 5 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst28|lpm_decode:lpm_decode_component                                                     ; work         ;
+;                |decode_ltf:auto_generated|         ; 5 (5)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst28|lpm_decode:lpm_decode_component|decode_ltf:auto_generated                           ; work         ;
 ;          |lpm_mux0:inst3|                          ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_mux0:inst3                                                                                         ; work         ;
 ;             |lpm_mux:lpm_mux_component|            ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_mux0:inst3|lpm_mux:lpm_mux_component                                                               ; work         ;
 ;                |mux_tnc:auto_generated|            ; 4 (4)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_mux0:inst3|lpm_mux:lpm_mux_component|mux_tnc:auto_generated                                        ; work         ;
@@ -723,7 +724,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |lpm_mux3:inst23|                         ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_mux3:inst23                                                                                        ; work         ;
 ;             |lpm_mux:lpm_mux_component|            ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_mux3:inst23|lpm_mux:lpm_mux_component                                                              ; work         ;
 ;                |mux_34e:auto_generated|            ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheControlUnit:inst1|lpm_mux3:inst23|lpm_mux:lpm_mux_component|mux_34e:auto_generated                                       ; work         ;
-;       |CacheMemory:inst|                           ; 415 (0)           ; 256 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheMemory:inst                                                                                                              ; work         ;
+;       |CacheMemory:inst|                           ; 414 (0)           ; 256 (0)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheMemory:inst                                                                                                              ; work         ;
 ;          |CacheMemoryBlock:inst4|                  ; 14 (14)           ; 64 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4                                                                                       ; work         ;
 ;             |lpm_dff0:inst12|                      ; 0 (0)             ; 8 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_dff0:inst12                                                                       ; work         ;
 ;                |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 8 (8)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_dff0:inst12|lpm_ff:lpm_ff_component                                               ; work         ;
@@ -775,9 +776,9 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;                |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 8 (8)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst4|lpm_ff:lpm_ff_component                                                ; work         ;
 ;             |lpm_dff0:inst8|                       ; 0 (0)             ; 8 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst8                                                                        ; work         ;
 ;                |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 8 (8)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst6|lpm_dff0:inst8|lpm_ff:lpm_ff_component                                                ; work         ;
-;          |CacheMemoryBlock:inst|                   ; 377 (14)          ; 64 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst                                                                                        ; work         ;
-;             |lpm_bustri3:inst6|                    ; 363 (0)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_bustri3:inst6                                                                      ; work         ;
-;                |lpm_bustri:lpm_bustri_component|   ; 363 (363)         ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_bustri3:inst6|lpm_bustri:lpm_bustri_component                                      ; work         ;
+;          |CacheMemoryBlock:inst|                   ; 376 (14)          ; 64 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst                                                                                        ; work         ;
+;             |lpm_bustri3:inst6|                    ; 362 (0)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_bustri3:inst6                                                                      ; work         ;
+;                |lpm_bustri:lpm_bustri_component|   ; 362 (362)         ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_bustri3:inst6|lpm_bustri:lpm_bustri_component                                      ; work         ;
 ;             |lpm_dff0:inst12|                      ; 0 (0)             ; 8 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst12                                                                        ; work         ;
 ;                |lpm_ff:lpm_ff_component|           ; 0 (0)             ; 8 (8)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst12|lpm_ff:lpm_ff_component                                                ; work         ;
 ;             |lpm_dff0:inst16|                      ; 0 (0)             ; 8 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst16                                                                        ; work         ;
@@ -798,7 +799,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |lpm_bustri:lpm_bustri_component|         ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|lpm_bustri3:inst3|lpm_bustri:lpm_bustri_component                                                                             ; work         ;
 ;       |lpm_bustri3:inst4|                          ; 16 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|lpm_bustri3:inst4                                                                                                             ; work         ;
 ;          |lpm_bustri:lpm_bustri_component|         ; 16 (16)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|Cache:inst|lpm_bustri3:inst4|lpm_bustri:lpm_bustri_component                                                                             ; work         ;
-;    |MemoryBlock:inst1|                             ; 8 (0)             ; 0 (0)        ; 1024              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|MemoryBlock:inst1                                                                                                                        ; work         ;
+;    |MemoryBlock:inst1|                             ; 9 (1)             ; 0 (0)        ; 1024              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|MemoryBlock:inst1                                                                                                                        ; work         ;
 ;       |lpm_bustri3:inst6|                          ; 8 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|MemoryBlock:inst1|lpm_bustri3:inst6                                                                                                      ; work         ;
 ;          |lpm_bustri:lpm_bustri_component|         ; 8 (8)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|MemoryBlock:inst1|lpm_bustri3:inst6|lpm_bustri:lpm_bustri_component                                                                      ; work         ;
 ;       |lpm_ram_dq0:inst|                           ; 0 (0)             ; 0 (0)        ; 512               ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |All|MemoryBlock:inst1|lpm_ram_dq0:inst                                                                                                       ; work         ;
@@ -821,23 +822,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+------+--------------+
 
 
-+------------------------------------------------------------+
-; Logic Cells Representing Combinational Loops               ;
-+--------------------------------------------------------+---+
-; Logic Cell Name                                        ;   ;
-+--------------------------------------------------------+---+
-; Cache:inst|CacheControlUnit:inst1|inst32~0             ;   ;
-; Number of logic cells representing combinational loops ; 1 ;
-+--------------------------------------------------------+---+
-Note: All cells listed above may not be present at the end of synthesis due to various synthesis optimizations.
-
-
 +------------------------------------------------------+
 ; General Register Statistics                          ;
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 492   ;
+; Total registers                              ; 493   ;
 ; Number of registers using Synchronous Clear  ; 8     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 16    ;
@@ -854,6 +844,17 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------------------------------------------------+
 ; 4:1                ; 4 bits    ; 8 ALUTs       ; 8 ALUTs              ; 0 ALUTs                ; No         ; |All|Cache:inst|CacheControlUnit:inst1|lpm_mux0:inst3|lpm_mux:lpm_mux_component|mux_tnc:auto_generated|l2_w3_n0_mux_dataout ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Source assignments for Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst35|lpm_counter:lpm_counter_component ;
++---------------------------+-------+------+---------------------------------------------------------------------+
+; Assignment                ; Value ; From ; To                                                                  ;
++---------------------------+-------+------+---------------------------------------------------------------------+
+; SUPPRESS_DA_RULE_INTERNAL ; a101  ; -    ; -                                                                   ;
+; SUPPRESS_DA_RULE_INTERNAL ; s102  ; -    ; -                                                                   ;
+; SUPPRESS_DA_RULE_INTERNAL ; s103  ; -    ; -                                                                   ;
++---------------------------+-------+------+---------------------------------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------------------+
@@ -999,17 +1000,6 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +---------------------------+-------+------+---------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------+
-; Source assignments for Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst35|lpm_counter:lpm_counter_component ;
-+---------------------------+-------+------+---------------------------------------------------------------------+
-; Assignment                ; Value ; From ; To                                                                  ;
-+---------------------------+-------+------+---------------------------------------------------------------------+
-; SUPPRESS_DA_RULE_INTERNAL ; a101  ; -    ; -                                                                   ;
-; SUPPRESS_DA_RULE_INTERNAL ; s102  ; -    ; -                                                                   ;
-; SUPPRESS_DA_RULE_INTERNAL ; s103  ; -    ; -                                                                   ;
-+---------------------------+-------+------+---------------------------------------------------------------------+
-
-
 +----------------------------------------------------------------------------------------------------------------------------------------+
 ; Source assignments for Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_counter0:inst47|lpm_counter:lpm_counter_component ;
 +---------------------------+-------+------+---------------------------------------------------------------------------------------------+
@@ -1092,6 +1082,52 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +---------------------------------+--------------------+------+----------------------------------------------------------+
 ; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                        ;
 +---------------------------------+--------------------+------+----------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst28|lpm_decode:lpm_decode_component ;
++------------------------+------------+---------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value      ; Type                                                                                        ;
++------------------------+------------+---------------------------------------------------------------------------------------------+
+; LPM_WIDTH              ; 4          ; Signed Integer                                                                              ;
+; LPM_DECODES            ; 16         ; Signed Integer                                                                              ;
+; LPM_PIPELINE           ; 0          ; Untyped                                                                                     ;
+; CASCADE_CHAIN          ; MANUAL     ; Untyped                                                                                     ;
+; DEVICE_FAMILY          ; Stratix II ; Untyped                                                                                     ;
+; CBXI_PARAMETER         ; decode_ltf ; Untyped                                                                                     ;
+; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                                                                  ;
+; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                                                                ;
+; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                                                ;
+; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                                              ;
++------------------------+------------+---------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst35|lpm_counter:lpm_counter_component ;
++------------------------+-------------+-----------------------------------------------------------------------------------------------+
+; Parameter Name         ; Value       ; Type                                                                                          ;
++------------------------+-------------+-----------------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                                                    ;
+; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                                                  ;
+; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                                                  ;
+; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                                                ;
+; LPM_WIDTH              ; 4           ; Signed Integer                                                                                ;
+; LPM_DIRECTION          ; UP          ; Untyped                                                                                       ;
+; LPM_MODULUS            ; 0           ; Untyped                                                                                       ;
+; LPM_AVALUE             ; UNUSED      ; Untyped                                                                                       ;
+; LPM_SVALUE             ; UNUSED      ; Untyped                                                                                       ;
+; LPM_PORT_UPDOWN        ; PORT_UNUSED ; Untyped                                                                                       ;
+; DEVICE_FAMILY          ; Stratix II  ; Untyped                                                                                       ;
+; CARRY_CHAIN            ; MANUAL      ; Untyped                                                                                       ;
+; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                                            ;
+; NOT_GATE_PUSH_BACK     ; ON          ; NOT_GATE_PUSH_BACK                                                                            ;
+; CARRY_CNT_EN           ; SMART       ; Untyped                                                                                       ;
+; LABWIDE_SCLR           ; ON          ; Untyped                                                                                       ;
+; USE_NEW_VERSION        ; TRUE        ; Untyped                                                                                       ;
+; CBXI_PARAMETER         ; cntr_qoi    ; Untyped                                                                                       ;
++------------------------+-------------+-----------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +--------------------------------------------------------------------------------------------------------------------------------------+
@@ -2492,16 +2528,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst28|lpm_decode:lpm_decode_component ;
+; Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_decode0:inst25|lpm_decode:lpm_decode_component ;
 +------------------------+------------+---------------------------------------------------------------------------------------------+
 ; Parameter Name         ; Value      ; Type                                                                                        ;
 +------------------------+------------+---------------------------------------------------------------------------------------------+
-; LPM_WIDTH              ; 4          ; Signed Integer                                                                              ;
-; LPM_DECODES            ; 16         ; Signed Integer                                                                              ;
+; LPM_WIDTH              ; 2          ; Signed Integer                                                                              ;
+; LPM_DECODES            ; 4          ; Signed Integer                                                                              ;
 ; LPM_PIPELINE           ; 0          ; Untyped                                                                                     ;
 ; CASCADE_CHAIN          ; MANUAL     ; Untyped                                                                                     ;
 ; DEVICE_FAMILY          ; Stratix II ; Untyped                                                                                     ;
-; CBXI_PARAMETER         ; decode_ltf ; Untyped                                                                                     ;
+; CBXI_PARAMETER         ; decode_0sf ; Untyped                                                                                     ;
 ; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                                                                  ;
 ; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                                                                ;
 ; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                                                ;
@@ -2510,49 +2546,23 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst35|lpm_counter:lpm_counter_component ;
-+------------------------+-------------+-----------------------------------------------------------------------------------------------+
-; Parameter Name         ; Value       ; Type                                                                                          ;
-+------------------------+-------------+-----------------------------------------------------------------------------------------------+
-; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                                                    ;
-; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                                                  ;
-; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                                                  ;
-; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                                                ;
-; LPM_WIDTH              ; 4           ; Signed Integer                                                                                ;
-; LPM_DIRECTION          ; UP          ; Untyped                                                                                       ;
-; LPM_MODULUS            ; 0           ; Untyped                                                                                       ;
-; LPM_AVALUE             ; UNUSED      ; Untyped                                                                                       ;
-; LPM_SVALUE             ; UNUSED      ; Untyped                                                                                       ;
-; LPM_PORT_UPDOWN        ; PORT_UNUSED ; Untyped                                                                                       ;
-; DEVICE_FAMILY          ; Stratix II  ; Untyped                                                                                       ;
-; CARRY_CHAIN            ; MANUAL      ; Untyped                                                                                       ;
-; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                                            ;
-; NOT_GATE_PUSH_BACK     ; ON          ; NOT_GATE_PUSH_BACK                                                                            ;
-; CARRY_CNT_EN           ; SMART       ; Untyped                                                                                       ;
-; LABWIDE_SCLR           ; ON          ; Untyped                                                                                       ;
-; USE_NEW_VERSION        ; TRUE        ; Untyped                                                                                       ;
-; CBXI_PARAMETER         ; cntr_qoi    ; Untyped                                                                                       ;
-+------------------------+-------------+-----------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_bustri0:inst|lpm_bustri:lpm_bustri_component ;
++----------------+-------+--------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                   ;
++----------------+-------+--------------------------------------------------------------------------------------------------------+
+; LPM_WIDTH      ; 4     ; Signed Integer                                                                                         ;
++----------------+-------+--------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_mux2:inst21|LPM_MUX:lpm_mux_component ;
-+------------------------+------------+------------------------------------------------------------------------------------+
-; Parameter Name         ; Value      ; Type                                                                               ;
-+------------------------+------------+------------------------------------------------------------------------------------+
-; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                                                         ;
-; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                                                       ;
-; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                                       ;
-; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                                     ;
-; LPM_WIDTH              ; 1          ; Signed Integer                                                                     ;
-; LPM_SIZE               ; 4          ; Signed Integer                                                                     ;
-; LPM_WIDTHS             ; 2          ; Signed Integer                                                                     ;
-; LPM_PIPELINE           ; 0          ; Signed Integer                                                                     ;
-; CBXI_PARAMETER         ; mux_54e    ; Untyped                                                                            ;
-; DEVICE_FAMILY          ; Stratix II ; Untyped                                                                            ;
-+------------------------+------------+------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_bustri1:inst1|lpm_bustri:lpm_bustri_component ;
++----------------+-------+---------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                    ;
++----------------+-------+---------------------------------------------------------------------------------------------------------+
+; LPM_WIDTH      ; 2     ; Signed Integer                                                                                          ;
++----------------+-------+---------------------------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -2930,45 +2940,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_decode0:inst25|lpm_decode:lpm_decode_component ;
-+------------------------+------------+---------------------------------------------------------------------------------------------+
-; Parameter Name         ; Value      ; Type                                                                                        ;
-+------------------------+------------+---------------------------------------------------------------------------------------------+
-; LPM_WIDTH              ; 2          ; Signed Integer                                                                              ;
-; LPM_DECODES            ; 4          ; Signed Integer                                                                              ;
-; LPM_PIPELINE           ; 0          ; Untyped                                                                                     ;
-; CASCADE_CHAIN          ; MANUAL     ; Untyped                                                                                     ;
-; DEVICE_FAMILY          ; Stratix II ; Untyped                                                                                     ;
-; CBXI_PARAMETER         ; decode_0sf ; Untyped                                                                                     ;
-; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                                                                  ;
-; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                                                                ;
-; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                                                ;
-; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                                              ;
-+------------------------+------------+---------------------------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+---------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_bustri0:inst|lpm_bustri:lpm_bustri_component ;
-+----------------+-------+--------------------------------------------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                                                   ;
-+----------------+-------+--------------------------------------------------------------------------------------------------------+
-; LPM_WIDTH      ; 4     ; Signed Integer                                                                                         ;
-+----------------+-------+--------------------------------------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_bustri1:inst1|lpm_bustri:lpm_bustri_component ;
-+----------------+-------+---------------------------------------------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                                                    ;
-+----------------+-------+---------------------------------------------------------------------------------------------------------+
-; LPM_WIDTH      ; 2     ; Signed Integer                                                                                          ;
-+----------------+-------+---------------------------------------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
 +--------------------------------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_compare1:inst13|lpm_compare:lpm_compare_component ;
 +------------------------+------------+------------------------------------------------------------------------------------------------+
@@ -3038,6 +3009,25 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                                                   ;
 ; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                                                 ;
 +------------------------+------------+------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Cache:inst|CacheControlUnit:inst1|lpm_mux2:inst21|LPM_MUX:lpm_mux_component ;
++------------------------+------------+------------------------------------------------------------------------------------+
+; Parameter Name         ; Value      ; Type                                                                               ;
++------------------------+------------+------------------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                                                         ;
+; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                                                       ;
+; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                                       ;
+; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                                     ;
+; LPM_WIDTH              ; 1          ; Signed Integer                                                                     ;
+; LPM_SIZE               ; 4          ; Signed Integer                                                                     ;
+; LPM_WIDTHS             ; 2          ; Signed Integer                                                                     ;
+; LPM_PIPELINE           ; 0          ; Signed Integer                                                                     ;
+; CBXI_PARAMETER         ; mux_54e    ; Untyped                                                                            ;
+; DEVICE_FAMILY          ; Stratix II ; Untyped                                                                            ;
++------------------------+------------+------------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -4528,7 +4518,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Sat Apr 21 19:33:12 2018
+    Info: Processing started: Tue Apr 24 15:51:15 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CourseProject -c CourseProject
 Info: Found 1 design units, including 1 entities, in source file cache.bdf
     Info: Found entity 1: Cache
@@ -4622,6 +4612,27 @@ Info: Found 1 design units, including 1 entities, in source file all.bdf
 Info: Elaborating entity "All" for the top level hierarchy
 Info: Elaborating entity "Cache" for hierarchy "Cache:inst"
 Info: Elaborating entity "CacheControlUnit" for hierarchy "Cache:inst|CacheControlUnit:inst1"
+Info: Elaborating entity "lpm_decode2" for hierarchy "Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst28"
+Info: Elaborating entity "lpm_decode" for hierarchy "Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst28|lpm_decode:lpm_decode_component"
+Info: Elaborated megafunction instantiation "Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst28|lpm_decode:lpm_decode_component"
+Info: Instantiated megafunction "Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst28|lpm_decode:lpm_decode_component" with the following parameter:
+    Info: Parameter "lpm_decodes" = "16"
+    Info: Parameter "lpm_type" = "LPM_DECODE"
+    Info: Parameter "lpm_width" = "4"
+Info: Found 1 design units, including 1 entities, in source file db/decode_ltf.tdf
+    Info: Found entity 1: decode_ltf
+Info: Elaborating entity "decode_ltf" for hierarchy "Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst28|lpm_decode:lpm_decode_component|decode_ltf:auto_generated"
+Info: Elaborating entity "lpm_counter2" for hierarchy "Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst35"
+Info: Elaborating entity "lpm_counter" for hierarchy "Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst35|lpm_counter:lpm_counter_component"
+Info: Elaborated megafunction instantiation "Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst35|lpm_counter:lpm_counter_component"
+Info: Instantiated megafunction "Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst35|lpm_counter:lpm_counter_component" with the following parameter:
+    Info: Parameter "lpm_direction" = "UP"
+    Info: Parameter "lpm_port_updown" = "PORT_UNUSED"
+    Info: Parameter "lpm_type" = "LPM_COUNTER"
+    Info: Parameter "lpm_width" = "4"
+Info: Found 1 design units, including 1 entities, in source file db/cntr_qoi.tdf
+    Info: Found entity 1: cntr_qoi
+Info: Elaborating entity "cntr_qoi" for hierarchy "Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst35|lpm_counter:lpm_counter_component|cntr_qoi:auto_generated"
 Info: Elaborating entity "lpm_compare1" for hierarchy "Cache:inst|CacheControlUnit:inst1|lpm_compare1:inst12"
 Info: Elaborating entity "lpm_compare" for hierarchy "Cache:inst|CacheControlUnit:inst1|lpm_compare1:inst12|lpm_compare:lpm_compare_component"
 Info: Elaborated megafunction instantiation "Cache:inst|CacheControlUnit:inst1|lpm_compare1:inst12|lpm_compare:lpm_compare_component"
@@ -4740,27 +4751,6 @@ Info: Instantiated megafunction "Cache:inst|CacheControlUnit:inst1|ComparatorGet
 Info: Found 1 design units, including 1 entities, in source file db/mux_94e.tdf
     Info: Found entity 1: mux_94e
 Info: Elaborating entity "mux_94e" for hierarchy "Cache:inst|CacheControlUnit:inst1|ComparatorGetMax:inst11|lpm_mux4:inst1|LPM_MUX:lpm_mux_component|mux_94e:auto_generated"
-Info: Elaborating entity "lpm_decode2" for hierarchy "Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst27"
-Info: Elaborating entity "lpm_decode" for hierarchy "Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst27|lpm_decode:lpm_decode_component"
-Info: Elaborated megafunction instantiation "Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst27|lpm_decode:lpm_decode_component"
-Info: Instantiated megafunction "Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst27|lpm_decode:lpm_decode_component" with the following parameter:
-    Info: Parameter "lpm_decodes" = "16"
-    Info: Parameter "lpm_type" = "LPM_DECODE"
-    Info: Parameter "lpm_width" = "4"
-Info: Found 1 design units, including 1 entities, in source file db/decode_ltf.tdf
-    Info: Found entity 1: decode_ltf
-Info: Elaborating entity "decode_ltf" for hierarchy "Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst27|lpm_decode:lpm_decode_component|decode_ltf:auto_generated"
-Info: Elaborating entity "lpm_counter2" for hierarchy "Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst30"
-Info: Elaborating entity "lpm_counter" for hierarchy "Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst30|lpm_counter:lpm_counter_component"
-Info: Elaborated megafunction instantiation "Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst30|lpm_counter:lpm_counter_component"
-Info: Instantiated megafunction "Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst30|lpm_counter:lpm_counter_component" with the following parameter:
-    Info: Parameter "lpm_direction" = "UP"
-    Info: Parameter "lpm_port_updown" = "PORT_UNUSED"
-    Info: Parameter "lpm_type" = "LPM_COUNTER"
-    Info: Parameter "lpm_width" = "4"
-Info: Found 1 design units, including 1 entities, in source file db/cntr_qoi.tdf
-    Info: Found entity 1: cntr_qoi
-Info: Elaborating entity "cntr_qoi" for hierarchy "Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst30|lpm_counter:lpm_counter_component|cntr_qoi:auto_generated"
 Info: Elaborating entity "lpm_bustri0" for hierarchy "Cache:inst|CacheControlUnit:inst1|lpm_bustri0:inst"
 Info: Elaborating entity "lpm_bustri" for hierarchy "Cache:inst|CacheControlUnit:inst1|lpm_bustri0:inst|lpm_bustri:lpm_bustri_component"
 Info: Elaborated megafunction instantiation "Cache:inst|CacheControlUnit:inst1|lpm_bustri0:inst|lpm_bustri:lpm_bustri_component"
@@ -4951,12 +4941,11 @@ Warning: Clock multiplexers are found and protected
     Warning: Found clock multiplexer Cache:inst|CacheControlUnit:inst1|inst53~synth
     Warning: Found clock multiplexer Cache:inst|CacheControlUnit:inst1|inst83~synth
     Warning: Found clock multiplexer Cache:inst|CacheControlUnit:inst1|inst81~synth
-    Warning: Found clock multiplexer Cache:inst|CacheControlUnit:inst1|inst87~synth
+    Warning: Found clock multiplexer Cache:inst|CacheControlUnit:inst1|inst78~synth
     Warning: Found clock multiplexer Cache:inst|CacheControlUnit:inst1|inst85~synth
 Warning: Always-enabled tri-state buffer(s) removed
     Warning: Converted the fanout from the always-enabled tri-state buffer "Cache:inst|CacheControlUnit:inst1|lpm_bustri1:inst73|lpm_bustri:lpm_bustri_component|dout[1]" to the node "address_out[2]" into a wire
     Warning: Converted the fanout from the always-enabled tri-state buffer "Cache:inst|CacheControlUnit:inst1|lpm_bustri1:inst73|lpm_bustri:lpm_bustri_component|dout[0]" to the node "address_out[1]" into a wire
-    Warning: Converted the fanout from the always-enabled tri-state buffer "MemoryBlock:inst1|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component|dout[0]" to the node "MemoryBlock:inst1|inst11" into a wire
 Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "Cache:inst|CacheControlUnit:inst1|lpm_bustri1:inst73|lpm_bustri:lpm_bustri_component|dout[1]" to the node "MemoryBlock:inst1|lpm_ram_dq0:inst|altsyncram:altsyncram_component|altsyncram_poa1:auto_generated|q_a[0]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "Cache:inst|CacheControlUnit:inst1|lpm_bustri1:inst73|lpm_bustri:lpm_bustri_component|dout[0]" to the node "MemoryBlock:inst1|lpm_ram_dq0:inst|altsyncram:altsyncram_component|altsyncram_poa1:auto_generated|q_a[0]" into an OR gate
@@ -4968,6 +4957,7 @@ Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "Cache:inst|lpm_bustri3:inst3|lpm_bustri:lpm_bustri_component|dout[2]" to the node "MemoryBlock:inst1|lpm_ram_dq0:inst|altsyncram:altsyncram_component|altsyncram_poa1:auto_generated|q_a[2]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "Cache:inst|lpm_bustri3:inst3|lpm_bustri:lpm_bustri_component|dout[1]" to the node "MemoryBlock:inst1|lpm_ram_dq0:inst|altsyncram:altsyncram_component|altsyncram_poa1:auto_generated|q_a[1]" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "Cache:inst|lpm_bustri3:inst3|lpm_bustri:lpm_bustri_component|dout[0]" to the node "MemoryBlock:inst1|lpm_ram_dq0:inst|altsyncram:altsyncram_component|altsyncram_poa1:auto_generated|q_a[0]" into an OR gate
+    Warning: Converted the fan-out from the tri-state buffer "MemoryBlock:inst1|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component|dout[0]" to the node "MemoryBlock:inst1|inst11" into an OR gate
     Warning: Converted the fan-out from the tri-state buffer "Cache:inst|CacheMemory:inst|lpm_bustri2:inst2|lpm_bustri:lpm_bustri_component|dout[0]" to the node "Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|inst7" into an OR gate
 Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "Cache:inst|lpm_bustri3:inst4|lpm_bustri:lpm_bustri_component|dout[7]" to the node "Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_dff0:inst4|lpm_ff:lpm_ff_component|dffs[7]" into an OR gate
@@ -5001,15 +4991,15 @@ Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted the fan-out from the tri-state buffer "Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_bustri3:inst6|lpm_bustri:lpm_bustri_component|dout[0]" to the node "Cache:inst|lpm_bustri3:inst3|lpm_bustri:lpm_bustri_component|dout[0]" into an OR gate
 Warning: Output pins are stuck at VCC or GND
     Warning (13410): Pin "address_out[7]" is stuck at GND
-Info: Implemented 1383 device resources after synthesis - the final resource count might be different
+Info: Implemented 1405 device resources after synthesis - the final resource count might be different
     Info: Implemented 18 input pins
-    Info: Implemented 37 output pins
-    Info: Implemented 1312 logic cells
+    Info: Implemented 50 output pins
+    Info: Implemented 1321 logic cells
     Info: Implemented 16 RAM segments
 Info: Quartus II Analysis & Synthesis was successful. 0 errors, 146 warnings
-    Info: Peak virtual memory: 243 megabytes
-    Info: Processing ended: Sat Apr 21 19:33:37 2018
-    Info: Elapsed time: 00:00:25
-    Info: Total CPU time (on all processors): 00:00:30
+    Info: Peak virtual memory: 244 megabytes
+    Info: Processing ended: Tue Apr 24 15:51:44 2018
+    Info: Elapsed time: 00:00:29
+    Info: Total CPU time (on all processors): 00:00:23
 
 

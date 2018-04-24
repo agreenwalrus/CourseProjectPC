@@ -1875,8 +1875,8 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheControUnit.
 VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestCacheAndMemory.vwf")
 {
 	ZOOM{
-		ZBEGIN = 0;
-		ZEND = 24208;
+		ZBEGIN = 665966;
+		ZEND = 725934;
 		NUMERATOR = 760;
 		DENOMINATOR = 24208;
 		TOP_INDEX = 0;

@@ -390,7 +390,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 656 424 854 440)
+	(rect 656 424 832 440)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "enable_data_out_cpu" (rect 90 0 193 12)(font "Arial" ))
 	(pt 0 8)
@@ -406,7 +406,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 656 440 861 456)
+	(rect 656 440 832 456)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "enable_data_out_mem" (rect 90 0 200 12)(font "Arial" ))
 	(pt 0 8)
@@ -422,7 +422,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 656 456 847 472)
+	(rect 656 456 832 472)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "enable_data_in_cpu" (rect 90 0 186 12)(font "Arial" ))
 	(pt 0 8)
@@ -438,7 +438,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 656 472 854 488)
+	(rect 656 472 832 488)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "enable_data_in_mem" (rect 90 0 193 12)(font "Arial" ))
 	(pt 0 8)
@@ -798,11 +798,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 320 240)
-	(pt 336 240)
-	(bus)
-)
-(connector
 	(text "data_cache_to_cpu[7..0]" (rect 650 144 771 156)(font "Arial" ))
 	(pt 768 160)
 	(pt 640 160)
@@ -866,16 +861,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 320 240)
-	(pt 320 544)
-	(bus)
-)
-(connector
-	(pt 320 544)
-	(pt 1208 544)
-	(bus)
-)
-(connector
 	(pt 640 432)
 	(pt 656 432)
 )
@@ -890,4 +875,19 @@ applicable agreement for further details.
 (connector
 	(pt 640 480)
 	(pt 656 480)
+)
+(connector
+	(pt 336 240)
+	(pt 296 240)
+	(bus)
+)
+(connector
+	(pt 296 240)
+	(pt 296 544)
+	(bus)
+)
+(connector
+	(pt 1208 544)
+	(pt 296 544)
+	(bus)
 )

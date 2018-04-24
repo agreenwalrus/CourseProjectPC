@@ -495,8 +495,8 @@ Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_decode0:inst45
 Cache:inst|CacheControlUnit:inst1|lpm_decode0:inst18
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_decode0:inst45
 Cache:inst|CacheControlUnit:inst1|lpm_decode0:inst22
-Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode0:inst45
 Cache:inst|CacheControlUnit:inst1|lpm_decode0:inst25
+Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode0:inst45
 Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_decode0:inst
 Cache:inst|CacheMemory:inst|lpm_decode0:inst3
 Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_decode0:inst
@@ -606,13 +606,13 @@ Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_decode3:inst4|lpm
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_decode3:inst6|lpm_decode:lpm_decode_component
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_decode3:inst2|lpm_decode:lpm_decode_component
 Cache:inst|CacheControlUnit:inst1|lpm_decode0:inst22|lpm_decode:lpm_decode_component
+Cache:inst|CacheControlUnit:inst1|lpm_decode0:inst25|lpm_decode:lpm_decode_component
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode0:inst45|lpm_decode:lpm_decode_component
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode3:inst3|lpm_decode:lpm_decode_component
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode3:inst1|lpm_decode:lpm_decode_component
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode3:inst4|lpm_decode:lpm_decode_component
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode3:inst6|lpm_decode:lpm_decode_component
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode3:inst2|lpm_decode:lpm_decode_component
-Cache:inst|CacheControlUnit:inst1|lpm_decode0:inst25|lpm_decode:lpm_decode_component
 Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_decode0:inst|lpm_decode:lpm_decode_component
 Cache:inst|CacheMemory:inst|lpm_decode0:inst3|lpm_decode:lpm_decode_component
 Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_decode0:inst|lpm_decode:lpm_decode_component
@@ -677,13 +677,13 @@ Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_decode3:inst4|lpm
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_decode3:inst6|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_decode3:inst2|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 Cache:inst|CacheControlUnit:inst1|lpm_decode0:inst22|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
+Cache:inst|CacheControlUnit:inst1|lpm_decode0:inst25|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode0:inst45|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode3:inst3|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode3:inst1|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode3:inst4|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode3:inst6|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_decode3:inst2|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
-Cache:inst|CacheControlUnit:inst1|lpm_decode0:inst25|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst|lpm_decode0:inst|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 Cache:inst|CacheMemory:inst|lpm_decode0:inst3|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
 Cache:inst|CacheMemory:inst|CacheMemoryBlock:inst4|lpm_decode0:inst|lpm_decode:lpm_decode_component|decode_0sf:auto_generated
@@ -1098,9 +1098,9 @@ Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_mux2:inst46
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_mux2:inst82
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_mux2:inst46
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_mux2:inst82
-Cache:inst|CacheControlUnit:inst1|lpm_mux2:inst21
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_mux2:inst46
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_mux2:inst82
+Cache:inst|CacheControlUnit:inst1|lpm_mux2:inst21
 }
 # lmf
 |altera|91|quartus|lmf|maxplus2.lmf
@@ -1191,9 +1191,9 @@ Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_mux2:inst46|lpm_mu
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_mux2:inst82|lpm_mux:lpm_mux_component
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_mux2:inst46|lpm_mux:lpm_mux_component
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_mux2:inst82|lpm_mux:lpm_mux_component
-Cache:inst|CacheControlUnit:inst1|lpm_mux2:inst21|lpm_mux:lpm_mux_component
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_mux2:inst46|lpm_mux:lpm_mux_component
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_mux2:inst82|lpm_mux:lpm_mux_component
+Cache:inst|CacheControlUnit:inst1|lpm_mux2:inst21|lpm_mux:lpm_mux_component
 }
 # macro_sequence
 
@@ -1239,9 +1239,9 @@ Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_mux2:inst46|lpm_mu
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5|lpm_mux2:inst82|lpm_mux:lpm_mux_component|mux_54e:auto_generated
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_mux2:inst46|lpm_mux:lpm_mux_component|mux_54e:auto_generated
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10|lpm_mux2:inst82|lpm_mux:lpm_mux_component|mux_54e:auto_generated
-Cache:inst|CacheControlUnit:inst1|lpm_mux2:inst21|lpm_mux:lpm_mux_component|mux_54e:auto_generated
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_mux2:inst46|lpm_mux:lpm_mux_component|mux_54e:auto_generated
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4|lpm_mux2:inst82|lpm_mux:lpm_mux_component|mux_54e:auto_generated
+Cache:inst|CacheControlUnit:inst1|lpm_mux2:inst21|lpm_mux:lpm_mux_component|mux_54e:auto_generated
 }
 # macro_sequence
 
@@ -3998,8 +3998,8 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst27
 Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst28
+Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst27
 }
 # lmf
 |altera|91|quartus|lmf|maxplus2.lmf
@@ -4125,8 +4125,8 @@ data0
 3
 }
 # hierarchies {
-Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst27|lpm_decode:lpm_decode_component
 Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst28|lpm_decode:lpm_decode_component
+Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst27|lpm_decode:lpm_decode_component
 }
 # macro_sequence
 
@@ -4207,8 +4207,8 @@ data0
 3
 }
 # hierarchies {
-Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst27|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
 Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst28|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
+Cache:inst|CacheControlUnit:inst1|lpm_decode2:inst27|lpm_decode:lpm_decode_component|decode_ltf:auto_generated
 }
 # macro_sequence
 
@@ -4238,8 +4238,8 @@ AUTO_ROM_RECOGNITION
 ON
 }
 # hierarchies {
-Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst30
 Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst35
+Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst30
 }
 # lmf
 |altera|91|quartus|lmf|maxplus2.lmf
@@ -4355,8 +4355,8 @@ clk_en
 3
 }
 # hierarchies {
-Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst30|lpm_counter:lpm_counter_component
 Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst35|lpm_counter:lpm_counter_component
+Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst30|lpm_counter:lpm_counter_component
 }
 # macro_sequence
 
@@ -4395,8 +4395,8 @@ clk_en
 3
 }
 # hierarchies {
-Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst30|lpm_counter:lpm_counter_component|cntr_qoi:auto_generated
 Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst35|lpm_counter:lpm_counter_component|cntr_qoi:auto_generated
+Cache:inst|CacheControlUnit:inst1|lpm_counter2:inst30|lpm_counter:lpm_counter_component|cntr_qoi:auto_generated
 }
 # macro_sequence
 
@@ -4708,46 +4708,6 @@ Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst6
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst5
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst10
 Cache:inst|CacheControlUnit:inst1|CacheControlBlock:inst4
-}
-# macro_sequence
-
-# end
-# entity
-Cache
-# storage
-db|CourseProject.(71).cnf
-db|CourseProject.(71).cnf
-# case_insensitive
-# source_file
-cache.bdf
-ca9ca3aef090bed0abb8b271e8633689
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-Cache:inst
-}
-# macro_sequence
-
-# end
-# entity
-CacheControlUnit
-# storage
-db|CourseProject.(72).cnf
-db|CourseProject.(72).cnf
-# case_insensitive
-# source_file
-cachecontrolunit.bdf
-2c71694bdd7baa257728fa72d4ca19d
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-Cache:inst|CacheControlUnit:inst1
 }
 # macro_sequence
 
@@ -5382,26 +5342,6 @@ MemoryBlock:inst1|lpm_rom0:inst5|altsyncram:altsyncram_component
 
 # end
 # entity
-MemoryBlock
-# storage
-db|CourseProject.(73).cnf
-db|CourseProject.(73).cnf
-# case_insensitive
-# source_file
-memoryblock.bdf
-30e72ad31640d7ee4623c5f92fd3219
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-MemoryBlock:inst1
-}
-# macro_sequence
-
-# end
-# entity
 altsyncram_poa1
 # storage
 db|CourseProject.(76).cnf
@@ -5576,7 +5516,7 @@ db|CourseProject.(0).cnf
 # case_insensitive
 # source_file
 all.bdf
-bf972eb51e1ed4a07923ca77641a190
+f885933664c390d98a337c9df7bdf12a
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
@@ -5584,6 +5524,66 @@ AUTO
 }
 # hierarchies {
 |
+}
+# macro_sequence
+
+# end
+# entity
+Cache
+# storage
+db|CourseProject.(71).cnf
+db|CourseProject.(71).cnf
+# case_insensitive
+# source_file
+cache.bdf
+2979a0fb481ccdd5822f61b18ad99
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Cache:inst
+}
+# macro_sequence
+
+# end
+# entity
+CacheControlUnit
+# storage
+db|CourseProject.(72).cnf
+db|CourseProject.(72).cnf
+# case_insensitive
+# source_file
+cachecontrolunit.bdf
+951ee59c78bb81e488cef9ba211674d
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Cache:inst|CacheControlUnit:inst1
+}
+# macro_sequence
+
+# end
+# entity
+MemoryBlock
+# storage
+db|CourseProject.(73).cnf
+db|CourseProject.(73).cnf
+# case_insensitive
+# source_file
+memoryblock.bdf
+38ec2971b04fa121923dacb1e83945c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+MemoryBlock:inst1
 }
 # macro_sequence
 

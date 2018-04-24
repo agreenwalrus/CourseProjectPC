@@ -390,7 +390,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 48 904 246 920)
+	(rect 48 904 224 920)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "enable_data_out_cpu" (rect 90 0 193 12)(font "Arial" ))
 	(pt 0 8)
@@ -406,7 +406,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 48 928 253 944)
+	(rect 48 928 224 944)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "enable_data_out_mem" (rect 90 0 200 12)(font "Arial" ))
 	(pt 0 8)
@@ -422,7 +422,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 48 952 239 968)
+	(rect 48 952 224 968)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "enable_data_in_cpu" (rect 90 0 186 12)(font "Arial" ))
 	(pt 0 8)
@@ -438,7 +438,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 48 976 246 992)
+	(rect 48 976 224 992)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "enable_data_in_mem" (rect 90 0 193 12)(font "Arial" ))
 	(pt 0 8)
@@ -754,8 +754,8 @@ applicable agreement for further details.
 	(port
 		(pt 304 208)
 		(output)
-		(text "HIT" (rect 0 0 17 14)(font "Arial" (font_size 8)))
-		(text "HIT" (rect 266 203 283 217)(font "Arial" (font_size 8)))
+		(text "_HIT" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "_HIT" (rect 259 203 283 217)(font "Arial" (font_size 8)))
 		(line (pt 304 208)(pt 288 208)(line_width 1))
 	)
 	(port

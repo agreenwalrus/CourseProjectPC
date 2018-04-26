@@ -1,17 +1,17 @@
-Fitter Status : Successful - Tue Apr 24 15:52:17 2018
+Fitter Status : Successful - Thu Apr 26 23:15:25 2018
 Quartus II Version : 9.1 Build 222 10/21/2009 SJ Web Edition
 Revision Name : CourseProject
-Top-level Entity Name : All
+Top-level Entity Name : Stack
 Family : Stratix II
 Device : EP2S15F484C3
 Timing Models : Final
-Logic utilization : 9 %
-    Combinational ALUTs : 1,007 / 12,480 ( 8 % )
-    Dedicated logic registers : 493 / 12,480 ( 4 % )
-Total registers : 493
-Total pins : 68 / 343 ( 20 % )
+Logic utilization : < 1 %
+    Combinational ALUTs : 30 / 12,480 ( < 1 % )
+    Dedicated logic registers : 43 / 12,480 ( < 1 % )
+Total registers : 43
+Total pins : 24 / 343 ( 7 % )
 Total virtual pins : 0
-Total block memory bits : 1,024 / 419,328 ( < 1 % )
+Total block memory bits : 0 / 419,328 ( 0 % )
 DSP block 9-bit elements : 0 / 96 ( 0 % )
 Total PLLs : 0 / 6 ( 0 % )
 Total DLLs : 0 / 2 ( 0 % )

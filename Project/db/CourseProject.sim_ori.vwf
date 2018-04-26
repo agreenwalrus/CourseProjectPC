@@ -24,194 +24,12 @@ HEADER
 {
 	VERSION = 1;
 	TIME_UNIT = ns;
-	PRINT_OPTIONS = "Print_options_version 6\
-range_start 0ps\
-range_end 1.0us\
-width 1\
-names_percentage 25\
-comments 1\
-grid_lines 1\
-time_bars 1\
-name_every_page 0\
-expand_groups 0\
-print_all 1\
-print_row_height 100";
 	DATA_OFFSET = 0.0;
 	DATA_DURATION = 1000.0;
 	SIMULATION_TIME = 1000.0;
 	GRID_PHASE = 0.0;
 	GRID_PERIOD = 10.0;
 	GRID_DUTY_CYCLE = 50;
-}
-
-SIGNAL("address_in")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = BUS;
-	WIDTH = 7;
-	LSB_INDEX = 0;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("address_in[6]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "address_in";
-}
-
-SIGNAL("address_in[5]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "address_in";
-}
-
-SIGNAL("address_in[4]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "address_in";
-}
-
-SIGNAL("address_in[3]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "address_in";
-}
-
-SIGNAL("address_in[2]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "address_in";
-}
-
-SIGNAL("address_in[1]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "address_in";
-}
-
-SIGNAL("address_in[0]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "address_in";
-}
-
-SIGNAL("address_out")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = BUS;
-	WIDTH = 8;
-	LSB_INDEX = 0;
-	DIRECTION = OUTPUT;
-	PARENT = "";
-}
-
-SIGNAL("address_out[7]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "address_out";
-}
-
-SIGNAL("address_out[6]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "address_out";
-}
-
-SIGNAL("address_out[5]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "address_out";
-}
-
-SIGNAL("address_out[4]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "address_out";
-}
-
-SIGNAL("address_out[3]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "address_out";
-}
-
-SIGNAL("address_out[2]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "address_out";
-}
-
-SIGNAL("address_out[1]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "address_out";
-}
-
-SIGNAL("address_out[0]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "address_out";
 }
 
 SIGNAL("clk")
@@ -224,97 +42,7 @@ SIGNAL("clk")
 	PARENT = "";
 }
 
-SIGNAL("data_cache_to_cpu")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = BUS;
-	WIDTH = 8;
-	LSB_INDEX = 0;
-	DIRECTION = OUTPUT;
-	PARENT = "";
-}
-
-SIGNAL("data_cache_to_cpu[7]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "data_cache_to_cpu";
-}
-
-SIGNAL("data_cache_to_cpu[6]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "data_cache_to_cpu";
-}
-
-SIGNAL("data_cache_to_cpu[5]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "data_cache_to_cpu";
-}
-
-SIGNAL("data_cache_to_cpu[4]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "data_cache_to_cpu";
-}
-
-SIGNAL("data_cache_to_cpu[3]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "data_cache_to_cpu";
-}
-
-SIGNAL("data_cache_to_cpu[2]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "data_cache_to_cpu";
-}
-
-SIGNAL("data_cache_to_cpu[1]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "data_cache_to_cpu";
-}
-
-SIGNAL("data_cache_to_cpu[0]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "data_cache_to_cpu";
-}
-
-SIGNAL("data_in_cpu")
+SIGNAL("data_in")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = BUS;
@@ -324,84 +52,84 @@ SIGNAL("data_in_cpu")
 	PARENT = "";
 }
 
-SIGNAL("data_in_cpu[7]")
+SIGNAL("data_in[7]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "data_in_cpu";
+	PARENT = "data_in";
 }
 
-SIGNAL("data_in_cpu[6]")
+SIGNAL("data_in[6]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "data_in_cpu";
+	PARENT = "data_in";
 }
 
-SIGNAL("data_in_cpu[5]")
+SIGNAL("data_in[5]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "data_in_cpu";
+	PARENT = "data_in";
 }
 
-SIGNAL("data_in_cpu[4]")
+SIGNAL("data_in[4]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "data_in_cpu";
+	PARENT = "data_in";
 }
 
-SIGNAL("data_in_cpu[3]")
+SIGNAL("data_in[3]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "data_in_cpu";
+	PARENT = "data_in";
 }
 
-SIGNAL("data_in_cpu[2]")
+SIGNAL("data_in[2]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "data_in_cpu";
+	PARENT = "data_in";
 }
 
-SIGNAL("data_in_cpu[1]")
+SIGNAL("data_in[1]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "data_in_cpu";
+	PARENT = "data_in";
 }
 
-SIGNAL("data_in_cpu[0]")
+SIGNAL("data_in[0]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = INPUT;
-	PARENT = "data_in_cpu";
+	PARENT = "data_in";
 }
 
 SIGNAL("data_out")
@@ -494,7 +222,7 @@ SIGNAL("data_out[0]")
 	PARENT = "data_out";
 }
 
-SIGNAL("HIT")
+SIGNAL("is_empty")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -504,7 +232,7 @@ SIGNAL("HIT")
 	PARENT = "";
 }
 
-SIGNAL("mem_read_enable")
+SIGNAL("is_full")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -514,37 +242,7 @@ SIGNAL("mem_read_enable")
 	PARENT = "";
 }
 
-SIGNAL("mem_write_enable")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "";
-}
-
-SIGNAL("memory_clk_in")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "";
-}
-
-SIGNAL("memory_clk_out")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "";
-}
-
-SIGNAL("read_strob")
+SIGNAL("pop")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -554,7 +252,7 @@ SIGNAL("read_strob")
 	PARENT = "";
 }
 
-SIGNAL("write_strob")
+SIGNAL("push")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -564,530 +262,44 @@ SIGNAL("write_strob")
 	PARENT = "";
 }
 
-SIGNAL("data_out_memory")
+SIGNAL("SP")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = BUS;
-	WIDTH = 8;
+	WIDTH = 3;
 	LSB_INDEX = 0;
 	DIRECTION = OUTPUT;
 	PARENT = "";
 }
 
-SIGNAL("data_out_memory[7]")
+SIGNAL("SP[2]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "data_out_memory";
+	PARENT = "SP";
 }
 
-SIGNAL("data_out_memory[6]")
+SIGNAL("SP[1]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "data_out_memory";
+	PARENT = "SP";
 }
 
-SIGNAL("data_out_memory[5]")
+SIGNAL("SP[0]")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
 	WIDTH = 1;
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
-	PARENT = "data_out_memory";
-}
-
-SIGNAL("data_out_memory[4]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "data_out_memory";
-}
-
-SIGNAL("data_out_memory[3]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "data_out_memory";
-}
-
-SIGNAL("data_out_memory[2]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "data_out_memory";
-}
-
-SIGNAL("data_out_memory[1]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "data_out_memory";
-}
-
-SIGNAL("data_out_memory[0]")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "data_out_memory";
-}
-
-SIGNAL("is_busy")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "";
-}
-
-SIGNAL("is_changed")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "";
-}
-
-SIGNAL("11")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "";
-}
-
-SIGNAL("12")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "";
-}
-
-SIGNAL("13")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "";
-}
-
-SIGNAL("14")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "";
-}
-
-SIGNAL("21")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "";
-}
-
-SIGNAL("22")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "";
-}
-
-SIGNAL("23")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "";
-}
-
-SIGNAL("enable_data_out_cpu")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "";
-}
-
-SIGNAL("enable_data_out_mem")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "";
-}
-
-SIGNAL("enable_data_in_cpu")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "";
-}
-
-SIGNAL("enable_data_in_mem")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = OUTPUT;
-	PARENT = "";
-}
-
-TRANSITION_LIST("address_in[6]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("address_in[5]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 512.0;
-		LEVEL 1 FOR 488.0;
-	}
-}
-
-TRANSITION_LIST("address_in[4]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 256.0;
-		LEVEL 1 FOR 256.0;
-		LEVEL 0 FOR 256.0;
-		LEVEL 1 FOR 232.0;
-	}
-}
-
-TRANSITION_LIST("address_in[3]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 128.0;
-			LEVEL 1 FOR 128.0;
-		}
-		LEVEL 0 FOR 128.0;
-		LEVEL 1 FOR 104.0;
-	}
-}
-
-TRANSITION_LIST("address_in[2]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL 0 FOR 64.0;
-			LEVEL 1 FOR 64.0;
-		}
-		LEVEL 0 FOR 64.0;
-		LEVEL 1 FOR 40.0;
-	}
-}
-
-TRANSITION_LIST("address_in[1]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 0 FOR 32.0;
-			LEVEL 1 FOR 32.0;
-		}
-		LEVEL 0 FOR 32.0;
-		LEVEL 1 FOR 8.0;
-	}
-}
-
-TRANSITION_LIST("address_in[0]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 31;
-			LEVEL 0 FOR 16.0;
-			LEVEL 1 FOR 16.0;
-		}
-		LEVEL 0 FOR 8.0;
-	}
-}
-
-TRANSITION_LIST("address_out[7]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("address_out[6]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL Z FOR 0.799;
-		LEVEL 1 FOR 6.201;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL Z FOR 25.78;
-			LEVEL 1 FOR 6.22;
-		}
-		LEVEL Z FOR 25.78;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 1 FOR 12.22;
-			LEVEL Z FOR 19.78;
-		}
-		LEVEL 1 FOR 7.22;
-	}
-}
-
-TRANSITION_LIST("address_out[5]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL Z FOR 0.799;
-		LEVEL 0 FOR 6.201;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL Z FOR 25.78;
-			LEVEL 0 FOR 6.22;
-		}
-		LEVEL Z FOR 25.78;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 0 FOR 4.22;
-			LEVEL 1 FOR 8.0;
-			LEVEL Z FOR 19.78;
-		}
-		LEVEL 0 FOR 4.22;
-		LEVEL 1 FOR 3.0;
-	}
-}
-
-TRANSITION_LIST("address_out[4]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL Z FOR 0.799;
-		LEVEL 0 FOR 6.201;
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL Z FOR 25.78;
-			LEVEL 0 FOR 6.22;
-		}
-		NODE
-		{
-			REPEAT = 8;
-			LEVEL Z FOR 25.78;
-			LEVEL 1 FOR 6.22;
-		}
-		LEVEL Z FOR 25.78;
-		NODE
-		{
-			REPEAT = 8;
-			LEVEL 0 FOR 12.22;
-			LEVEL Z FOR 19.78;
-		}
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL 1 FOR 12.22;
-			LEVEL Z FOR 19.78;
-		}
-		LEVEL 1 FOR 7.22;
-	}
-}
-
-TRANSITION_LIST("address_out[3]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL Z FOR 0.799;
-		LEVEL 0 FOR 6.201;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL Z FOR 25.78;
-			LEVEL 0 FOR 6.22;
-		}
-		NODE
-		{
-			REPEAT = 4;
-			LEVEL Z FOR 25.78;
-			LEVEL 1 FOR 6.22;
-		}
-		NODE
-		{
-			REPEAT = 4;
-			LEVEL Z FOR 25.78;
-			LEVEL 0 FOR 6.22;
-		}
-		NODE
-		{
-			REPEAT = 4;
-			LEVEL Z FOR 25.78;
-			LEVEL 1 FOR 6.22;
-		}
-		LEVEL Z FOR 25.78;
-		NODE
-		{
-			REPEAT = 4;
-			LEVEL 0 FOR 12.22;
-			LEVEL Z FOR 19.78;
-		}
-		NODE
-		{
-			REPEAT = 4;
-			LEVEL 1 FOR 12.22;
-			LEVEL Z FOR 19.78;
-		}
-		NODE
-		{
-			REPEAT = 4;
-			LEVEL 0 FOR 12.22;
-			LEVEL Z FOR 19.78;
-		}
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 1 FOR 12.22;
-			LEVEL Z FOR 19.78;
-		}
-		LEVEL 1 FOR 7.22;
-	}
-}
-
-TRANSITION_LIST("address_out[2]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL 0 FOR 64.0;
-			LEVEL 1 FOR 64.0;
-		}
-		LEVEL 0 FOR 64.0;
-		LEVEL 1 FOR 40.0;
-	}
-}
-
-TRANSITION_LIST("address_out[1]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 0 FOR 32.0;
-			LEVEL 1 FOR 32.0;
-		}
-		LEVEL 0 FOR 32.0;
-		LEVEL 1 FOR 8.0;
-	}
-}
-
-TRANSITION_LIST("address_out[0]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 3.0;
-		NODE
-		{
-			REPEAT = 16;
-			LEVEL 1 FOR 2.0;
-			LEVEL 0 FOR 30.0;
-		}
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 1 FOR 2.0;
-			LEVEL 0 FOR 4.0;
-			LEVEL 1 FOR 2.0;
-			LEVEL 0 FOR 24.0;
-		}
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 3.0;
-	}
+	PARENT = "SP";
 }
 
 TRANSITION_LIST("clk")
@@ -1097,801 +309,121 @@ TRANSITION_LIST("clk")
 		REPEAT = 1;
 		NODE
 		{
-			REPEAT = 500;
-			LEVEL 0 FOR 1.0;
-			LEVEL 1 FOR 1.0;
+			REPEAT = 100;
+			LEVEL 0 FOR 5.0;
+			LEVEL 1 FOR 5.0;
 		}
 	}
 }
 
-TRANSITION_LIST("data_cache_to_cpu[7]")
+TRANSITION_LIST("data_in[7]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 7.0;
-		LEVEL 0 FOR 8.598;
-		LEVEL Z FOR 0.953;
-		LEVEL 0 FOR 14.578;
-		LEVEL Z FOR 7.871;
-		LEVEL 0 FOR 1.0;
-		LEVEL 1 FOR 7.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 7.5;
-		LEVEL 0 FOR 1.0;
-		LEVEL 1 FOR 7.5;
-		LEVEL Z FOR 1.351;
-		LEVEL 0 FOR 1.149;
-		LEVEL 1 FOR 13.95;
-		LEVEL Z FOR 7.05;
-		NODE
-		{
-			REPEAT = 12;
-			LEVEL 0 FOR 1.0;
-			LEVEL 1 FOR 7.5;
-			LEVEL Z FOR 1.28;
-			LEVEL 0 FOR 14.72;
-			LEVEL Z FOR 7.5;
-		}
-		LEVEL 0 FOR 1.0;
-		LEVEL 1 FOR 7.5;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL Z FOR 1.28;
-			LEVEL 0 FOR 14.72;
-			LEVEL Z FOR 13.5;
-			LEVEL 0 FOR 1.0;
-			LEVEL 1 FOR 1.5;
-		}
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 8.5;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
-TRANSITION_LIST("data_cache_to_cpu[6]")
+TRANSITION_LIST("data_in[6]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 7.0;
-		LEVEL 0 FOR 8.598;
-		LEVEL Z FOR 0.953;
-		LEVEL 0 FOR 14.578;
-		LEVEL Z FOR 7.871;
-		LEVEL 0 FOR 8.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 7.5;
-		LEVEL 0 FOR 8.5;
-		LEVEL Z FOR 1.351;
-		LEVEL 0 FOR 15.099;
-		LEVEL Z FOR 7.05;
-		NODE
-		{
-			REPEAT = 12;
-			LEVEL 0 FOR 8.5;
-			LEVEL Z FOR 1.28;
-			LEVEL 0 FOR 14.72;
-			LEVEL Z FOR 7.5;
-		}
-		LEVEL 0 FOR 8.5;
-		NODE
-		{
-			REPEAT = 6;
-			LEVEL Z FOR 1.28;
-			LEVEL 0 FOR 14.72;
-			LEVEL Z FOR 13.5;
-			LEVEL 0 FOR 2.5;
-		}
-		NODE
-		{
-			REPEAT = 9;
-			LEVEL Z FOR 1.28;
-			LEVEL 0 FOR 14.72;
-			LEVEL Z FOR 13.5;
-			LEVEL 0 FOR 1.0;
-			LEVEL 1 FOR 1.5;
-		}
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 8.5;
+		LEVEL 0 FOR 640.0;
+		LEVEL 1 FOR 360.0;
 	}
 }
 
-TRANSITION_LIST("data_cache_to_cpu[5]")
+TRANSITION_LIST("data_in[5]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 7.0;
-		LEVEL 0 FOR 8.598;
-		LEVEL Z FOR 0.953;
-		LEVEL 0 FOR 14.578;
-		LEVEL Z FOR 7.871;
-		LEVEL 0 FOR 1.0;
-		LEVEL 1 FOR 7.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 7.5;
-		LEVEL 0 FOR 1.0;
-		LEVEL 1 FOR 7.5;
-		LEVEL Z FOR 1.351;
-		LEVEL 0 FOR 1.149;
-		LEVEL 1 FOR 13.95;
-		LEVEL Z FOR 7.05;
-		NODE
-		{
-			REPEAT = 12;
-			LEVEL 0 FOR 1.0;
-			LEVEL 1 FOR 7.5;
-			LEVEL Z FOR 1.28;
-			LEVEL 0 FOR 14.72;
-			LEVEL Z FOR 7.5;
-		}
-		LEVEL 0 FOR 1.0;
-		LEVEL 1 FOR 7.5;
-		NODE
-		{
-			REPEAT = 6;
-			LEVEL Z FOR 1.28;
-			LEVEL 1 FOR 14.72;
-			LEVEL Z FOR 13.5;
-			LEVEL 1 FOR 2.5;
-		}
-		NODE
-		{
-			REPEAT = 9;
-			LEVEL Z FOR 1.28;
-			LEVEL 1 FOR 14.72;
-			LEVEL Z FOR 13.5;
-			LEVEL 1 FOR 1.0;
-			LEVEL 0 FOR 1.5;
-		}
-		LEVEL Z FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL Z FOR 8.5;
+		LEVEL 0 FOR 320.0;
+		LEVEL 1 FOR 640.0;
+		LEVEL 0 FOR 40.0;
 	}
 }
 
-TRANSITION_LIST("data_cache_to_cpu[4]")
+TRANSITION_LIST("data_in[4]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 7.0;
-		LEVEL 0 FOR 8.598;
-		LEVEL Z FOR 0.953;
-		LEVEL 0 FOR 14.578;
-		LEVEL Z FOR 7.871;
-		LEVEL 0 FOR 8.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 7.5;
-		LEVEL 0 FOR 8.5;
-		LEVEL Z FOR 1.351;
-		LEVEL 0 FOR 15.099;
-		LEVEL Z FOR 7.05;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 8.5;
-			LEVEL Z FOR 1.28;
-			LEVEL 0 FOR 14.72;
-			LEVEL Z FOR 7.5;
-		}
-		LEVEL 0 FOR 1.0;
-		LEVEL 1 FOR 7.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 7.5;
-		LEVEL 0 FOR 1.0;
-		LEVEL 1 FOR 7.5;
-		NODE
-		{
-			REPEAT = 8;
-			LEVEL Z FOR 1.28;
-			LEVEL 1 FOR 14.72;
-			LEVEL Z FOR 7.5;
-			LEVEL 1 FOR 8.5;
-		}
-		NODE
-		{
-			REPEAT = 6;
-			LEVEL Z FOR 1.28;
-			LEVEL 0 FOR 14.72;
-			LEVEL Z FOR 13.5;
-			LEVEL 0 FOR 1.0;
-			LEVEL 1 FOR 1.5;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 1.28;
-			LEVEL 0 FOR 14.72;
-			LEVEL Z FOR 13.5;
-			LEVEL 0 FOR 2.5;
-		}
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL Z FOR 1.28;
-			LEVEL 1 FOR 14.72;
-			LEVEL Z FOR 13.5;
-			LEVEL 1 FOR 1.0;
-			LEVEL 0 FOR 1.5;
-		}
-		LEVEL Z FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL Z FOR 8.5;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 320.0;
+		LEVEL 0 FOR 320.0;
+		LEVEL 1 FOR 200.0;
 	}
 }
 
-TRANSITION_LIST("data_cache_to_cpu[3]")
+TRANSITION_LIST("data_in[3]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 7.0;
-		LEVEL 0 FOR 8.598;
-		LEVEL Z FOR 0.953;
-		LEVEL 0 FOR 14.578;
-		LEVEL Z FOR 7.871;
-		LEVEL 0 FOR 1.0;
-		LEVEL 1 FOR 7.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 7.5;
-		LEVEL 0 FOR 1.0;
-		LEVEL 1 FOR 7.5;
-		LEVEL Z FOR 1.351;
-		LEVEL 0 FOR 1.149;
-		LEVEL 1 FOR 13.95;
-		LEVEL Z FOR 7.05;
-		LEVEL 0 FOR 1.0;
-		LEVEL 1 FOR 7.5;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 160.0;
 		NODE
 		{
 			REPEAT = 2;
-			LEVEL Z FOR 1.28;
-			LEVEL 1 FOR 14.72;
-			LEVEL Z FOR 7.5;
-			LEVEL 1 FOR 8.5;
+			LEVEL 0 FOR 160.0;
+			LEVEL 1 FOR 160.0;
 		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 1.28;
-			LEVEL 1 FOR 14.72;
-			LEVEL Z FOR 7.5;
-			LEVEL 1 FOR 1.0;
-			LEVEL 0 FOR 7.5;
-		}
-		NODE
-		{
-			REPEAT = 4;
-			LEVEL Z FOR 1.28;
-			LEVEL 0 FOR 14.72;
-			LEVEL Z FOR 7.5;
-			LEVEL 0 FOR 8.5;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 1.28;
-			LEVEL 1 FOR 14.72;
-			LEVEL Z FOR 7.5;
-			LEVEL 1 FOR 1.0;
-			LEVEL 0 FOR 7.5;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 1.28;
-			LEVEL 1 FOR 14.72;
-			LEVEL Z FOR 7.5;
-			LEVEL 1 FOR 8.5;
-		}
-		NODE
-		{
-			REPEAT = 4;
-			LEVEL Z FOR 1.28;
-			LEVEL 0 FOR 14.72;
-			LEVEL Z FOR 13.5;
-			LEVEL 0 FOR 1.0;
-			LEVEL 1 FOR 1.5;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 1.28;
-			LEVEL 1 FOR 14.72;
-			LEVEL Z FOR 13.5;
-			LEVEL 1 FOR 2.5;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 1.28;
-			LEVEL 1 FOR 14.72;
-			LEVEL Z FOR 13.5;
-			LEVEL 1 FOR 1.0;
-			LEVEL 0 FOR 1.5;
-		}
-		NODE
-		{
-			REPEAT = 4;
-			LEVEL Z FOR 1.28;
-			LEVEL 0 FOR 14.72;
-			LEVEL Z FOR 13.5;
-			LEVEL 0 FOR 2.5;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 1.28;
-			LEVEL 1 FOR 14.72;
-			LEVEL Z FOR 13.5;
-			LEVEL 1 FOR 1.0;
-			LEVEL 0 FOR 1.5;
-		}
-		LEVEL Z FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL Z FOR 13.5;
-		LEVEL 1 FOR 2.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL Z FOR 8.5;
+		LEVEL 0 FOR 120.0;
 	}
 }
 
-TRANSITION_LIST("data_cache_to_cpu[2]")
+TRANSITION_LIST("data_in[2]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 7.0;
-		LEVEL 0 FOR 8.598;
-		LEVEL Z FOR 0.953;
-		LEVEL 0 FOR 14.578;
-		LEVEL Z FOR 7.871;
-		LEVEL 0 FOR 8.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL Z FOR 7.5;
-		LEVEL 1 FOR 8.5;
-		LEVEL Z FOR 1.351;
-		LEVEL 1 FOR 15.099;
-		LEVEL Z FOR 7.05;
-		LEVEL 1 FOR 8.5;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 80.0;
 		NODE
 		{
-			REPEAT = 2;
-			LEVEL Z FOR 1.28;
-			LEVEL 0 FOR 14.72;
-			LEVEL Z FOR 7.5;
-			LEVEL 0 FOR 1.0;
-			LEVEL 1 FOR 7.5;
+			REPEAT = 5;
+			LEVEL 0 FOR 80.0;
+			LEVEL 1 FOR 80.0;
 		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 1.28;
-			LEVEL 1 FOR 14.72;
-			LEVEL Z FOR 7.5;
-			LEVEL 1 FOR 1.0;
-			LEVEL 0 FOR 7.5;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 1.28;
-			LEVEL 0 FOR 14.72;
-			LEVEL Z FOR 7.5;
-			LEVEL 0 FOR 8.5;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 1.28;
-			LEVEL 1 FOR 14.72;
-			LEVEL Z FOR 7.5;
-			LEVEL 1 FOR 8.5;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 1.28;
-			LEVEL 0 FOR 14.72;
-			LEVEL Z FOR 7.5;
-			LEVEL 0 FOR 1.0;
-			LEVEL 1 FOR 7.5;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 1.28;
-			LEVEL 1 FOR 14.72;
-			LEVEL Z FOR 7.5;
-			LEVEL 1 FOR 1.0;
-			LEVEL 0 FOR 7.5;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 1.28;
-			LEVEL 0 FOR 14.72;
-			LEVEL Z FOR 13.5;
-			LEVEL 0 FOR 2.5;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 1.28;
-			LEVEL 1 FOR 14.72;
-			LEVEL Z FOR 13.5;
-			LEVEL 1 FOR 2.5;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 1.28;
-			LEVEL 0 FOR 14.72;
-			LEVEL Z FOR 13.5;
-			LEVEL 0 FOR 1.0;
-			LEVEL 1 FOR 1.5;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 1.28;
-			LEVEL 1 FOR 14.72;
-			LEVEL Z FOR 13.5;
-			LEVEL 1 FOR 1.0;
-			LEVEL 0 FOR 1.5;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 1.28;
-			LEVEL 0 FOR 14.72;
-			LEVEL Z FOR 13.5;
-			LEVEL 0 FOR 2.5;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 1.28;
-			LEVEL 1 FOR 14.72;
-			LEVEL Z FOR 13.5;
-			LEVEL 1 FOR 2.5;
-		}
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 1.28;
-			LEVEL 0 FOR 14.72;
-			LEVEL Z FOR 13.5;
-			LEVEL 0 FOR 1.0;
-			LEVEL 1 FOR 1.5;
-		}
-		LEVEL Z FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL Z FOR 13.5;
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 1.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL Z FOR 8.5;
+		LEVEL 0 FOR 80.0;
 	}
 }
 
-TRANSITION_LIST("data_cache_to_cpu[1]")
+TRANSITION_LIST("data_in[1]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 7.0;
-		LEVEL 0 FOR 8.598;
-		LEVEL Z FOR 0.953;
-		LEVEL 1 FOR 14.578;
-		LEVEL Z FOR 7.871;
-		LEVEL 1 FOR 8.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 7.5;
-		LEVEL 0 FOR 8.5;
-		LEVEL Z FOR 1.351;
-		LEVEL 1 FOR 1.149;
-		LEVEL 0 FOR 13.95;
-		LEVEL Z FOR 7.05;
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 7.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 7.5;
-		LEVEL 0 FOR 1.0;
-		LEVEL 1 FOR 7.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL Z FOR 7.5;
-		LEVEL 1 FOR 8.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 7.5;
-		LEVEL 0 FOR 8.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL Z FOR 7.5;
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 7.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 7.5;
-		LEVEL 0 FOR 1.0;
-		LEVEL 1 FOR 7.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL Z FOR 7.5;
-		LEVEL 1 FOR 8.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 7.5;
-		LEVEL 0 FOR 8.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL Z FOR 7.5;
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 7.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 7.5;
-		LEVEL 0 FOR 1.0;
-		LEVEL 1 FOR 7.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL Z FOR 7.5;
-		LEVEL 1 FOR 8.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 7.5;
-		LEVEL 0 FOR 8.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL Z FOR 7.5;
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 7.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 13.5;
-		LEVEL 0 FOR 1.0;
-		LEVEL 1 FOR 1.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL Z FOR 13.5;
-		LEVEL 1 FOR 2.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 13.5;
-		LEVEL 0 FOR 2.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL Z FOR 13.5;
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 1.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 13.5;
-		LEVEL 0 FOR 1.0;
-		LEVEL 1 FOR 1.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL Z FOR 13.5;
-		LEVEL 1 FOR 2.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 13.5;
-		LEVEL 0 FOR 2.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL Z FOR 13.5;
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 1.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 13.5;
-		LEVEL 0 FOR 1.0;
-		LEVEL 1 FOR 1.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL Z FOR 13.5;
-		LEVEL 1 FOR 2.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 13.5;
-		LEVEL 0 FOR 2.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL Z FOR 13.5;
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 1.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 13.5;
-		LEVEL 0 FOR 1.0;
-		LEVEL 1 FOR 1.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL Z FOR 13.5;
-		LEVEL 1 FOR 2.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 13.5;
-		LEVEL 0 FOR 2.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL Z FOR 8.5;
-	}
-}
-
-TRANSITION_LIST("data_cache_to_cpu[0]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL Z FOR 7.0;
-		LEVEL 1 FOR 8.598;
-		LEVEL Z FOR 0.953;
-		LEVEL 0 FOR 14.578;
-		LEVEL Z FOR 7.871;
-		LEVEL 1 FOR 8.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 7.5;
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 7.5;
-		LEVEL Z FOR 1.351;
-		LEVEL 0 FOR 15.099;
-		LEVEL Z FOR 7.05;
-		NODE
-		{
-			REPEAT = 6;
-			LEVEL 1 FOR 8.5;
-			LEVEL Z FOR 1.28;
-			LEVEL 0 FOR 14.72;
-			LEVEL Z FOR 7.5;
-			LEVEL 1 FOR 1.0;
-			LEVEL 0 FOR 7.5;
-			LEVEL Z FOR 1.28;
-			LEVEL 0 FOR 14.72;
-			LEVEL Z FOR 7.5;
-		}
-		LEVEL 1 FOR 8.5;
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL Z FOR 1.28;
-			LEVEL 0 FOR 14.72;
-			LEVEL Z FOR 13.5;
-			LEVEL 1 FOR 1.0;
-			LEVEL 0 FOR 1.5;
-			LEVEL Z FOR 1.28;
-			LEVEL 0 FOR 14.72;
-			LEVEL Z FOR 13.5;
-			LEVEL 1 FOR 2.5;
-		}
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 13.5;
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 1.5;
-		LEVEL Z FOR 1.28;
-		LEVEL 0 FOR 14.72;
-		LEVEL Z FOR 8.5;
-	}
-}
-
-TRANSITION_LIST("data_in_cpu[7]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("data_in_cpu[6]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 704.0;
-		LEVEL 1 FOR 296.0;
-	}
-}
-
-TRANSITION_LIST("data_in_cpu[5]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 704.0;
-		LEVEL 0 FOR 296.0;
-	}
-}
-
-TRANSITION_LIST("data_in_cpu[4]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 192.0;
-		LEVEL 1 FOR 512.0;
-		LEVEL 0 FOR 296.0;
-	}
-}
-
-TRANSITION_LIST("data_in_cpu[3]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 1 FOR 192.0;
-		LEVEL 0 FOR 256.0;
-		LEVEL 1 FOR 256.0;
-		LEVEL 0 FOR 256.0;
+		LEVEL 0 FOR 20.0;
 		LEVEL 1 FOR 40.0;
-	}
-}
-
-TRANSITION_LIST("data_in_cpu[2]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 64.0;
 		NODE
 		{
-			REPEAT = 3;
-			LEVEL 1 FOR 128.0;
-			LEVEL 0 FOR 128.0;
+			REPEAT = 11;
+			LEVEL 0 FOR 40.0;
+			LEVEL 1 FOR 40.0;
 		}
-		LEVEL 1 FOR 128.0;
 		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 20.0;
 	}
 }
 
-TRANSITION_LIST("data_in_cpu[1]")
+TRANSITION_LIST("data_in[0]")
 {
 	NODE
 	{
 		REPEAT = 1;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 20.0;
 		NODE
 		{
-			REPEAT = 7;
-			LEVEL 1 FOR 64.0;
-			LEVEL 0 FOR 64.0;
+			REPEAT = 24;
+			LEVEL 0 FOR 20.0;
+			LEVEL 1 FOR 20.0;
 		}
-		LEVEL 1 FOR 64.0;
-		LEVEL 0 FOR 40.0;
-	}
-}
-
-TRANSITION_LIST("data_in_cpu[0]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 0 FOR 32.0;
-			LEVEL 1 FOR 32.0;
-		}
-		LEVEL 0 FOR 32.0;
-		LEVEL 1 FOR 8.0;
+		LEVEL 0 FOR 10.0;
 	}
 }
 
@@ -1900,25 +432,7 @@ TRANSITION_LIST("data_out[7]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 1.0;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 0 FOR 6.0;
-			LEVEL Z FOR 26.0;
-		}
-		LEVEL 0 FOR 6.0;
-		LEVEL Z FOR 32.0;
-		LEVEL 0 FOR 6.0;
-		NODE
-		{
-			REPEAT = 14;
-			LEVEL Z FOR 26.0;
-			LEVEL 1 FOR 2.0;
-			LEVEL 0 FOR 4.0;
-		}
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 1.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -1927,22 +441,7 @@ TRANSITION_LIST("data_out[6]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 1.0;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 0 FOR 6.0;
-			LEVEL Z FOR 26.0;
-		}
-		LEVEL 0 FOR 6.0;
-		LEVEL Z FOR 32.0;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 0 FOR 6.0;
-			LEVEL Z FOR 26.0;
-		}
-		LEVEL 0 FOR 1.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -1951,26 +450,7 @@ TRANSITION_LIST("data_out[5]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 1.0;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 0 FOR 6.0;
-			LEVEL Z FOR 26.0;
-		}
-		LEVEL 0 FOR 4.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 32.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 4.0;
-		NODE
-		{
-			REPEAT = 14;
-			LEVEL Z FOR 26.0;
-			LEVEL 1 FOR 6.0;
-		}
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 1.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -1979,45 +459,7 @@ TRANSITION_LIST("data_out[4]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 1.0;
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL 0 FOR 6.0;
-			LEVEL Z FOR 26.0;
-		}
-		LEVEL 0 FOR 4.0;
-		LEVEL 1 FOR 2.0;
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL Z FOR 26.0;
-			LEVEL 1 FOR 6.0;
-		}
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 4.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 32.0;
-		NODE
-		{
-			REPEAT = 6;
-			LEVEL 0 FOR 6.0;
-			LEVEL Z FOR 26.0;
-		}
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 4.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 2.0;
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL Z FOR 26.0;
-			LEVEL 1 FOR 6.0;
-		}
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 1.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -2026,88 +468,7 @@ TRANSITION_LIST("data_out[3]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 1.0;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL 0 FOR 6.0;
-			LEVEL Z FOR 26.0;
-		}
-		LEVEL 0 FOR 4.0;
-		LEVEL 1 FOR 2.0;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL Z FOR 26.0;
-			LEVEL 1 FOR 6.0;
-		}
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 4.0;
-		LEVEL 0 FOR 2.0;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL Z FOR 26.0;
-			LEVEL 0 FOR 6.0;
-		}
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 4.0;
-		LEVEL 1 FOR 2.0;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL Z FOR 26.0;
-			LEVEL 1 FOR 6.0;
-		}
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 4.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 32.0;
-		LEVEL 0 FOR 6.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 26.0;
-			LEVEL 1 FOR 2.0;
-			LEVEL 0 FOR 4.0;
-		}
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 2.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 26.0;
-			LEVEL 1 FOR 6.0;
-		}
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 4.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL Z FOR 26.0;
-			LEVEL 0 FOR 6.0;
-		}
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 4.0;
-		LEVEL 1 FOR 2.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 26.0;
-			LEVEL 0 FOR 2.0;
-			LEVEL 1 FOR 4.0;
-		}
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 6.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 1.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -2116,92 +477,7 @@ TRANSITION_LIST("data_out[2]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 1.0;
-		LEVEL 0 FOR 6.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 4.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 6.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 4.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 6.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 4.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 6.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 4.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 6.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 4.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 6.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 4.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 6.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 4.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 6.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 4.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 32.0;
-		LEVEL 0 FOR 6.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 4.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 6.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 4.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 4.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 4.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 6.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 4.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 6.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 4.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 4.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 4.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 1.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -2210,75 +486,7 @@ TRANSITION_LIST("data_out[1]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 1.0;
-		NODE
-		{
-			REPEAT = 7;
-			LEVEL 0 FOR 4.0;
-			LEVEL 1 FOR 2.0;
-			LEVEL Z FOR 26.0;
-			LEVEL 1 FOR 4.0;
-			LEVEL 0 FOR 2.0;
-			LEVEL Z FOR 26.0;
-		}
-		LEVEL 0 FOR 4.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 4.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 32.0;
-		LEVEL 0 FOR 4.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 4.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 4.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 4.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 4.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 4.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 4.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 4.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 4.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 0 FOR 1.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -2287,913 +495,101 @@ TRANSITION_LIST("data_out[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL Z FOR 1.0;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 0 FOR 2.0;
-			LEVEL 1 FOR 2.0;
-			LEVEL 0 FOR 2.0;
-			LEVEL Z FOR 26.0;
-		}
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 32.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 1 FOR 4.0;
-			LEVEL 0 FOR 2.0;
-			LEVEL Z FOR 26.0;
-		}
-		NODE
-		{
-			REPEAT = 6;
-			LEVEL 0 FOR 2.0;
-			LEVEL 1 FOR 2.0;
-			LEVEL 0 FOR 2.0;
-			LEVEL Z FOR 26.0;
-			LEVEL 1 FOR 4.0;
-			LEVEL 0 FOR 2.0;
-			LEVEL Z FOR 26.0;
-		}
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 26.0;
-		LEVEL 1 FOR 1.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
-TRANSITION_LIST("HIT")
+TRANSITION_LIST("is_empty")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 8.0;
-		LEVEL 1 FOR 7.598;
-		LEVEL 0 FOR 2.402;
-		LEVEL 1 FOR 13.129;
-		LEVEL 0 FOR 8.871;
-		LEVEL 1 FOR 7.5;
-		LEVEL 0 FOR 2.5;
-		LEVEL 1 FOR 13.5;
-		LEVEL 0 FOR 8.5;
-		LEVEL 1 FOR 7.5;
-		LEVEL 0 FOR 2.5;
-		LEVEL 1 FOR 13.95;
-		LEVEL 0 FOR 8.05;
-		NODE
-		{
-			REPEAT = 12;
-			LEVEL 1 FOR 7.5;
-			LEVEL 0 FOR 2.5;
-			LEVEL 1 FOR 13.5;
-			LEVEL 0 FOR 8.5;
-		}
-		LEVEL 1 FOR 7.5;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 0 FOR 2.5;
-			LEVEL 1 FOR 13.5;
-			LEVEL 0 FOR 14.5;
-			LEVEL 1 FOR 1.5;
-		}
-		LEVEL 0 FOR 2.5;
-		LEVEL 1 FOR 13.5;
-		LEVEL 0 FOR 8.5;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 90.0;
+		LEVEL 1 FOR 895.0;
 	}
 }
 
-TRANSITION_LIST("mem_read_enable")
+TRANSITION_LIST("is_full")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1.0;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 1 FOR 6.0;
-			LEVEL 0 FOR 26.0;
-		}
-		LEVEL 1 FOR 6.0;
-		LEVEL 0 FOR 32.0;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 1 FOR 6.0;
-			LEVEL 0 FOR 26.0;
-		}
-		LEVEL 1 FOR 1.0;
+		LEVEL 0 FOR 35.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 905.0;
 	}
 }
 
-TRANSITION_LIST("mem_write_enable")
+TRANSITION_LIST("pop")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 513.0;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 1 FOR 4.0;
-			LEVEL 0 FOR 28.0;
-		}
-		LEVEL 1 FOR 4.0;
-		LEVEL 0 FOR 3.0;
+		LEVEL 0 FOR 0.85;
+		LEVEL 1 FOR 8.55;
+		LEVEL 0 FOR 82.55;
+		LEVEL 1 FOR 69.75;
+		LEVEL 0 FOR 838.3;
 	}
 }
 
-TRANSITION_LIST("memory_clk_in")
+TRANSITION_LIST("push")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 2.0;
-		NODE
-		{
-			REPEAT = 16;
-			LEVEL 1 FOR 1.0;
-			LEVEL 0 FOR 1.0;
-			LEVEL 1 FOR 1.0;
-			LEVEL 0 FOR 29.0;
-		}
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 1 FOR 1.0;
-			LEVEL 0 FOR 1.0;
-			LEVEL 1 FOR 1.0;
-			LEVEL 0 FOR 3.0;
-			LEVEL 1 FOR 1.0;
-			LEVEL 0 FOR 1.0;
-			LEVEL 1 FOR 1.0;
-			LEVEL 0 FOR 23.0;
-		}
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 1.0;
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 3.0;
+		LEVEL 0 FOR 11.95;
+		LEVEL 1 FOR 5.85;
+		LEVEL 0 FOR 13.4;
+		LEVEL 1 FOR 6.65;
+		LEVEL 0 FOR 3.15;
+		LEVEL 1 FOR 5.35;
+		LEVEL 0 FOR 5.8;
+		LEVEL 1 FOR 4.7;
+		LEVEL 0 FOR 5.4;
+		LEVEL 1 FOR 4.65;
+		LEVEL 0 FOR 5.4;
+		LEVEL 1 FOR 4.25;
+		LEVEL 0 FOR 5.35;
+		LEVEL 1 FOR 4.199;
+		LEVEL 0 FOR 913.901;
 	}
 }
 
-TRANSITION_LIST("memory_clk_out")
+TRANSITION_LIST("SP[2]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 3.0;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 1 FOR 1.0;
-			LEVEL 0 FOR 1.0;
-			LEVEL 1 FOR 1.0;
-			LEVEL 0 FOR 29.0;
-		}
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 1.0;
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 28.0;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 1 FOR 1.0;
-			LEVEL 0 FOR 1.0;
-			LEVEL 1 FOR 1.0;
-			LEVEL 0 FOR 4.0;
-			LEVEL 1 FOR 1.0;
-			LEVEL 0 FOR 1.0;
-			LEVEL 1 FOR 1.0;
-			LEVEL 0 FOR 22.0;
-		}
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 1.0;
-		LEVEL 1 FOR 1.0;
-		LEVEL 0 FOR 3.0;
+		LEVEL 1 FOR 35.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 905.0;
 	}
 }
 
-TRANSITION_LIST("read_strob")
+TRANSITION_LIST("SP[1]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 0.799;
-		LEVEL 1 FOR 14.799;
-		LEVEL 0 FOR 0.953;
-		LEVEL 1 FOR 14.578;
-		LEVEL 0 FOR 17.651;
-		LEVEL 1 FOR 14.72;
-		LEVEL 0 FOR 49.28;
-		LEVEL 1 FOR 14.72;
-		NODE
-		{
-			REPEAT = 27;
-			LEVEL 0 FOR 17.28;
-			LEVEL 1 FOR 14.72;
-		}
-		LEVEL 0 FOR 8.5;
+		LEVEL 1 FOR 35.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 905.0;
 	}
 }
 
-TRANSITION_LIST("write_strob")
+TRANSITION_LIST("SP[0]")
 {
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 32.78;
-		LEVEL 1 FOR 14.72;
-		NODE
-		{
-			REPEAT = 1;
-			LEVEL 0 FOR 17.28;
-			LEVEL 1 FOR 14.72;
-		}
-		LEVEL 0 FOR 1.351;
-		LEVEL 1 FOR 15.099;
-		LEVEL 0 FOR 0.83;
-		LEVEL 1 FOR 14.72;
-		NODE
-		{
-			REPEAT = 27;
-			LEVEL 0 FOR 17.28;
-			LEVEL 1 FOR 14.72;
-		}
-		LEVEL 0 FOR 17.28;
-		LEVEL 1 FOR 7.22;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 895.0;
 	}
-}
-
-TRANSITION_LIST("data_out_memory[7]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL Z FOR 513.0;
-		LEVEL 0 FOR 4.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 1 FOR 4.0;
-		NODE
-		{
-			REPEAT = 13;
-			LEVEL Z FOR 28.0;
-			LEVEL 1 FOR 2.0;
-			LEVEL 0 FOR 2.0;
-		}
-		LEVEL Z FOR 3.0;
-	}
-}
-
-TRANSITION_LIST("data_out_memory[6]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL Z FOR 513.0;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 0 FOR 4.0;
-			LEVEL Z FOR 28.0;
-		}
-		LEVEL 0 FOR 4.0;
-		LEVEL Z FOR 3.0;
-	}
-}
-
-TRANSITION_LIST("data_out_memory[5]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL Z FOR 513.0;
-		LEVEL 0 FOR 4.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 1 FOR 4.0;
-		NODE
-		{
-			REPEAT = 12;
-			LEVEL Z FOR 28.0;
-			LEVEL 1 FOR 2.0;
-			LEVEL 0 FOR 2.0;
-		}
-		LEVEL Z FOR 28.0;
-		LEVEL 1 FOR 4.0;
-		LEVEL Z FOR 3.0;
-	}
-}
-
-TRANSITION_LIST("data_out_memory[4]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL Z FOR 513.0;
-		NODE
-		{
-			REPEAT = 6;
-			LEVEL 0 FOR 4.0;
-			LEVEL Z FOR 28.0;
-		}
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		NODE
-		{
-			REPEAT = 8;
-			LEVEL Z FOR 28.0;
-			LEVEL 1 FOR 4.0;
-		}
-		LEVEL Z FOR 28.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 3.0;
-	}
-}
-
-TRANSITION_LIST("data_out_memory[3]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL Z FOR 513.0;
-		LEVEL 0 FOR 4.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		NODE
-		{
-			REPEAT = 4;
-			LEVEL Z FOR 28.0;
-			LEVEL 1 FOR 4.0;
-		}
-		LEVEL Z FOR 28.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 2.0;
-		NODE
-		{
-			REPEAT = 4;
-			LEVEL Z FOR 28.0;
-			LEVEL 0 FOR 4.0;
-		}
-		NODE
-		{
-			REPEAT = 3;
-			LEVEL Z FOR 28.0;
-			LEVEL 0 FOR 2.0;
-			LEVEL 1 FOR 2.0;
-		}
-		LEVEL Z FOR 28.0;
-		LEVEL 1 FOR 4.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 3.0;
-	}
-}
-
-TRANSITION_LIST("data_out_memory[2]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL Z FOR 513.0;
-		LEVEL 0 FOR 4.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 1 FOR 4.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 28.0;
-			LEVEL 1 FOR 2.0;
-			LEVEL 0 FOR 2.0;
-		}
-		LEVEL Z FOR 28.0;
-		LEVEL 1 FOR 4.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 2.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 28.0;
-			LEVEL 0 FOR 4.0;
-		}
-		LEVEL Z FOR 28.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 1 FOR 4.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 28.0;
-			LEVEL 1 FOR 2.0;
-			LEVEL 0 FOR 2.0;
-		}
-		LEVEL Z FOR 28.0;
-		LEVEL 1 FOR 4.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 0 FOR 4.0;
-		LEVEL Z FOR 3.0;
-	}
-}
-
-TRANSITION_LIST("data_out_memory[1]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL Z FOR 513.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL Z FOR 28.0;
-			LEVEL 0 FOR 4.0;
-		}
-		LEVEL Z FOR 28.0;
-		LEVEL 1 FOR 4.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 0 FOR 4.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 1 FOR 4.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 0 FOR 4.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 1 FOR 4.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 0 FOR 4.0;
-		LEVEL Z FOR 3.0;
-	}
-}
-
-TRANSITION_LIST("data_out_memory[0]")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL Z FOR 513.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 1 FOR 2.0;
-			LEVEL 0 FOR 2.0;
-			LEVEL Z FOR 28.0;
-		}
-		NODE
-		{
-			REPEAT = 6;
-			LEVEL 0 FOR 4.0;
-			LEVEL Z FOR 28.0;
-			LEVEL 1 FOR 2.0;
-			LEVEL 0 FOR 2.0;
-			LEVEL Z FOR 28.0;
-		}
-		LEVEL 0 FOR 4.0;
-		LEVEL Z FOR 28.0;
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 2.0;
-		LEVEL Z FOR 3.0;
-	}
-}
-
-TRANSITION_LIST("is_busy")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 41.0;
-		NODE
-		{
-			REPEAT = 14;
-			LEVEL 1 FOR 23.0;
-			LEVEL 0 FOR 9.0;
-		}
-		LEVEL 1 FOR 36.0;
-		NODE
-		{
-			REPEAT = 14;
-			LEVEL 0 FOR 2.0;
-			LEVEL 1 FOR 30.0;
-		}
-		LEVEL 0 FOR 2.0;
-		LEVEL 1 FOR 25.0;
-	}
-}
-
-TRANSITION_LIST("is_changed")
-{
-	NODE
-	{
-		REPEAT = 1;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 0 FOR 7.0;
-			LEVEL 1 FOR 25.0;
-		}
-		LEVEL 0 FOR 7.0;
-		LEVEL 1 FOR 30.0;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 0 FOR 8.0;
-			LEVEL 1 FOR 24.0;
-		}
-		LEVEL 0 FOR 3.0;
-	}
-}
-
-TRANSITION_LIST("11")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1.0;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 1 FOR 2.0;
-			LEVEL 0 FOR 30.0;
-		}
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 36.0;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 1 FOR 2.0;
-			LEVEL 0 FOR 30.0;
-		}
-		LEVEL 1 FOR 1.0;
-	}
-}
-
-TRANSITION_LIST("12")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 3.0;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 1 FOR 2.0;
-			LEVEL 0 FOR 30.0;
-		}
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 36.0;
-		NODE
-		{
-			REPEAT = 14;
-			LEVEL 1 FOR 2.0;
-			LEVEL 0 FOR 30.0;
-		}
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 29.0;
-	}
-}
-
-TRANSITION_LIST("13")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 5.0;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 1 FOR 2.0;
-			LEVEL 0 FOR 30.0;
-		}
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 36.0;
-		NODE
-		{
-			REPEAT = 14;
-			LEVEL 1 FOR 2.0;
-			LEVEL 0 FOR 30.0;
-		}
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 27.0;
-	}
-}
-
-TRANSITION_LIST("14")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 7.0;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 1 FOR 2.0;
-			LEVEL 0 FOR 30.0;
-		}
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 36.0;
-		NODE
-		{
-			REPEAT = 14;
-			LEVEL 1 FOR 2.0;
-			LEVEL 0 FOR 30.0;
-		}
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 25.0;
-	}
-}
-
-TRANSITION_LIST("21")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 513.0;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 1 FOR 2.0;
-			LEVEL 0 FOR 30.0;
-		}
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 5.0;
-	}
-}
-
-TRANSITION_LIST("22")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 515.0;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 1 FOR 2.0;
-			LEVEL 0 FOR 30.0;
-		}
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 3.0;
-	}
-}
-
-TRANSITION_LIST("23")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 517.0;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 1 FOR 2.0;
-			LEVEL 0 FOR 30.0;
-		}
-		LEVEL 1 FOR 2.0;
-		LEVEL 0 FOR 1.0;
-	}
-}
-
-TRANSITION_LIST("enable_data_out_cpu")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 7.0;
-		LEVEL 1 FOR 8.598;
-		LEVEL 0 FOR 0.953;
-		LEVEL 1 FOR 14.578;
-		LEVEL 0 FOR 7.871;
-		LEVEL 1 FOR 8.5;
-		LEVEL 0 FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL 0 FOR 7.5;
-		LEVEL 1 FOR 8.5;
-		LEVEL 0 FOR 1.351;
-		LEVEL 1 FOR 15.099;
-		LEVEL 0 FOR 7.05;
-		NODE
-		{
-			REPEAT = 12;
-			LEVEL 1 FOR 8.5;
-			LEVEL 0 FOR 1.28;
-			LEVEL 1 FOR 14.72;
-			LEVEL 0 FOR 7.5;
-		}
-		LEVEL 1 FOR 8.5;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 0 FOR 1.28;
-			LEVEL 1 FOR 14.72;
-			LEVEL 0 FOR 13.5;
-			LEVEL 1 FOR 2.5;
-		}
-		LEVEL 0 FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL 0 FOR 8.5;
-	}
-}
-
-TRANSITION_LIST("enable_data_out_mem")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 513.0;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 1 FOR 4.0;
-			LEVEL 0 FOR 28.0;
-		}
-		LEVEL 1 FOR 4.0;
-		LEVEL 0 FOR 3.0;
-	}
-}
-
-TRANSITION_LIST("enable_data_in_cpu")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 7.0;
-		LEVEL 1 FOR 8.598;
-		LEVEL 0 FOR 0.953;
-		LEVEL 1 FOR 14.578;
-		LEVEL 0 FOR 7.871;
-		LEVEL 1 FOR 8.5;
-		LEVEL 0 FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL 0 FOR 7.5;
-		LEVEL 1 FOR 8.5;
-		LEVEL 0 FOR 1.351;
-		LEVEL 1 FOR 15.099;
-		LEVEL 0 FOR 7.05;
-		NODE
-		{
-			REPEAT = 12;
-			LEVEL 1 FOR 8.5;
-			LEVEL 0 FOR 1.28;
-			LEVEL 1 FOR 14.72;
-			LEVEL 0 FOR 7.5;
-		}
-		LEVEL 1 FOR 8.5;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 0 FOR 1.28;
-			LEVEL 1 FOR 14.72;
-			LEVEL 0 FOR 13.5;
-			LEVEL 1 FOR 2.5;
-		}
-		LEVEL 0 FOR 1.28;
-		LEVEL 1 FOR 14.72;
-		LEVEL 0 FOR 8.5;
-	}
-}
-
-TRANSITION_LIST("enable_data_in_mem")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1.0;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 1 FOR 6.0;
-			LEVEL 0 FOR 26.0;
-		}
-		LEVEL 1 FOR 6.0;
-		LEVEL 0 FOR 32.0;
-		NODE
-		{
-			REPEAT = 15;
-			LEVEL 1 FOR 6.0;
-			LEVEL 0 FOR 26.0;
-		}
-		LEVEL 1 FOR 1.0;
-	}
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "address_in";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 0;
-	TREE_LEVEL = 0;
-	CHILDREN = 1, 2, 3, 4, 5, 6, 7;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "address_in[6]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 1;
-	TREE_LEVEL = 1;
-	PARENT = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "address_in[5]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 2;
-	TREE_LEVEL = 1;
-	PARENT = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "address_in[4]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 3;
-	TREE_LEVEL = 1;
-	PARENT = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "address_in[3]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 4;
-	TREE_LEVEL = 1;
-	PARENT = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "address_in[2]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 5;
-	TREE_LEVEL = 1;
-	PARENT = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "address_in[1]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 6;
-	TREE_LEVEL = 1;
-	PARENT = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "address_in[0]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 7;
-	TREE_LEVEL = 1;
-	PARENT = 0;
 }
 
 DISPLAY_LINE
@@ -3201,296 +597,116 @@ DISPLAY_LINE
 	CHANNEL = "clk";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
-	TREE_INDEX = 8;
+	TREE_INDEX = 0;
 	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "data_in_cpu";
+	CHANNEL = "data_in";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Hexadecimal;
+	TREE_INDEX = 1;
+	TREE_LEVEL = 0;
+	CHILDREN = 2, 3, 4, 5, 6, 7, 8, 9;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "data_in[7]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Hexadecimal;
+	TREE_INDEX = 2;
+	TREE_LEVEL = 1;
+	PARENT = 1;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "data_in[6]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Hexadecimal;
+	TREE_INDEX = 3;
+	TREE_LEVEL = 1;
+	PARENT = 1;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "data_in[5]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Hexadecimal;
+	TREE_INDEX = 4;
+	TREE_LEVEL = 1;
+	PARENT = 1;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "data_in[4]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Hexadecimal;
+	TREE_INDEX = 5;
+	TREE_LEVEL = 1;
+	PARENT = 1;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "data_in[3]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Hexadecimal;
+	TREE_INDEX = 6;
+	TREE_LEVEL = 1;
+	PARENT = 1;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "data_in[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Hexadecimal;
+	TREE_INDEX = 7;
+	TREE_LEVEL = 1;
+	PARENT = 1;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "data_in[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Hexadecimal;
+	TREE_INDEX = 8;
+	TREE_LEVEL = 1;
+	PARENT = 1;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "data_in[0]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 9;
-	TREE_LEVEL = 0;
-	CHILDREN = 10, 11, 12, 13, 14, 15, 16, 17;
+	TREE_LEVEL = 1;
+	PARENT = 1;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "data_in_cpu[7]";
+	CHANNEL = "pop";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 10;
-	TREE_LEVEL = 1;
-	PARENT = 9;
+	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "data_in_cpu[6]";
+	CHANNEL = "push";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
 	TREE_INDEX = 11;
-	TREE_LEVEL = 1;
-	PARENT = 9;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data_in_cpu[5]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 12;
-	TREE_LEVEL = 1;
-	PARENT = 9;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data_in_cpu[4]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 13;
-	TREE_LEVEL = 1;
-	PARENT = 9;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data_in_cpu[3]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 14;
-	TREE_LEVEL = 1;
-	PARENT = 9;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data_in_cpu[2]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 15;
-	TREE_LEVEL = 1;
-	PARENT = 9;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data_in_cpu[1]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 16;
-	TREE_LEVEL = 1;
-	PARENT = 9;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data_in_cpu[0]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 17;
-	TREE_LEVEL = 1;
-	PARENT = 9;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "read_strob";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 18;
 	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "write_strob";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 19;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "address_out";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 20;
-	TREE_LEVEL = 0;
-	CHILDREN = 21, 22, 23, 24, 25, 26, 27, 28;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "address_out[7]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 21;
-	TREE_LEVEL = 1;
-	PARENT = 20;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "address_out[6]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 22;
-	TREE_LEVEL = 1;
-	PARENT = 20;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "address_out[5]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 23;
-	TREE_LEVEL = 1;
-	PARENT = 20;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "address_out[4]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 24;
-	TREE_LEVEL = 1;
-	PARENT = 20;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "address_out[3]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 25;
-	TREE_LEVEL = 1;
-	PARENT = 20;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "address_out[2]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 26;
-	TREE_LEVEL = 1;
-	PARENT = 20;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "address_out[1]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 27;
-	TREE_LEVEL = 1;
-	PARENT = 20;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "address_out[0]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 28;
-	TREE_LEVEL = 1;
-	PARENT = 20;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data_cache_to_cpu";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 29;
-	TREE_LEVEL = 0;
-	CHILDREN = 30, 31, 32, 33, 34, 35, 36, 37;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data_cache_to_cpu[7]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 30;
-	TREE_LEVEL = 1;
-	PARENT = 29;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data_cache_to_cpu[6]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 31;
-	TREE_LEVEL = 1;
-	PARENT = 29;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data_cache_to_cpu[5]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 32;
-	TREE_LEVEL = 1;
-	PARENT = 29;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data_cache_to_cpu[4]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 33;
-	TREE_LEVEL = 1;
-	PARENT = 29;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data_cache_to_cpu[3]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 34;
-	TREE_LEVEL = 1;
-	PARENT = 29;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data_cache_to_cpu[2]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 35;
-	TREE_LEVEL = 1;
-	PARENT = 29;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data_cache_to_cpu[1]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 36;
-	TREE_LEVEL = 1;
-	PARENT = 29;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data_cache_to_cpu[0]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 37;
-	TREE_LEVEL = 1;
-	PARENT = 29;
 }
 
 DISPLAY_LINE
@@ -3498,9 +714,9 @@ DISPLAY_LINE
 	CHANNEL = "data_out";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
-	TREE_INDEX = 38;
+	TREE_INDEX = 12;
 	TREE_LEVEL = 0;
-	CHILDREN = 39, 40, 41, 42, 43, 44, 45, 46;
+	CHILDREN = 13, 14, 15, 16, 17, 18, 19, 20;
 }
 
 DISPLAY_LINE
@@ -3508,9 +724,9 @@ DISPLAY_LINE
 	CHANNEL = "data_out[7]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
-	TREE_INDEX = 39;
+	TREE_INDEX = 13;
 	TREE_LEVEL = 1;
-	PARENT = 38;
+	PARENT = 12;
 }
 
 DISPLAY_LINE
@@ -3518,9 +734,9 @@ DISPLAY_LINE
 	CHANNEL = "data_out[6]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
-	TREE_INDEX = 40;
+	TREE_INDEX = 14;
 	TREE_LEVEL = 1;
-	PARENT = 38;
+	PARENT = 12;
 }
 
 DISPLAY_LINE
@@ -3528,9 +744,9 @@ DISPLAY_LINE
 	CHANNEL = "data_out[5]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
-	TREE_INDEX = 41;
+	TREE_INDEX = 15;
 	TREE_LEVEL = 1;
-	PARENT = 38;
+	PARENT = 12;
 }
 
 DISPLAY_LINE
@@ -3538,9 +754,9 @@ DISPLAY_LINE
 	CHANNEL = "data_out[4]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
-	TREE_INDEX = 42;
+	TREE_INDEX = 16;
 	TREE_LEVEL = 1;
-	PARENT = 38;
+	PARENT = 12;
 }
 
 DISPLAY_LINE
@@ -3548,9 +764,9 @@ DISPLAY_LINE
 	CHANNEL = "data_out[3]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
-	TREE_INDEX = 43;
+	TREE_INDEX = 17;
 	TREE_LEVEL = 1;
-	PARENT = 38;
+	PARENT = 12;
 }
 
 DISPLAY_LINE
@@ -3558,9 +774,9 @@ DISPLAY_LINE
 	CHANNEL = "data_out[2]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
-	TREE_INDEX = 44;
+	TREE_INDEX = 18;
 	TREE_LEVEL = 1;
-	PARENT = 38;
+	PARENT = 12;
 }
 
 DISPLAY_LINE
@@ -3568,9 +784,9 @@ DISPLAY_LINE
 	CHANNEL = "data_out[1]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
-	TREE_INDEX = 45;
+	TREE_INDEX = 19;
 	TREE_LEVEL = 1;
-	PARENT = 38;
+	PARENT = 12;
 }
 
 DISPLAY_LINE
@@ -3578,266 +794,72 @@ DISPLAY_LINE
 	CHANNEL = "data_out[0]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
-	TREE_INDEX = 46;
+	TREE_INDEX = 20;
 	TREE_LEVEL = 1;
-	PARENT = 38;
+	PARENT = 12;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "HIT";
+	CHANNEL = "is_empty";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
-	TREE_INDEX = 47;
+	TREE_INDEX = 21;
 	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "mem_read_enable";
+	CHANNEL = "is_full";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
-	TREE_INDEX = 48;
+	TREE_INDEX = 22;
 	TREE_LEVEL = 0;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "mem_write_enable";
+	CHANNEL = "SP";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
-	TREE_INDEX = 49;
+	TREE_INDEX = 23;
 	TREE_LEVEL = 0;
+	CHILDREN = 24, 25, 26;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "memory_clk_in";
+	CHANNEL = "SP[2]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
-	TREE_INDEX = 50;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "memory_clk_out";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 51;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data_out_memory";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 52;
-	TREE_LEVEL = 0;
-	CHILDREN = 53, 54, 55, 56, 57, 58, 59, 60;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data_out_memory[7]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 53;
+	TREE_INDEX = 24;
 	TREE_LEVEL = 1;
-	PARENT = 52;
+	PARENT = 23;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "data_out_memory[6]";
+	CHANNEL = "SP[1]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
-	TREE_INDEX = 54;
+	TREE_INDEX = 25;
 	TREE_LEVEL = 1;
-	PARENT = 52;
+	PARENT = 23;
 }
 
 DISPLAY_LINE
 {
-	CHANNEL = "data_out_memory[5]";
+	CHANNEL = "SP[0]";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Hexadecimal;
-	TREE_INDEX = 55;
+	TREE_INDEX = 26;
 	TREE_LEVEL = 1;
-	PARENT = 52;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data_out_memory[4]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 56;
-	TREE_LEVEL = 1;
-	PARENT = 52;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data_out_memory[3]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 57;
-	TREE_LEVEL = 1;
-	PARENT = 52;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data_out_memory[2]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 58;
-	TREE_LEVEL = 1;
-	PARENT = 52;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data_out_memory[1]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 59;
-	TREE_LEVEL = 1;
-	PARENT = 52;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "data_out_memory[0]";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Hexadecimal;
-	TREE_INDEX = 60;
-	TREE_LEVEL = 1;
-	PARENT = 52;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "is_busy";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 61;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "is_changed";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 62;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "11";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 63;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "12";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 64;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "13";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 65;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "14";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 66;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "21";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 67;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "22";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 68;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "23";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 69;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "enable_data_out_cpu";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 70;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "enable_data_out_mem";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 71;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "enable_data_in_cpu";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 72;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
-	CHANNEL = "enable_data_in_mem";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 73;
-	TREE_LEVEL = 0;
+	PARENT = 23;
 }
 
 TIME_BAR
 {
-	TIME = 40042;
+	TIME = 19300;
 	MASTER = TRUE;
 }
 ;

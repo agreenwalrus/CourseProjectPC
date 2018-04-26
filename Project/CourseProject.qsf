@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Stratix II"
 set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY All
+set_global_assignment -name TOP_LEVEL_ENTITY Stack
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:47:43  APRIL 10, 2018"
 set_global_assignment -name LAST_QUARTUS_VERSION 9.1
@@ -88,10 +88,30 @@ set_global_assignment -name VECTOR_WAVEFORM_FILE TestCacheControUnit.vwf
 set_global_assignment -name QIP_FILE lpm_decode3.qip
 set_global_assignment -name MISC_FILE "C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/CourseProject.dpf"
 set_global_assignment -name BDF_FILE All.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TestCacheAndMemory.vwf
+set_global_assignment -name BDF_FILE Registers.bdf
+set_global_assignment -name QIP_FILE lpm_dff2.qip
+set_global_assignment -name QIP_FILE lpm_decode4.qip
+set_global_assignment -name QIP_FILE lpm_mux5.qip
+set_global_assignment -name BDF_FILE RegistersControlUnit.bdf
+set_global_assignment -name BDF_FILE RegistersMemory.bdf
+set_global_assignment -name QIP_FILE lpm_mux6.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE TestRegisters.vwf
+set_global_assignment -name BDF_FILE Stack.bdf
+set_global_assignment -name QIP_FILE lpm_dff3.qip
+set_global_assignment -name BDF_FILE StackPointer.bdf
+set_global_assignment -name QIP_FILE lpm_constant0.qip
+set_global_assignment -name QIP_FILE lpm_counter5.qip
+set_global_assignment -name QIP_FILE lpm_add_sub0.qip
+set_global_assignment -name QIP_FILE lpm_compare2.qip
+set_global_assignment -name QIP_FILE lpm_constant1.qip
+set_global_assignment -name QIP_FILE lpm_mux7.qip
+set_global_assignment -name QIP_FILE lpm_decode5.qip
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
-set_global_assignment -name VECTOR_WAVEFORM_FILE TestCacheAndMemory.vwf
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE TestCacheAndMemory.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TestStack.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE TestStack.vwf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name QIP_FILE lpm_constant2.qip

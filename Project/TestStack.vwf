@@ -24,6 +24,18 @@ HEADER
 {
 	VERSION = 1;
 	TIME_UNIT = ns;
+	PRINT_OPTIONS = "Print_options_version 6\
+range_start 0ps\
+range_end 1.0us\
+width 1\
+names_percentage 25\
+comments 1\
+grid_lines 1\
+time_bars 1\
+name_every_page 0\
+expand_groups 0\
+print_all 1\
+print_row_height 100";
 	DATA_OFFSET = 0.0;
 	DATA_DURATION = 1000.0;
 	SIMULATION_TIME = 1000.0;
@@ -459,7 +471,8 @@ TRANSITION_LIST("data_out[4]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 168.8;
+		LEVEL 1 FOR 831.2;
 	}
 }
 
@@ -468,7 +481,8 @@ TRANSITION_LIST("data_out[3]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 0 FOR 168.8;
+		LEVEL 1 FOR 831.2;
 	}
 }
 
@@ -478,10 +492,9 @@ TRANSITION_LIST("data_out[2]")
 	{
 		REPEAT = 1;
 		LEVEL 0 FOR 45.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 865.0;
+		LEVEL 1 FOR 70.0;
+		LEVEL 0 FOR 93.8;
+		LEVEL 1 FOR 791.2;
 	}
 }
 
@@ -490,11 +503,12 @@ TRANSITION_LIST("data_out[1]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 35.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 50.0;
-		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 855.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 53.8;
+		LEVEL 1 FOR 811.2;
 	}
 }
 
@@ -506,10 +520,13 @@ TRANSITION_LIST("data_out[0]")
 		LEVEL 0 FOR 15.0;
 		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 20.0;
 		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 30.0;
+		LEVEL 0 FOR 33.8;
 		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 875.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 781.2;
 	}
 }
 
@@ -520,7 +537,8 @@ TRANSITION_LIST("is_empty")
 		REPEAT = 1;
 		LEVEL 1 FOR 15.0;
 		LEVEL 0 FOR 130.0;
-		LEVEL 1 FOR 855.0;
+		LEVEL 1 FOR 23.8;
+		LEVEL 0 FOR 831.2;
 	}
 }
 
@@ -529,9 +547,10 @@ TRANSITION_LIST("is_full")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 75.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 905.0;
+		LEVEL 0 FOR 65.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 123.8;
+		LEVEL 1 FOR 781.2;
 	}
 }
 
@@ -555,7 +574,9 @@ TRANSITION_LIST("push")
 		REPEAT = 1;
 		LEVEL 0 FOR 11.95;
 		LEVEL 1 FOR 5.85;
-		LEVEL 0 FOR 13.4;
+		LEVEL 0 FOR 5.4;
+		LEVEL 1 FOR 5.6;
+		LEVEL 0 FOR 2.4;
 		LEVEL 1 FOR 6.65;
 		LEVEL 0 FOR 3.15;
 		LEVEL 1 FOR 5.35;
@@ -567,7 +588,17 @@ TRANSITION_LIST("push")
 		LEVEL 1 FOR 4.25;
 		LEVEL 0 FOR 5.35;
 		LEVEL 1 FOR 4.199;
-		LEVEL 0 FOR 913.901;
+		LEVEL 0 FOR 82.701;
+		LEVEL 1 FOR 4.0;
+		NODE
+		{
+			REPEAT = 5;
+			LEVEL 0 FOR 6.0;
+			LEVEL 1 FOR 4.0;
+		}
+		LEVEL 0 FOR 6.0;
+		LEVEL 1 FOR 3.2;
+		LEVEL 0 FOR 768.0;
 	}
 }
 
@@ -576,9 +607,10 @@ TRANSITION_LIST("SP[2]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 45.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 875.0;
+		LEVEL 1 FOR 35.0;
+		LEVEL 0 FOR 90.0;
+		LEVEL 1 FOR 63.8;
+		LEVEL 0 FOR 811.2;
 	}
 }
 
@@ -588,12 +620,15 @@ TRANSITION_LIST("SP[1]")
 	{
 		REPEAT = 1;
 		LEVEL 1 FOR 15.0;
-		LEVEL 0 FOR 30.0;
+		LEVEL 0 FOR 20.0;
 		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 40.0;
+		LEVEL 0 FOR 50.0;
 		LEVEL 1 FOR 20.0;
 		LEVEL 0 FOR 20.0;
-		LEVEL 1 FOR 855.0;
+		LEVEL 1 FOR 23.8;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 791.2;
 	}
 }
 
@@ -603,14 +638,6 @@ TRANSITION_LIST("SP[0]")
 	{
 		REPEAT = 1;
 		LEVEL 0 FOR 15.0;
-		LEVEL 1 FOR 20.0;
-		NODE
-		{
-			REPEAT = 2;
-			LEVEL 0 FOR 10.0;
-			LEVEL 1 FOR 10.0;
-		}
-		LEVEL 0 FOR 20.0;
 		NODE
 		{
 			REPEAT = 2;
@@ -618,7 +645,23 @@ TRANSITION_LIST("SP[0]")
 			LEVEL 0 FOR 10.0;
 		}
 		LEVEL 1 FOR 10.0;
-		LEVEL 0 FOR 855.0;
+		LEVEL 0 FOR 30.0;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+		}
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 23.8;
+		NODE
+		{
+			REPEAT = 2;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+		}
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 781.2;
 	}
 }
 
@@ -889,7 +932,7 @@ DISPLAY_LINE
 
 TIME_BAR
 {
-	TIME = 19300;
+	TIME = 4400;
 	MASTER = TRUE;
 }
 ;

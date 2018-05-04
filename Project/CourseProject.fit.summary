@@ -1,15 +1,15 @@
-Fitter Status : Successful - Tue May 01 09:36:19 2018
+Fitter Status : Successful - Sat May 05 00:06:30 2018
 Quartus II Version : 9.1 Build 222 10/21/2009 SJ Web Edition
 Revision Name : CourseProject
-Top-level Entity Name : Oracle
+Top-level Entity Name : InstructionFetchAndDecodeBlock
 Family : Stratix II
 Device : EP2S15F484C3
 Timing Models : Final
 Logic utilization : < 1 %
-    Combinational ALUTs : 18 / 12,480 ( < 1 % )
-    Dedicated logic registers : 18 / 12,480 ( < 1 % )
-Total registers : 18
-Total pins : 18 / 343 ( 5 % )
+    Combinational ALUTs : 22 / 12,480 ( < 1 % )
+    Dedicated logic registers : 30 / 12,480 ( < 1 % )
+Total registers : 30
+Total pins : 52 / 343 ( 15 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 419,328 ( 0 % )
 DSP block 9-bit elements : 0 / 96 ( 0 % )

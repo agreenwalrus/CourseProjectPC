@@ -1,12 +1,20 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="CourseProject">
-		<CBX_INST_ENTRY INSTANCE_NAME="|InstructionFetchAndDecodeBlock|lpm_add_sub4:inst8|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_dlh.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|InstructionFetchAndDecodeBlock|lpm_constant7:inst9|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_pf6.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|InstructionFetchAndDecodeBlock|lpm_mux11:inst4|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_24e.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|InstructionFetchAndDecodeBlock|lpm_constant8:inst10|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_qf6.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|InstructionFetchAndDecodeBlock|lpm_constant9:inst11|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_rf6.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|InstructionFetchAndDecodeBlock|lpm_counter2:inst30|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_qoi.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|InstructionFetchAndDecodeBlock|lpm_decode2:inst27|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DataFetchBlock|lpm_compare6:inst2|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_9ig.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DataFetchBlock|lpm_decode0:inst18|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_0sf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DataFetchBlock|lpm_mux11:inst14|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_24e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DataFetchBlock|lpm_mux11:inst27|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_24e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DataFetchBlock|lpm_mux2:inst10|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_54e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DataFetchBlock|lpm_compare6:inst3|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_9ig.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DataFetchBlock|lpm_constant5:inst7|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_7e6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DataFetchBlock|lpm_mux10:inst30|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_84e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DataFetchBlock|lpm_mux11:inst28|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_24e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DataFetchBlock|lpm_compare6:inst4|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_9ig.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DataFetchBlock|lpm_mux3:inst19|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_34e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DataFetchBlock|lpm_constant4:inst6|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_6e6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DataFetchBlock|lpm_constant6:inst8|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_8e6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DataFetchBlock|lpm_mux2:inst|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_54e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DataFetchBlock|lpm_mux3:inst29|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_34e.tdf"/>
 	</PROJECT>
 </LOG_ROOT>

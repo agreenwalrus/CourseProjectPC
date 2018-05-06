@@ -5036,11 +5036,11 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestInstructionFetch
 VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestDataFetchBlock.vwf")
 {
 	ZOOM{
-		ZBEGIN = 4800;
-		ZEND = 92200;
-		NUMERATOR = 874;
-		DENOMINATOR = 87400;
-		TOP_INDEX = 11;
+		ZBEGIN = 0;
+		ZEND = 136072;
+		NUMERATOR = 804;
+		DENOMINATOR = 136072;
+		TOP_INDEX = 0;
 	}
 	CLOCK{
 		PERIOD = 2000;
@@ -5475,7 +5475,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestDataFetchBlock.v
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "clk_out";
+		SIGNAL = "job_is_done";
 		INDEX = 53;
 		FORMAT = E;
 		SCALE = 1;
@@ -5483,7 +5483,7 @@ VECTOR("C:/Users/Greenwalrus/Desktop/CourseProj6Sem/Project/TestDataFetchBlock.v
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "job_is_done";
+		SIGNAL = "clk_out";
 		INDEX = 54;
 		FORMAT = E;
 		SCALE = 1;

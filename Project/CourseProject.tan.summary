@@ -5,17 +5,17 @@ Timing Analyzer Summary
 Type           : Worst-case tsu
 Slack          : N/A
 Required Time  : None
-Actual Time    : 1.078 ns
-From           : data[7]
-To             : lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[7]
+Actual Time    : 1.550 ns
+From           : operand_2_type[0]
+To             : lpm_counter9:inst15|lpm_counter:lpm_counter_component|cntr_ooi:auto_generated|safe_q[0]
 From Clock     : --
-To Clock       : cache_hit
+To Clock       : clk
 Failed Paths   : 0
 
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 17.608 ns
+Actual Time    : 16.505 ns
 From           : inst53
 To             : set_cache_bus_busy
 From Clock     : operand_2_type[0]
@@ -25,7 +25,7 @@ Failed Paths   : 0
 Type           : Worst-case tpd
 Slack          : N/A
 Required Time  : None
-Actual Time    : 9.358 ns
+Actual Time    : 8.721 ns
 From           : fetch_strob
 To             : job_is_done
 From Clock     : --
@@ -35,17 +35,27 @@ Failed Paths   : 0
 Type           : Worst-case th
 Slack          : N/A
 Required Time  : None
-Actual Time    : 6.885 ns
-From           : data[3]
-To             : lpm_dff0:inst36|lpm_ff:lpm_ff_component|dffs[3]
+Actual Time    : 3.957 ns
+From           : data[5]
+To             : lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[5]
 From Clock     : --
 To Clock       : operand_2_type[0]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clk'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 126.15 MHz ( period = 7.927 ns )
+From           : inst53
+To             : lpm_counter9:inst15|lpm_counter:lpm_counter_component|cntr_ooi:auto_generated|safe_q[0]
+From Clock     : clk
+To Clock       : clk
 Failed Paths   : 0
 
 Type           : Clock Setup: 'operand_2_type[1]'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 134.14 MHz ( period = 7.455 ns )
+Actual Time    : 155.33 MHz ( period = 6.438 ns )
 From           : inst53
 To             : inst53
 From Clock     : operand_2_type[1]
@@ -55,9 +65,9 @@ Failed Paths   : 0
 Type           : Clock Setup: 'operand_2_type[0]'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 140.86 MHz ( period = 7.099 ns )
+Actual Time    : 163.43 MHz ( period = 6.119 ns )
 From           : inst53
-To             : inst53
+To             : lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[1]
 From Clock     : operand_2_type[0]
 To Clock       : operand_2_type[0]
 Failed Paths   : 0
@@ -65,57 +75,27 @@ Failed Paths   : 0
 Type           : Clock Setup: 'operand_1_type[0]'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 147.62 MHz ( period = 6.774 ns )
+Actual Time    : 163.43 MHz ( period = 6.119 ns )
 From           : inst53
-To             : inst53
+To             : lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[1]
 From Clock     : operand_1_type[0]
 To Clock       : operand_1_type[0]
 Failed Paths   : 0
 
-Type           : Clock Setup: 'register_bus_is_busy'
+Type           : Clock Setup: 'submit_stack_bus'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 158.18 MHz ( period = 6.322 ns )
+Actual Time    : 180.90 MHz ( period = 5.528 ns )
 From           : inst53
 To             : inst53
-From Clock     : register_bus_is_busy
-To Clock       : register_bus_is_busy
-Failed Paths   : 0
-
-Type           : Clock Setup: 'cache_bus_is_busy'
-Slack          : N/A
-Required Time  : None
-Actual Time    : 158.18 MHz ( period = 6.322 ns )
-From           : inst53
-To             : inst53
-From Clock     : cache_bus_is_busy
-To Clock       : cache_bus_is_busy
-Failed Paths   : 0
-
-Type           : Clock Setup: 'stack_bus_is_busy'
-Slack          : N/A
-Required Time  : None
-Actual Time    : 158.18 MHz ( period = 6.322 ns )
-From           : inst53
-To             : inst53
-From Clock     : stack_bus_is_busy
-To Clock       : stack_bus_is_busy
-Failed Paths   : 0
-
-Type           : Clock Setup: 'operand_1_type[1]'
-Slack          : N/A
-Required Time  : None
-Actual Time    : 158.18 MHz ( period = 6.322 ns )
-From           : inst53
-To             : inst53
-From Clock     : operand_1_type[1]
-To Clock       : operand_1_type[1]
+From Clock     : submit_stack_bus
+To Clock       : submit_stack_bus
 Failed Paths   : 0
 
 Type           : Clock Setup: 'submit_cache_bus'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 161.21 MHz ( period = 6.203 ns )
+Actual Time    : 180.90 MHz ( period = 5.528 ns )
 From           : inst53
 To             : inst53
 From Clock     : submit_cache_bus
@@ -125,61 +105,81 @@ Failed Paths   : 0
 Type           : Clock Setup: 'submit_registers_bus'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 161.21 MHz ( period = 6.203 ns )
+Actual Time    : 180.90 MHz ( period = 5.528 ns )
 From           : inst53
 To             : inst53
 From Clock     : submit_registers_bus
 To Clock       : submit_registers_bus
 Failed Paths   : 0
 
-Type           : Clock Setup: 'submit_stack_bus'
-Slack          : N/A
-Required Time  : None
-Actual Time    : 161.21 MHz ( period = 6.203 ns )
-From           : inst53
-To             : inst53
-From Clock     : submit_stack_bus
-To Clock       : submit_stack_bus
-Failed Paths   : 0
-
 Type           : Clock Setup: 'data_is_not_valid'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 161.47 MHz ( period = 6.193 ns )
+Actual Time    : 181.09 MHz ( period = 5.522 ns )
 From           : inst53
 To             : inst53
 From Clock     : data_is_not_valid
 To Clock       : data_is_not_valid
 Failed Paths   : 0
 
-Type           : Clock Setup: 'cache_hit'
-Slack          : N/A
-Required Time  : None
-Actual Time    : Restricted to 500.00 MHz ( period = 2.000 ns )
-From           : inst53
-To             : lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[0]
-From Clock     : cache_hit
-To Clock       : cache_hit
-Failed Paths   : 0
-
 Type           : Clock Setup: 'fetch_strob'
 Slack          : N/A
 Required Time  : None
-Actual Time    : Restricted to 500.00 MHz ( period = 2.000 ns )
-From           : inst48
-To             : inst48
+Actual Time    : 262.54 MHz ( period = 3.809 ns )
+From           : inst53
+To             : lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[1]
 From Clock     : fetch_strob
 To Clock       : fetch_strob
 Failed Paths   : 0
 
-Type           : Clock Setup: 'clk'
+Type           : Clock Setup: 'cache_hit'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 262.54 MHz ( period = 3.809 ns )
+From           : inst53
+To             : lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[1]
+From Clock     : cache_hit
+To Clock       : cache_hit
+Failed Paths   : 0
+
+Type           : Clock Setup: 'register_bus_is_busy'
 Slack          : N/A
 Required Time  : None
 Actual Time    : Restricted to 500.00 MHz ( period = 2.000 ns )
 From           : inst53
-To             : lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[0]
-From Clock     : clk
-To Clock       : clk
+To             : inst53
+From Clock     : register_bus_is_busy
+To Clock       : register_bus_is_busy
+Failed Paths   : 0
+
+Type           : Clock Setup: 'cache_bus_is_busy'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 500.00 MHz ( period = 2.000 ns )
+From           : inst53
+To             : inst53
+From Clock     : cache_bus_is_busy
+To Clock       : cache_bus_is_busy
+Failed Paths   : 0
+
+Type           : Clock Setup: 'stack_bus_is_busy'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 500.00 MHz ( period = 2.000 ns )
+From           : inst53
+To             : inst53
+From Clock     : stack_bus_is_busy
+To Clock       : stack_bus_is_busy
+Failed Paths   : 0
+
+Type           : Clock Setup: 'operand_1_type[1]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 500.00 MHz ( period = 2.000 ns )
+From           : inst53
+To             : inst53
+From Clock     : operand_1_type[1]
+To Clock       : operand_1_type[1]
 Failed Paths   : 0
 
 Type           : Clock Hold: 'operand_2_type[1]'
@@ -190,17 +190,17 @@ From           : inst53
 To             : inst53
 From Clock     : operand_2_type[1]
 To Clock       : operand_2_type[1]
-Failed Paths   : 36
+Failed Paths   : 34
 
 Type           : Clock Hold: 'operand_1_type[0]'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : inst48
-To             : lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[7]
+From           : inst53
+To             : inst53
 From Clock     : operand_1_type[0]
 To Clock       : operand_1_type[0]
-Failed Paths   : 28
+Failed Paths   : 26
 
 Type           : Clock Hold: 'operand_2_type[0]'
 Slack          : Not operational: Clock Skew > Data Delay
@@ -210,57 +210,7 @@ From           : inst53
 To             : inst53
 From Clock     : operand_2_type[0]
 To Clock       : operand_2_type[0]
-Failed Paths   : 36
-
-Type           : Clock Hold: 'operand_1_type[1]'
-Slack          : Not operational: Clock Skew > Data Delay
-Required Time  : None
-Actual Time    : N/A
-From           : inst53
-To             : inst53
-From Clock     : operand_1_type[1]
-To Clock       : operand_1_type[1]
-Failed Paths   : 26
-
-Type           : Clock Hold: 'stack_bus_is_busy'
-Slack          : Not operational: Clock Skew > Data Delay
-Required Time  : None
-Actual Time    : N/A
-From           : inst53
-To             : inst53
-From Clock     : stack_bus_is_busy
-To Clock       : stack_bus_is_busy
-Failed Paths   : 25
-
-Type           : Clock Hold: 'cache_bus_is_busy'
-Slack          : Not operational: Clock Skew > Data Delay
-Required Time  : None
-Actual Time    : N/A
-From           : inst53
-To             : inst53
-From Clock     : cache_bus_is_busy
-To Clock       : cache_bus_is_busy
-Failed Paths   : 25
-
-Type           : Clock Hold: 'register_bus_is_busy'
-Slack          : Not operational: Clock Skew > Data Delay
-Required Time  : None
-Actual Time    : N/A
-From           : inst53
-To             : inst53
-From Clock     : register_bus_is_busy
-To Clock       : register_bus_is_busy
-Failed Paths   : 25
-
-Type           : Clock Hold: 'submit_stack_bus'
-Slack          : Not operational: Clock Skew > Data Delay
-Required Time  : None
-Actual Time    : N/A
-From           : inst53
-To             : inst53
-From Clock     : submit_stack_bus
-To Clock       : submit_stack_bus
-Failed Paths   : 25
+Failed Paths   : 34
 
 Type           : Clock Hold: 'submit_registers_bus'
 Slack          : Not operational: Clock Skew > Data Delay
@@ -270,7 +220,7 @@ From           : inst53
 To             : inst53
 From Clock     : submit_registers_bus
 To Clock       : submit_registers_bus
-Failed Paths   : 25
+Failed Paths   : 17
 
 Type           : Clock Hold: 'submit_cache_bus'
 Slack          : Not operational: Clock Skew > Data Delay
@@ -280,7 +230,17 @@ From           : inst53
 To             : inst53
 From Clock     : submit_cache_bus
 To Clock       : submit_cache_bus
-Failed Paths   : 25
+Failed Paths   : 17
+
+Type           : Clock Hold: 'submit_stack_bus'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : inst53
+To             : inst53
+From Clock     : submit_stack_bus
+To Clock       : submit_stack_bus
+Failed Paths   : 17
 
 Type           : Clock Hold: 'data_is_not_valid'
 Slack          : Not operational: Clock Skew > Data Delay
@@ -290,37 +250,47 @@ From           : inst53
 To             : inst53
 From Clock     : data_is_not_valid
 To Clock       : data_is_not_valid
-Failed Paths   : 25
+Failed Paths   : 17
 
 Type           : Clock Hold: 'fetch_strob'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : inst48
-To             : lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[7]
+From           : inst53
+To             : inst53
 From Clock     : fetch_strob
 To Clock       : fetch_strob
 Failed Paths   : 10
+
+Type           : Clock Hold: 'operand_1_type[1]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : inst53
+To             : inst53
+From Clock     : operand_1_type[1]
+To Clock       : operand_1_type[1]
+Failed Paths   : 1
 
 Type           : Clock Hold: 'clk'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : inst48
-To             : lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[7]
+From           : inst53
+To             : inst53
 From Clock     : clk
 To Clock       : clk
-Failed Paths   : 8
+Failed Paths   : 1
 
 Type           : Clock Hold: 'cache_hit'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : inst48
-To             : lpm_dff0:inst35|lpm_ff:lpm_ff_component|dffs[7]
+From           : inst53
+To             : inst53
 From Clock     : cache_hit
 To Clock       : cache_hit
-Failed Paths   : 8
+Failed Paths   : 1
 
 Type           : Total number of failed paths
 Slack          : 
@@ -330,7 +300,7 @@ From           :
 To             : 
 From Clock     : 
 To Clock       : 
-Failed Paths   : 327
+Failed Paths   : 175
 
 --------------------------------------------------------------------------------------
 

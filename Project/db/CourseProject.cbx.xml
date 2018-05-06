@@ -11,6 +11,7 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|DataFetchBlock|lpm_mux10:inst30|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_84e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|DataFetchBlock|lpm_mux11:inst28|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_24e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|DataFetchBlock|lpm_compare6:inst4|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_9ig.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DataFetchBlock|lpm_counter9:inst15|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_ooi.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|DataFetchBlock|lpm_mux3:inst19|LPM_MUX:lpm_mux_component" CBX_FILE_NAME="mux_34e.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|DataFetchBlock|lpm_constant4:inst6|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_6e6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|DataFetchBlock|lpm_constant6:inst8|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_8e6.tdf"/>
